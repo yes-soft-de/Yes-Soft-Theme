@@ -5,10 +5,7 @@
 				<!--Brand-->
 				<div class="col-lg-3 col-md-12 col-sm-12 flex-column brand">
 					<img src="<?php echo get_template_directory_uri() . '/img/logo.svg'?>" alt="">
-					<p>
-						ENJOY PROFESSIONAL <br>
-						TECHNOLOGY
-					</p>
+
 				</div>
 				<!--Quick Access + Website Map-->
 				<div class="col-lg-5 col-md-6 col-sm-12 quick-access">
