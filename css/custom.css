@@ -31,7 +31,7 @@
 
 body {
 
-    font-family: "Roboto Slab","Times New Roman",serif;
+    font-family: "Roboto Slab" , serif;
 
 }
 
@@ -438,7 +438,7 @@ nav ul li.menu-item {
 
 .about-us {
 
-    background-color: var(--dark);
+    background-color: #FFF;
 
     padding: 3rem 0;
 
@@ -446,15 +446,13 @@ nav ul li.menu-item {
 
 .about-us h1 {
 
-    font-size: 18px;
+    font-size: 25px;
     
     font-weight: 700;
 
     line-height: 1.618;
 
     color: var(--orange);
-    
-    
 
 }
 
@@ -466,10 +464,32 @@ nav ul li.menu-item {
 
     line-height: 1.618;
 
-    color: var(--white);
+    color: var(--dark);
 
     letter-spacing: 1px
 
+}
+
+.about-us .contact-us-button {
+    
+    border-style: none;
+    
+    background-color: #FFF;
+    
+    border: 2px var(--dark) solid;
+    
+    padding: 10px 50px;
+    
+    display: inline-block;
+    
+    margin-top: 20px;
+    
+    cursor: pointer;
+    
+    color: var(--dark);
+    
+    font-size: 16px;
+    
 }
 
 @media (max-width: 992px) {
@@ -490,10 +510,24 @@ nav ul li.menu-item {
 
 /* ---- End About US ---- */
 
+.line-in-between {
+    
+    clip-path: polygon(77% 0, 100% 0, 100% 100%, 0 100%);
+    
+    background: rgb(33,35,34);
+        
+    width: 100%;
+    
+    height: 50px;
+    
+}
+
 /* ---- Start Our Projects ---- */
 
 .our-project {
 
+    background: rgb(33,35,34);
+    
     text-align: center;
 
     padding: 3rem 0;
@@ -502,7 +536,7 @@ nav ul li.menu-item {
 
 .our-project .title {
 
-    font-size: 18px;
+    font-size: 25px;
 
     font-weight: 700;
 
@@ -519,6 +553,8 @@ nav ul li.menu-item {
     font-weight: 300;
 
     line-height: 1.618;
+    
+    color:  #FFF;
 
 }
 
@@ -527,6 +563,8 @@ nav ul li.menu-item {
     margin: 1rem auto 3rem;
 
     border: 1px solid var(--orange);
+    
+    margin-bottom: 50px;
 
 }
 
@@ -539,16 +577,24 @@ nav ul li.menu-item {
     border: none;
 
     transition: all ease-in-out .3s;
+    
+    background-color: #2b2f2e;
+    
+    color: #FFF;
+    
+    padding: 30px 0 20px;
 
 }
 
 .our-project .card h5 {
 
-    font-size: 18px;
+    font-size: 21px;
 
     font-weight: 700;
 
     line-height: 1.618;
+    
+    color: var(--blue);
 
 }
 
@@ -566,10 +612,12 @@ nav ul li.menu-item {
 
 .our-project .card img {
 
-    max-width: 400px;
+    max-width: 250px;
 
     margin: 0 auto;
-
+    
+    border-radius: 2px;
+    
 }
 
 /*slick-slide*/
@@ -588,15 +636,7 @@ nav ul li.menu-item {
 
 /* ---- End Our Projects ---- */
 
-/* ---- End Our Teammate ---- */
 
-.team-carousal .card-body {
-
-    min-height: 228px;
-
-}
-
-/* ---- End Our Teammate ---- */
 
 /* ---- Start Blog Page ---- */
 
@@ -1520,12 +1560,66 @@ h4.comment-number {
 
 /* ---- Start Service ---- */
 
+.service-bg {
+    
+    background-color: #FF0;
+    
+    position: relative;
+    
+    top: 0;
+    
+    right: 0;
+    
+    bottom: 0;
+    
+    left: 0;
+    
+    z-index: -100;
+    
+}
+
+.service-video {
+    
+    background-color: #0FF;
+    
+    position: absolute;
+    
+    top: 0;
+    
+    left: 0;
+    
+    width: 100%;
+    
+    height: inherit;
+    
+    background-color: aqua;
+
+}
+
 .service {
+    
+    /* background-color: var(--dark); */
 
-    background-color: var(--dark);
+    /* padding: 3rem 0; */
+    
+    background-image: linear-gradient(-45deg, rgba(33,35,34,0.7) 0%, rgba(57,66,64,0.8) 35%), url(../img/Laptop%20Video.mp4);
+    
+    background: 
 
+}
+
+.service container {
+    
+    margin-top: 3rem !important;
+    
+    margin-bottom: 3rem !important;
+    
+}
+
+.service-cards {
+    
     padding: 3rem 0;
-
+    
 }
 
 .service h2 {
@@ -1594,7 +1688,7 @@ h4.comment-number {
 
 .service .card h5 {
 
-    font-size: 18px;
+    font-size: 21px;
 
     font-weight: 700;
 
@@ -1604,7 +1698,7 @@ h4.comment-number {
 
 .service .card p {
 
-    font-size: 14px;
+    font-size: 18px;
 
     font-weight: 300;
 
@@ -1660,7 +1754,7 @@ h4.comment-number {
 
 /* ---- End Service ---- */
 
-/* ---- Start Our Projects ---- */
+/* ---- Start Our Teammate ---- */
 
 .our-teammate {
 
@@ -1674,7 +1768,7 @@ h4.comment-number {
 
 .our-teammate .title {
 
-    font-size: 18px;
+    font-size: 25px;
 
     font-weight: 700;
 
@@ -1701,10 +1795,18 @@ h4.comment-number {
     margin: 1rem auto 3rem;
 
     border: 1px solid var(--orange);
+    
+    margin-bottom: 50px;
 
 }
 
 /*card*/
+
+.team-carousal .card-body {
+
+    min-height: 228px;
+
+}
 
 .our-teammate .card {
 
@@ -1714,13 +1816,11 @@ h4.comment-number {
 
     transition: all ease-in-out .3s;
 
-    background-color: #fbfbfb;
-
 }
 
 .our-teammate .card h5 {
 
-    font-size: 18px;
+    font-size: 21px;
 
     font-weight: 700;
 
@@ -1732,7 +1832,7 @@ h4.comment-number {
     
     font-weight: bold;
     
-    font-size: 14px;
+    font-size: 16px;
     
     line-height: 1.618;
     
@@ -1752,9 +1852,9 @@ h4.comment-number {
     
     background-clip: border-box;
     
-    width: 250px;
+    width: 200px;
 
-    height: 250px;
+    height: 200px;
 
     vertical-align: middle;
     
@@ -1788,7 +1888,7 @@ h4.comment-number {
 
 }
 
-/* ---- End Our Projects ---- */
+/* ---- End Our Teammate ---- */
 
 /* ---- Start Contact Us ---- */
 

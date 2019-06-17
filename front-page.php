@@ -71,7 +71,7 @@
 
                                     <h5>CUSTOM IDEAS</h5>
 
-                                    <p>Choise Your Idea</p>
+                                    <p>Choose Your Idea</p>
 
                                 </div>
 
@@ -89,7 +89,7 @@
 
                                     <h5>Nice Style</h5>
 
-                                    <p>Choise Your Style</p>
+                                    <p>Choose Your Style</p>
 
                                 </div>
 
@@ -133,33 +133,7 @@
 
 <!--End Home-->
 
-
-
-<!--Start About Us-->
-
-<div class="about-us" id="about-us">
-
-    <div class="container text-center w-75">
-
-        <h1>ABOUT US</h1>
-
-        <p>
-
-            Want a website or an app? We are here to help.
-
-            Yes-Soft is a software company based in Berlin/ Deutschland. We endeavor on highly proficient, timely delivered and cost effective software, web and mobile development services. We adopt open-source approach. Our team is qualified enough to make your vision real.
-
-            <!-- We, at Yes-Soft company, believe that miracles are possible. For this reason; we deploy our knowledge, experience and creativity to be at your service. Our team is looking forward to next project. It might be yours. -->
-
-        </p>
-
-    </div>
-
-</div>
-
-<!--End About Us-->
-
-
+<div class="line-in-between"></div>
 
 <!--Start Our Project-->
 
@@ -187,7 +161,7 @@
 
             <div class="card">
 
-                <img class="card-img-top rounded-circle" src="<?php echo get_template_directory_uri() . '/img/projects/project-1.jpg'?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/projects/project-1.jpg'?>" alt="Card image cap">
 
                 <div class="card-body">
 
@@ -207,7 +181,7 @@
 
             <div class="card">
 
-                <img class="card-img-top rounded-circle" src="<?php echo get_template_directory_uri() . '/img/projects/project-2.jpg'?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/projects/project-2.jpg'?>" alt="Card image cap">
 
                 <div class="card-body">
 
@@ -225,7 +199,7 @@
 
             <div class="card">
 
-                <img class="card-img-top rounded-circle" src="<?php echo get_template_directory_uri() . '/img/projects/project-3.jpg'?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/projects/project-3.jpg'?>" alt="Card image cap">
 
                 <div class="card-body">
 
@@ -243,7 +217,7 @@
 
             <div class="card">
 
-                <img class="card-img-top rounded-circle" src="<?php echo get_template_directory_uri() . '/img/projects/project-4.jpg'?>" alt="Card image cap">
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/projects/project-4.jpg'?>" alt="Card image cap">
 
                 <div class="card-body">
 
@@ -269,11 +243,51 @@
 
 
 
+<!--Start About Us-->
+
+<div class="about-us" id="about-us">
+
+    <div class="container text-center w-75">
+
+        <h1>ABOUT US</h1>
+
+        <p>
+
+            Do You Desire A Unique Shape Of Website? Or Even An Application?
+            
+            We endeavor on highly proficient, timely delivered and cost effective software, web and mobile development services.
+
+            <!-- We, at Yes-Soft company, believe that miracles are possible. For this reason; we deploy our knowledge, experience and creativity to be at your service. Our team is looking forward to next project. It might be yours. -->
+
+        </p>
+        
+        <a href="../Yes-Soft-Theme/contact-us.php" class="contact-us-button">Contact Us</a>
+
+    </div>
+
+</div>
+
+<!--End About Us-->
+
+
+
 <!--Start Services-->
 
 <div class="service" id="service">
+    
+    <div class="service-bg">
+   
+        <video loop muted autoplay class="service-video">
+            
+            <source src="<?php echo get_template_directory_uri() . '/img/Laptop%20Video.mp4'?>" type="video/mp4">
+    
+        </video>
+
+    </div>
 
     <div class="container">
+        
+        <div class="service-cards">
 
        <div class="row">
 
@@ -307,7 +321,7 @@
 
                        <p class="card-text">
 
-                           Best Design, <br>
+                           Best Design,
 
                            Bootstrap For Better Style And Better Looking
 
@@ -340,6 +354,8 @@
            </div>
 
        </div>
+        
+    </div>
 
     </div>
 
@@ -598,7 +614,7 @@
 
 
 
-<!--Start Contact Us-->
+<!--Start Contact Us
  
 <div class="contact-us" id="contact-us">
 
