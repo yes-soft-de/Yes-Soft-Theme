@@ -10,10 +10,10 @@
 				<!--Quick Access + Website Map-->
 				<div class="col-lg-5 col-md-6 col-sm-12 quick-access">
 					<ul>
-						<li><a href="">Contact</a></li>
+						<!-- <li><a href="">Contact</a></li> -->
 						<li><a href="">Privacy</a></li>
 						<li><a href="">Legal Information</a></li>
-						<li><a href="">Site Map</a></li>
+						<!-- <li><a href="">Site Map</a></li> -->
 					</ul>
 					<p>
 					Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - All right reserved. <br>
@@ -22,13 +22,21 @@
 				</div>
 				<!--Social Media-->
 				<div class="col-lg-4 col-md-6 col-sm-12 social-media">
-					<ul>
-						<li><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
-						<li><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-						<li><a href="#"><i class="fab fa-whatsapp fa-fw"></i></a></li>
-						<li><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-						<li><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
-					</ul>
+					<div class="row">
+						<div class="col-12 footer_contact_us mb-3">
+							<div class="pl-2">Email : <span>info@yes-soft.de</span></div>
+							<div>Phone : <span>+491633733146</span></div>
+						</div>
+						<div class="col-12">
+							<ul>
+								<li><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+								<li><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
+								<li><a href="#"><i class="fab fa-whatsapp fa-fw"></i></a></li>
+								<li><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+								<li><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

@@ -953,6 +953,26 @@ nav ul li.menu-item {
 
 }
 
+@media (max-width : 992px) {
+
+    .author-box h5 {
+
+        margin-left: 15px
+
+    }
+
+}
+
+@media (max-width : 500px) {
+
+    .author-box h5 {
+
+        font-size: 13px;
+
+    }
+
+}
+
 /* ---- End Single Post Page ---- */
 
 /* ---- Start Pagination Section ---- */
@@ -2083,6 +2103,13 @@ h4.comment-number {
 /* ---- End Contact Us ---- */
 
 /* ---- Start footer ---- */
+
+.footer .social-media .footer_contact_us span {
+
+    color: var(--blue);
+    padding: 0 15px
+
+}
 
 @media (min-width: 992px) {
 
