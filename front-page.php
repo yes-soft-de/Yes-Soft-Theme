@@ -347,7 +347,7 @@
 
                    <br>
 
-                   <a class="read-more" href="/services">Read More >></a>
+                   <a class="read-more" href="<?php echo get_site_url() . '/services' ?>">Read More >></a>
 
                </p>
 

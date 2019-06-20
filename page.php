@@ -9,8 +9,9 @@
                         <h2 class="h1 post-title text-center p-0">Our Services</h2>
                         <div class="post-content mb-3 pb-2">
                             <p class="text-center m-0">
-                                Our highly qualified and passionate team provide a full range of software development
-                                services to individuals as well as big companies including:
+                                At our company, we create digital solutions for businesses and companies of any size. We are a team of experienced developers, creators, designers and project managers you can rely on. 
+                                <br />We provide:
+
                             </p>
                         </div>
                     </div>
