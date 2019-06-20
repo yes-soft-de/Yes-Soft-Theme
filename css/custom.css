@@ -1319,6 +1319,35 @@ h1.author-header {
 
 }
 
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .sidebar .widget-title {
+
+        font-size: 15px;
+
+        text-align: center
+
+    }
+
+    .sidebar .widget-content {
+
+        font-size: 11px;
+        
+        text-align: center;
+
+    }
+
+    .sidebar .widget-content span a {
+
+        display: block;
+
+        font-size: 12px;
+
+        padding: 0
+    }
+
+}
+
 /* ---- End SideBar For Category ---- */
 
 /* ---- Start Comments List ---- */
