@@ -253,9 +253,8 @@
 
         <p>
 
-            Do You Desire A Unique Shape Of Website? Or Even An Application?
-            
-            We endeavor on highly proficient, timely delivered and cost effective software, web and mobile development services.
+        Our team is qualified enough to make your vision real. <br />
+        Our team is looking forward to next project. It might be yours.
 
             <!-- We, at Yes-Soft company, believe that miracles are possible. For this reason; we deploy our knowledge, experience and creativity to be at your service. Our team is looking forward to next project. It might be yours. -->
 
