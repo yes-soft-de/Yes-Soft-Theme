@@ -260,7 +260,7 @@
 
         </p>
         
-        <a href="../Yes-Soft-Theme/contact-us.php" class="contact-us-button">Contact Us</a>
+        <!-- <a href="../Yes-Soft-Theme/contact-us.php" class="contact-us-button">Contact Us</a> -->
 
     </div>
 
