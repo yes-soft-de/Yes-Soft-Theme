@@ -1745,6 +1745,16 @@ h4.comment-number {
 
 }
 
+@media (max-width: 1023px) {
+
+    .service-video {
+
+        display: none
+
+    }
+
+}
+
 /* ---- End Service ---- */
 
 /* ---- Start Our Services Page ---- */

@@ -1,7 +1,5 @@
 <?php get_header(); ?>
 
-
-
 <!-- Start Up Button Section -->
 
 <div class="move-up">
@@ -382,8 +380,41 @@
         <hr class="w-25">
 
         <div class="team-carousal">
+            <!--Start The Dynamic Way To Get Our Users-->
+            <?php 
+                // $users = get_users(); 
+                // foreach ( $users as $user ) {?>
 
-            <!--Osama Alhamoud-->
+                    <!-- <div class="card">
+
+                        <img class="card-img-top" src="<?php// echo get_avatar_url($user->ID) ?>" alt="Osama Alhamoud">
+
+                        <div class="card-body">
+
+                            <h5 class="card-title">
+
+                                <a href="<?php// echo get_site_url() . '/author/' . $user->user_login?>"><?php echo $user->user_firstname . ' ' . $user->user_lastname ?></a>
+
+                            </h5>
+
+                            <p class="card-text mb-2"><?php// echo $user->display_name ?></p>
+
+                            <q class="card-text"><?php // echo $user->user_description ?></q>
+
+                            <div class="social-media my-3">
+
+                                <a href="https://www.linkedin.com/in/osama-alhamoud"><i class="fab fa-linkedin-in"></i></a>
+
+                                <a href="https://github.com/osama-alhamoud"><i class="fab fa-github"></i></a>
+
+                            </div>
+
+                        </div>
+
+                    </div> -->
+            <?php //} ?>
+            <!--End The Dynamic Way To Get Our Users-->            
+
 
             <div class="card">
 
@@ -393,7 +424,7 @@
 
                     <h5 class="card-title">
 
-                        <a href="#">Osama Alhamoud</a>
+                        <a href="<?php echo get_site_url() . '/author/osama'?>">Osama Alhamoud</a>
 
                     </h5>
 
@@ -423,7 +454,7 @@
 
                     <h5 class="card-title">
 
-                        <a href="/author/thabet/">
+                        <a href="<?php echo get_site_url() . '/author/thabet/'?>">
 
                             Thabet El Debuch
 
@@ -457,7 +488,7 @@
 
                     <h5 class="card-title">
 
-                        <a href="/author/kenan/">
+                        <a href="<?php echo get_site_url() . '/author/kenan'?>">
 
                             Kenan Hussein
 
@@ -491,7 +522,7 @@
 
                     <h5 class="card-title">
 
-                        <a href="/author/talal/">Talal Danoun</a>
+                        <a href="<?php echo get_site_url() . '/author/talal/'?>">Talal Danoun</a>
 
                     </h5>
 
@@ -521,7 +552,7 @@
 
                     <h5 class="card-title">
 
-                        <a href="#">Mohammad Al Kalaleeb</a>
+                        <a href="<?php echo get_site_url() . '/author/mohammad/'?>">Mohammad Al Kalaleeb</a>
 
                     </h5>
 
@@ -551,7 +582,7 @@
 
                     <h5 class="card-title">
 
-                        <a href="#">Mujeeba Haj Najeeb</a>
+                        <a href="<?php echo get_site_url() . '/author/mujeeba/'?>">Mujeeba Haj Najeeb</a>
 
                     </h5>
 
@@ -581,7 +612,7 @@
 
                     <h5 class="card-title">
 
-                        <a href="#">Ahmad Berkdar</a>
+                        <a href="<?php echo get_site_url() . '/author/ahmad/'?>">Ahmad Berkdar</a>
 
                     </h5>
 
@@ -598,6 +629,7 @@
                     </div>
 
                 </div>
+
 
             </div>
 
