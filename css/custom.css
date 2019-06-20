@@ -1608,13 +1608,6 @@ h4.comment-number {
 
 }
 
-.service container {
-    
-    margin-top: 3rem !important;
-    
-    margin-bottom: 3rem !important;
-    
-}
 
 .service-cards {
     
@@ -1753,6 +1746,38 @@ h4.comment-number {
 }
 
 /* ---- End Service ---- */
+
+/* ---- Start Our Services Page ---- */
+.our-services .post {
+
+    margin-top: 30px
+
+}
+
+.our-services .post .image {
+
+    align-self: center    
+
+}
+
+.our-services .post .content {
+
+    text-align: justify;
+
+    align-self: center
+
+}
+
+@media (max-width: 767px) {
+
+    .our-services .post .content strong {
+        font-size: 20px
+    }
+
+}
+
+/* ---- End Our Services Page ---- */
+
 
 /* ---- Start Our Teammate ---- */
 
