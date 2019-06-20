@@ -1215,6 +1215,30 @@ h1.author-header {
 
 }
 
+@media (max-width: 767px) {
+
+    h1.author-header {
+
+        font-size: 35px
+
+    }
+
+    .post-author-title {
+
+        font-size: 1.50rem
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .author-page img {
+        max-width: 100%;
+    }    
+
+}
+
 /* ---- End Author Page Section ---- */
 
 /* ---- Start Category Section ---- */
