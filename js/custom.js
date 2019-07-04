@@ -3,9 +3,9 @@ var customNav = $('.navbar.custom-nav'),
     upButton = $('.move-up .move-up-button');
 
 // Make Web Loader
-window.addEventListener('load', function () {
-    $('.full').css('display', 'none');
-});
+// window.addEventListener('load', function () {
+//     $('.full').css('display', 'none');
+// });
 
 
 // Padding For The Document
