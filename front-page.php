@@ -1,5 +1,13 @@
 <?php get_header(); ?>
 
+<!-- Start Window Loader -->
+<div class="full">
+
+    <div class="icon-full"><i class="fa fa-circle-o-notch fa-spin fa-3x"></i></div>
+    
+</div>
+<!-- End Window Loader -->
+
 <!-- Start Up Button Section -->
 
 <div class="move-up">
