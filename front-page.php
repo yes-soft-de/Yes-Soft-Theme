@@ -431,8 +431,8 @@
                 <div class="card-body">
 
                     <h5 class="card-title">
-
-                        <a href="<?php echo get_site_url() . '/author/osama'?>">Osama Alhamoud</a>
+                        <a>Osama Alhamoud</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/osama'?>">Osama Alhamoud</a> -->
 
                     </h5>
 
@@ -461,12 +461,8 @@
                 <div class="card-body">
 
                     <h5 class="card-title">
-
-                        <a href="<?php echo get_site_url() . '/author/thabet/'?>">
-
-                            Thabet El Debuch
-
-                        </a>
+                        <a>Thabet El Debuch</a>
+                        <!-- <a href="<?php // echo get_site_url() . '/author/thabet/'?>">Thabet El Debuch</a> -->
 
                     </h5>
 
@@ -495,12 +491,8 @@
                 <div class="card-body">
 
                     <h5 class="card-title">
-
-                        <a href="<?php echo get_site_url() . '/author/kenan'?>">
-
-                            Kenan Hussein
-
-                        </a>
+                        <a>Kenan Hussein</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/kenan'?>">Kenan Hussein</a> -->
 
                     </h5>
 
@@ -529,8 +521,8 @@
                 <div class="card-body">
 
                     <h5 class="card-title">
-
-                        <a href="<?php echo get_site_url() . '/author/talal/'?>">Talal Danoun</a>
+                        <a>Talal Danoun</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/talal/'?>">Talal Danoun</a> -->
 
                     </h5>
 
@@ -559,8 +551,8 @@
                 <div class="card-body">
 
                     <h5 class="card-title">
-
-                        <a href="<?php echo get_site_url() . '/author/mohammad/'?>">Mohammad Al Kalaleeb</a>
+                        <a>Mohammad Al Kalaleeb</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/mohammad/'?>">Mohammad Al Kalaleeb</a> -->
 
                     </h5>
 
@@ -589,8 +581,8 @@
                 <div class="card-body">
 
                     <h5 class="card-title">
-
-                        <a href="<?php echo get_site_url() . '/author/mujeeba/'?>">Mujeeba Haj Najeeb</a>
+                        <a>Mujeeba Haj Najeeb</a>
+                        <!-- <a href="<?php // echo get_site_url() . '/author/mujeeba/'?>">Mujeeba Haj Najeeb</a> -->
 
                     </h5>
 
@@ -619,8 +611,8 @@
                 <div class="card-body">
 
                     <h5 class="card-title">
-
-                        <a href="<?php echo get_site_url() . '/author/ahmad/'?>">Ahmad Berkdar</a>
+                        <a>Ahmad Berkdar</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/ahmad/'?>">Ahmad Berkdar</a> -->
 
                     </h5>
 
