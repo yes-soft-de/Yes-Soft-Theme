@@ -259,10 +259,8 @@
 
         <p>
 
-        Our team is qualified enough to make your vision real. <br />
-        Our team is looking forward to next project. It might be yours.
-
-            <!-- We, at Yes-Soft company, believe that miracles are possible. For this reason; we deploy our knowledge, experience and creativity to be at your service. Our team is looking forward to next project. It might be yours. -->
+            Yes-Soft is a software company that makes Commercial and Open-Source Software. We endeavor on highly proficient, timely delivered and cost effective software, web and mobile development services.
+                We believe that miracles are possible. For this reason; we deploy our knowledge, experience and creativity to be at your service.
 
         </p>
         
@@ -379,10 +377,10 @@
         <h2 class="title">Our Teammate</h2>
 
         <p>
-            We believe that teamwork makes the dream work,<br> So here’s the team behind our fabulous work and products.
-            <!-- Our team members are the backbone of our company. It’s their accuracy, professionalism, and creativity you find in our projects.
+            Our team members are the backbone of our company. It’s their accuracy, professionalism, and creativity you find in our projects.
             We come from a diverse set of experiences and backgrounds that range from UI/ UX and front-end to back-end and app development.
-            Although we are different individually, we share a great passion to serve you the best way we can. We also believe that teamwork makes the dream work, so here’s the team behind our fabulous work and products. -->
+            Although we are different individually, we share a great passion to serve you the best way we can. We also believe that teamwork makes the dream work, so here’s the team behind our fabulous work and products.
+
         </p>
 
         <hr class="w-25">

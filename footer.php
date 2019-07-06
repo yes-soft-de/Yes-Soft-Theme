@@ -11,8 +11,8 @@
 				<div class="col-lg-5 col-md-6 col-sm-12 quick-access">
 					<ul>
 						<!-- <li><a href="">Contact</a></li> -->
-						<li><a href="">Privacy</a></li>
-						<li><a href="">Legal Information</a></li>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Legal Information</a></li>
 						<!-- <li><a href="">Site Map</a></li> -->
 					</ul>
 					<p>
@@ -29,11 +29,11 @@
 						</div>
 						<div class="col-12">
 							<ul>
-								<li><a href="#"><i class="fab fa-facebook-f fa-fw"></i></a></li>
+								<li><a href="https://www.facebook.com/Yes-soft-328738448051690"><i class="fab fa-facebook-f fa-fw"></i></a></li>
 								<li><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li><a href="#"><i class="fab fa-whatsapp fa-fw"></i></a></li>
+								<li><a href="https://api.whatsapp.com/send?phone=96171575052"><i class="fab fa-whatsapp fa-fw"></i></a></li>
 								<li><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
-								<li><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
+								<li><a href="https://github.com/yes-soft-de/"><i class="fab fa-github fa-fw"></i></a></li>
 							</ul>
 						</div>
 					</div>
