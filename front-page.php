@@ -37,7 +37,7 @@
 
             <div class="col-md-6 align-self-center">
 
-                <h1>COLOURED BUSINESS TEMPLATE</h1>
+                <h1>OPEN YOUR EYES<br> AND SAY YES</h1>
 
                 <h4 class="home-header-content">
 
@@ -239,6 +239,24 @@
 
             </div>
 
+            <div class="card">
+
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/projects/project-5.png'?>" alt="Card image cap">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">Docter Notebook</h5>
+
+                    <p class="card-text">
+                        Notebook and Mackbook technical support <br>
+                        technical assistance and seller of notebooks and MacBooks used in são paulo
+
+                    </p>
+
+                </div>
+
+            </div> 
+
         </div>
 
     </div>
@@ -338,7 +356,7 @@
 
            <div class="col-3 align-self-center py-3">
 
-               <h2 class="title">SERVICES</h2>
+               <h2 class="title"><a href="<?php echo get_site_url() . '/services' ?>">SERVICES</a></h2>
 
                <p>
 
@@ -374,7 +392,7 @@
 
     <div class="container">
 
-        <h2 class="title">Our Teammate</h2>
+        <h2 class="title">Our Team</h2>
 
         <p>
             Our team members are the backbone of our company. It’s their accuracy, professionalism, and creativity you find in our projects.

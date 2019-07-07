@@ -25,13 +25,14 @@
 					<div class="row">
 						<div class="col-12 footer_contact_us mb-3">
 							<div class="pl-2">Email : <span>info@yes-soft.de</span></div>
-							<div>Phone : <span>+491633733146</span></div>
+							<div>Berlin Phone : <span>+491633733146</span></div>
+							<div>Beirut <span class="text-success p-0">Whatsapp</span> : <span>+96171575052</span></div>
 						</div>
 						<div class="col-12">
 							<ul>
 								<li><a href="https://www.facebook.com/Yes-soft-328738448051690"><i class="fab fa-facebook-f fa-fw"></i></a></li>
 								<li><a href="#"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
-								<li><a href="https://api.whatsapp.com/send?phone=96171575052"><i class="fab fa-whatsapp fa-fw"></i></a></li>
+								<li><a alt="whatsapp" href="https://api.whatsapp.com/send?phone=96171575052"><i class="fab fa-whatsapp fa-fw"></i></a></li>
 								<li><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 								<li><a href="https://github.com/yes-soft-de/"><i class="fab fa-github fa-fw"></i></a></li>
 							</ul>
