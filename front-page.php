@@ -452,7 +452,7 @@
 
                     </h5>
 
-                    <p class="card-text mb-2">Manager</p>
+                    <p class="card-text mb-2">CEO</p>
 
                     <q class="card-text">Open your eyes and say Yes</q>
 
@@ -461,36 +461,6 @@
                         <a href="https://www.linkedin.com/in/osama-alhamoud"><i class="fab fa-linkedin-in"></i></a>
 
                         <a href="https://github.com/osama-alhamoud"><i class="fab fa-github"></i></a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!--Thabet Mohamad EL DEBUCH-->
-
-            <div class="card">
-
-                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/team/thabet-el-debuch.jpg'?>" alt="Thabet El Debuch">
-
-                <div class="card-body">
-
-                    <h5 class="card-title">
-                        <a>Thabet El Debuch</a>
-                        <!-- <a href="<?php // echo get_site_url() . '/author/thabet/'?>">Thabet El Debuch</a> -->
-
-                    </h5>
-
-                    <p class="card-text mb-2">Web Developer</p>
-
-                    <q class="card-text">Give me money, I’ll give you perfect work</q>
-
-                    <div class="social-media my-3">
-
-                        <a href="https://www.linkedin.com/in/thabet-el-b99701185"><i class="fab fa-linkedin-in"></i></a>
-
-                        <a href="https://github.com/Thabet-Do"><i class="fab fa-github"></i></a>
 
                     </div>
 
@@ -602,7 +572,7 @@
 
                     </h5>
 
-                    <p class="card-text mb-2">Scrum Manager</p>
+                    <p class="card-text mb-2">Scrum Master</p>
 
                     <q class="card-text">Dream big & work hard</q>
 
