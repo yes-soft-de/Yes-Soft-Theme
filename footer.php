@@ -11,7 +11,7 @@
 				<div class="col-lg-5 col-md-6 col-sm-12 quick-access">
 					<ul>
 						<!-- <li><a href="">Contact</a></li> -->
-						<li><a href="#">Privacy</a></li>
+						<li><a href="<?php echo get_site_url() . '/privacy-policy'?>">Privacy</a></li>
 						<li><a href="#">Legal Information</a></li>
 						<!-- <li><a href="">Site Map</a></li> -->
 					</ul>
