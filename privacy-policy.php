@@ -4,7 +4,7 @@
 
 <!--Start Privacy Policy-->
  <div class="container">
-    <div class="policy-section bg-light text-center p-4">
+    <div class="policy-section bg-light text-center p-4 mt-4">
         <h1>Privacy & Legal Information</h1>
         <p>Last updated: 7/11/2019</p>
         <p>Yes Soft operates Yes Soft website and Yes Soft app. This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site and App.</p>

@@ -2212,10 +2212,6 @@ h4.comment-number {
 
     justify-content: center;
 
-    /*border-top: 1px solid var(--gray);*/
-
-    padding: 3rem 0;
-
 }
 
 .footer ul {
@@ -2255,6 +2251,8 @@ h4.comment-number {
 
     align-self: center;
 
+    border-bottom: 1px solid #e6edf3!important;
+
 }
 
 .footer .brand img {
@@ -2263,29 +2261,17 @@ h4.comment-number {
 
 }
 
-.footer .brand p {
-
-    font-weight: bold;
-
-    font-size: 12px;
-
-}
-
 .footer .quick-access {
 }
 
 .footer .quick-access ul {
 
-    font-weight: bold;
-
     margin-bottom: 5px;
 
 }
 
-.footer .quick-access p {
-
-    padding-left: 10px;
-
+.footer .quick-access ul li:hover a {
+    color: var(--blue)
 }
 
 .footer .social-media {
@@ -2320,6 +2306,18 @@ h4.comment-number {
 
     background-color: #000;
 
+}
+
+.footer .footer-contact {
+
+    border-bottom: 1px solid #ccc;
+
+}
+
+.footer .footer-contact div {
+
+    background-color: #e6edf3
+    
 }
 
 /* ---- End footer ---- */
