@@ -18,17 +18,29 @@ $('html').css('padding-top', customNav.innerHeight());
 
 $(window).scroll(function () {
 
-    // Make the Navbar Fixed And Give It Opacity Attribute
+    // Make the Navbar Fixed And Give It Box Shadow Attribute
 
     if ( $(window).scrollTop() > customNav.innerHeight() ) {
 
-        customNav.css('opacity', '.6');
+        customNav.css({
+            '-webkit-box-shadow': '2px 2px 2px rgba(0,0,0,0.1)',
+            '-moz-box-shadow': '2px 2px 2px rgba(0,0,0,0.1)',
+            '-ms-box-shadow': '2px 2px 2px rgba(0,0,0,0.1)',
+            '-o-box-shadow': '2px 2px 2px rgba(0,0,0,0.1)',
+            'box-shadow': '2px 2px 2px rgba(0,0,0,0.1)'
+        });
 
     } else {
 
-        customNav.css('opacity', '1');
+        customNav.css({
+            '-webkit-box-shadow': 'none',
+            '-moz-box-shadow': 'none',
+            '-ms-box-shadow': 'none',
+            '-o-box-shadow': 'none',
+            'box-shadow': 'none'
+        });
 
-    }
+    } 
 
     // Make the Move up Button Visible And Unvisible
 

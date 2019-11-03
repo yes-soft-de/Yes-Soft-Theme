@@ -20,15 +20,21 @@
                     <div class="row">
                         <h5 class="col-12 text-center font-weight-bold">Contact Us :</h5>
                         <div class="col-12 footer_contact_us mb-3">
+                            <div><i class="far fa-hand-point-right"></i> Yes Soft</div>
+                            <div><i class="fas fa-map-marker-alt"></i> Deutschland - Berlin 10827</div>
+                            <div><i class="fas fa-at"></i> Email: <span>info@yes-soft.de </span></div>
+                            <div><i class="fas fa-phone fa-fw"></i> Phone : <span>+491633733146</span></div>
+                            <!--
                             <div><i class="fas fa-phone fa-fw"></i> Berlin Phone : <span>+491633733146</span></div>
-                            <div><i class="fas fa-phone fa-fw"></i> Beirut <span class="text-success p-0">Whatsapp</span> : <span>+96171575052</span></div>
+                            <div><i class="fas fa-phone fa-fw"></i> Beirut <span class="text-success p-0">Whatsapp</span> : <span>+96171575052</span></div
+                            -->
                         </div>
                         <div class="col-12">
                             <ul>
                                 <li><a href="https://www.facebook.com/Yes-soft-328738448051690"><i class="fab fa-facebook-f fa-fw"></i></a></li>
                                 <li><a href="https://www.linkedin.com/company/yes-soft"><i class="fab fa-linkedin-in fa-fw"></i></a></li>
                                 <li><a alt="whatsapp" href="https://api.whatsapp.com/send?phone=96171575052"><i class="fab fa-whatsapp fa-fw"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
+                                <li><a href="https://www.twitter.com/yessoft0"><i class="fab fa-twitter fa-fw"></i></a></li>
                                 <li><a href="https://github.com/yes-soft-de/"><i class="fab fa-github fa-fw"></i></a></li>
                             </ul>
                         </div>
@@ -46,7 +52,7 @@
                 <!-- Footer Menu-->
                 <div class="col-6 footer-menu text-center mx-auto py-4">
                     <div class="row">
-                        <div class="col-12 col-sm-4"><a href="#">Legal Information</a></div>
+                        <div class="col-12 col-sm-4"><a href="<?php echo get_site_url() . '/privacy-policy'?>">Legal Information</a></div>
                         <div class="col-12 col-sm-4"><a href="<?php echo get_site_url() . '/privacy-policy'?>">Privacy</a></div>
                         <div class="col-12 col-sm-4"><a href="<?php echo get_site_url() . '/#about-us'?>">About Us</a></div>
                     </div>
@@ -56,7 +62,7 @@
 	</div>
     <div class="bg-dark text-white text-center p-2">
         Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - All right reserved. <br class="d-md-none">
-        Power By <a href="">Yes Soft Team</a>.
+        Implemented By <a href="">Yes Soft Team</a>.
     </div>
 	<!--End Footer-->
 	<?php wp_footer(); ?>

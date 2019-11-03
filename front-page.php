@@ -48,6 +48,11 @@
                     Nothing Compared To Having The Ability To Have It All.
 
                 </h4>
+                
+                <p class="text">Have an idea?</p>
+                <br />
+                <i class="far fa-hand-point-right"></i>
+                <a href="" class="go">Do it with yes soft</a>
 
                 <div class="home-header-button" style="display: none">
 
@@ -163,7 +168,7 @@
 
         <hr class="w-25">
 
-        <div class="project-carousal">
+       <!-- <div class="project-carousal">
 
             <div class="card">
 
@@ -257,6 +262,115 @@
 
             </div> 
 
+        </div> -->
+        
+        
+        <div class="row">
+            
+            <div class="col-sm-8 col-xs-12">
+                
+                <div class="sub-project">
+                    
+                    <h4>
+                        <i class="fas fa-shopping-cart"></i>
+                        Furniture
+                        <span class="line"></span>
+                    </h4>
+                    
+                    <p>
+
+                        Furniture E-Commerce ready & advanced filters<br>
+
+                        Interior & furniture design
+
+                    </p>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="col-sm-4 col-xs-12">
+                
+                <div class="sub-project">
+                    
+                    <h4>
+                        <i class="fas fa-tasks"></i>
+                        Professional
+                        <span class="line"></span>
+                    </h4>
+                    
+                    <p>
+
+                        Professional Work. Build your website with all professionalism and distinction
+
+                    </p>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="col-sm-4 col-xs-12">
+                
+                <div class="sub-project">
+                    
+                    <h4>
+                        <i class="fas fa-globe"></i>
+                        Custom
+                        <span class="line"></span>
+                    </h4>
+                    
+                    <p>
+
+                        Turn your idea into a full and beautiful Website, And Build Your Custom Website
+
+                    </p>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="col-sm-4 col-xs-12">
+                
+                <div class="sub-project">
+                    
+                    <h4>
+                        <i class="fas fa-user-tie"></i>
+                        Personal
+                        <span class="line"></span>
+                    </h4>
+                    
+                    <p>
+
+                        better ways to stand out from your competition, and building a personal website is one of them.
+
+                    </p>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="col-sm-4 col-xs-12">
+                
+                <div class="sub-project">
+                    
+                    <h4>
+                        <i class="fas fa-user-md"></i>
+                        Docter Notebook
+                        <span class="line"></span>
+                    </h4>
+                    
+                    <p>
+
+                       Notebook and Mackbook technical support <br>
+                       technical assistance and seller of notebooks and MacBooks used in são paulo
+
+                    </p>
+                    
+                </div>
+                
+            </div>
+            
+            
         </div>
 
     </div>
@@ -275,12 +389,32 @@
 
         <h1>ABOUT US</h1>
 
-        <p>
+        <div class="row">
+            
+            <div class="col-sm-2 col-xs-12">
+                 <p class="about-text">think smarter</p>
+            </div>
+            
+            <div class="col-sm-8 col-xs-12">
+                
+                 <p>
 
-            Yes-Soft is a software company that makes Commercial and Open-Source Software. We endeavor on highly proficient, timely delivered and cost effective software, web and mobile development services.
-                We believe that miracles are possible. For this reason; we deploy our knowledge, experience and creativity to be at your service.
+                   <span style="font-weight:bold; font-size: 20px">Yes Soft</span> company is specialized in developing E-commerce platforms. It adopts open-source methodology. All its projects’ codes are available on <a href="https://github.com/yes-soft-de/">Github</a>
+                </p>
+                
+            </div>
+            
+            <div class="col-sm-2 col-xs-12">
+                 
+                <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/yes.png'?>">
+                 
+            </div>
+            
+        </div>
 
-        </p>
+       
+
+        
         
         <!-- <a href="../Yes-Soft-Theme/contact-us.php" class="contact-us-button">Contact Us</a> -->
 
@@ -306,6 +440,7 @@
 
     </div>
 
+<!--
     <div class="container">
         
         <div class="service-cards">
@@ -378,6 +513,136 @@
         
     </div>
 
+    </div>
+-->
+
+    
+    <div class="container">
+        
+         <h2 class="title"><a href="<?php echo get_site_url() . '/services' ?>">SERVICES</a></h2>
+
+           <p class="service-text">
+
+               At our company, we create digital solutions for businesses and companies of any size. We are a team of experienced developers, creators, designers and project managers you can rely on.
+
+               <a class="read-more" href="<?php echo get_site_url() . '/services' ?>">Read More >></a>
+
+           </p>
+        
+        <div class="row">
+            
+            <div class="col-sm-4 col-xs-12">
+                
+                <div class="sub-service">
+                    
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/UX_UI_Selution.jpeg'?>" >
+                    
+                    <h2>UI/ UX Solutions</h2>
+                    
+                    <p>
+                       Whether you have a website and you want to rebuild its user experience and interface, or you need a whole study that meets your needs. Our experts are highly qualified to move your business to a new level you couldn’t imagine.
+                    </p>
+                    
+                    <i class="fas fa-eye"></i>
+                    
+                </div> 
+                
+            </div>
+            
+            <div class="col-sm-4 col-xs-12">
+                
+                <div class="sub-service">
+                    
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/front-end.jpg'?>" >
+                    
+                    <h2>Front-end Development</h2>
+                    
+                    <p>
+                        Do you already have a website? Do you want to change its interface so it’s more attractive? Here we are to help you in this. Our team is experienced in Angular, Vue, React and more. We also work on website from scratch.
+                    </p>
+                    
+                    
+                    <i class="fab fa-angular"></i>
+                    
+                </div> 
+                
+            </div>
+            
+            <div class="col-sm-4 col-xs-12">
+                
+                <div class="sub-service">
+                    
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/back-end.png'?>" >
+                    
+                    <h2>Back-end Development</h2>
+                    
+                    <p>
+                       We are ready to build a custom infrastructure for your business or company. We work on php, symfony, java, doctrine, OAuth and a lot more.
+                    </p>
+                    
+                    <i class="fas fa-globe"></i>
+                    
+                </div> 
+                 
+            </div>
+            
+            <div class="col-sm-4 col-xs-12">
+                 
+                <div class="sub-service">
+                    
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/app-development.jpg'?>" >
+                    
+                    <h2>Mobile Apps Development</h2>
+                    
+                    <p>
+                       Do you know that most of the internet traffic comes from mobile browsing. That means we need to care more about our websites to be mobile-friendly and build more apps. And that’s what we’re doing all day long at Yes-Soft.
+                    </p>
+                    
+                    <i class="fab fa-android"></i>
+                    
+                </div>  
+                 
+            </div>
+            
+            <div class="col-sm-4 col-xs-12">
+                 
+                <div class="sub-service">
+                    
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/e-marketing.png'?>" >
+                    
+                    <h2>E-Marketing</h2>
+                    
+                    <p>
+                      E-commerce is one of the most competitive industries on the Internet. No matter what you're selling, there's bound to be at least one other company selling the same products — or at least products that do the same thing. That means it comes down to marketing to see if you can get more customers than your competitors. Our services in this field include: email campaign, social media campaign, display advertising, search engine optimization, Google AdWords and more. The objective of marketing is to reach potential customers through the channels where they spend their time reading, searching, shopping, and socializing online.
+
+                    </p>
+                    
+                    <i class="fas fa-cart-arrow-down"></i>
+                    
+                </div>  
+                 
+            </div>
+            
+             <div class="col-sm-4 col-xs-12">
+                
+                <div class="sub-service">
+                    
+                    <img class="img-fluid" src="<?php echo get_template_directory_uri() . '/img/graphic-design.jpg'?>" >
+                    
+                    <h2>Graphic design</h2>
+                    
+                    <p>
+                       No two people argue about the importance of graphic design these days. Our business is making your Business looks Good. Graphic Design, Visual Identity and Branding Solutions are services we provide in Yes-Soft. 
+                    </p>
+                    
+                    <i class="fas fa-paint-brush"></i>
+                    
+                </div> 
+                 
+            </div>
+            
+        </div>
+        
     </div>
 
 </div>
@@ -528,6 +793,36 @@
 
             </div>
 
+            <!--Hammam Zarefa-->
+
+            <div class="card">
+
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/team/hammam-zarefa.jpg'?>" alt="Hammam Zarefa">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        <a>Hammam Zarefa</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/hammam/'?>">Hammam Zarefa</a> -->
+
+                    </h5>
+
+                    <p class="card-text mb-2">Web Developer</p>
+
+                    <q class="card-text">Never dream of success, work for it</q>
+
+                    <div class="social-media my-3">
+
+                        <a href="https://www.linkedin.com/in/hammam-zarefa-806721190"><i class="fab fa-linkedin-in"></i></a>
+
+                        <a href="https://github.com/HammamZarefa"><i class="fab fa-github"></i></a>
+
+                    </div>
+
+                </div>
+
+            </div>            
+
             <!--Mohammad Al Kalaleeb-->
 
             <div class="card">
@@ -587,30 +882,31 @@
                 </div>
 
             </div>
-
-            <!--Ahmad Berkdar-->
+            
+            
+            <!--Qusai Ali-->
 
             <div class="card">
 
-                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/team/ahmad-berkdar.png'?>" alt="Ahmad Berkdar">
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/team/qusai-ali.PNG'?>" alt="Qusai Ali">
 
                 <div class="card-body">
 
                     <h5 class="card-title">
-                        <a>Ahmad Berkdar</a>
-                        <!-- <a href="<?php //echo get_site_url() . '/author/ahmad/'?>">Ahmad Berkdar</a> -->
+                        <a>Qusai Ali</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/qusai/'?>">Qusai Ali</a> -->
 
                     </h5>
 
-                    <p class="card-text mb-2">UX / UI designer</p>
+                    <p class="card-text mb-2">Front End Developer</p>
 
-                    <q class="card-text">Lean back to take a larger view</q>
+                    <q class="card-text">Work smarter, not harder</q>
 
                     <div class="social-media my-3">
 
-                        <a href="https://www.linkedin.com/in/ahmad-berkdar-621a83186"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.linkedin.com/in/qusai-ali-it/"><i class="fab fa-linkedin-in"></i></a>
 
-                        <a href="https://github.com/ahmadberkdar"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/qusai-ali/IT"><i class="fab fa-github"></i></a>
 
                     </div>
 
@@ -619,7 +915,109 @@
 
             </div>
 
+            <!-- Hanan Aljarmakani -->
 
+            <div class="card">
+
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/team/hanan.png'?>" alt="Hanan Aljarmakani">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        <a>Hanan Aljarmakani</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/hanan/'?>">Hanan Aljarmakani</a> -->
+
+                    </h5>
+
+                    <p class="card-text mb-2">UX / UI Designer</p>
+
+                    <q class="card-text">We are what we believe in. I believe in unlimited ideas ,  creative souls and unlimited passion I believe in unlimitedly</q>
+
+                    <div class="social-media my-3">
+
+                        <a href="https://www.linkedin.com/in/hanan-aljarmakani-6908b294/"><i class="fab fa-linkedin-in"></i></a>
+
+                       
+                    </div>
+
+                </div>
+
+
+            </div>
+            
+            <!-- Basel Sallom -->
+
+            <div class="card">
+
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/team/basel-sallom.jpg'?>" alt="Basel Sallom">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        <a>Basel Sallom</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/basel/'?>">Basel Sallom</a> -->
+
+                    </h5>
+
+                    <p class="card-text mb-2">Graphic Designer</p>
+
+                    <q class="card-text">It's not only a style .. it's an attitude era</q>
+
+
+                </div>
+
+
+            </div>
+
+            <!-- Mahmoud Aldiek -->
+
+            <div class="card">
+
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/team/mahmoud.jpg'?>" alt="Mahmoud Aldiek">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        <a>Mahmoud Aldiek</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/mahmoud/'?>">Mahmoud Aldiek</a> -->
+
+                    </h5>
+
+                    <p class="card-text mb-2">Content Manager</p>
+
+                    <q class="card-text">work hard, achieve your goals when you are still young and live the joy of victory for a long time.</q>
+
+
+                </div>
+
+
+            </div>
+            
+            <!-- Ahmad Mustafa -->
+
+            <div class="card">
+
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/team/ahmad-mustafa.jpg'?>" alt="Ahmad Mustafa">
+
+                <div class="card-body">
+
+                    <h5 class="card-title">
+                        <a>Ahmad Mustafa</a>
+                        <!-- <a href="<?php //echo get_site_url() . '/author/ahmad/'?>">Ahmad Mustafa</a> -->
+
+                    </h5>
+
+                    <p class="card-text mb-2">Marketing</p>
+
+                    <q class="card-text">Every mistake you make will push you forward.
+                                        Every loss you suffer makes you closer to win next time. Just learn from your mistakes
+                                        </q>
+
+
+                </div>
+
+
+            </div>
 
         </div>
 

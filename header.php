@@ -8,13 +8,13 @@
 
     <meta charset="<?php bloginfo('charset'); ?>" />
 
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"> -->
-
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Yes-Soft is a software company that makes Commercial and Open-Source Software. We endeavor on highly proficient, timely delivered and cost effective software, web and mobile development services">
 
     <title><?php bloginfo('name'); ?></title>
 
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
+    <link rel="icon" href="<?php echo get_template_directory_uri() . '/img/logo.svg'?>" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-142190160-1"></script>
