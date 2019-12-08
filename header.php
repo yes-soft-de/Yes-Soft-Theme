@@ -36,26 +36,21 @@
 
     <!--Start NavBar-->
 
-    <nav class="navbar navbar-expand-md navbar-light bg-light custom-nav">
+    <nav class="navbar navbar-expand-md custom-nav py-3">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
-        <a class="navbar-brand mx-3" href="<?php bloginfo('url')?>">
+                <span class="navbar-toggler-icon"></span>
 
-            <img src="<?php echo get_template_directory_uri() . '/img/logo.svg'?>" alt="YesSoft Logo">
-
-        </a>
-
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-
-            <span class="navbar-toggler-icon"></span>
-
-        </button>
+            </button>
 
 
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-            <?php position_custom_nav(); ?>
+                <?php position_custom_nav(); ?>
 
+            </div>
         </div>
 
     </nav>

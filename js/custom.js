@@ -12,6 +12,34 @@ var customNav = $('.navbar.custom-nav'),
 
 $('html').css('padding-top', customNav.innerHeight());
 
+// Slider all Section
+$('.home-slider, .our-projects-slider, .specialise-slider, .about-us-slider, .client-say-slider, .our-team-slider').slick({
+    autoplay: true,
+    vertical: true,
+    verticalSwiping: true,
+    dots: true,
+    autoplaySpeed: 4000,
+});
+
+
+$("#project-1 .row div.project-item").click(function () {
+    $(this).addClass("selected").siblings("div.project-item").removeClass("selected");
+    $(this).parents("#project-1").siblings('.info');
+    // console.log($(this).parents("#project-1").siblings('.info').children().hide());
+    $(this).parents("#project-1").siblings('.info').children().hide();
+    $("." + $(this).data("t")).fadeIn();
+});
+
+$("#project-2 .row div.project-item").click(function () {
+    $(this).addClass("selected").siblings("div.project-item").removeClass("selected");
+    $(this).parents("#project-2").siblings('.info').children().hide();
+    // $(".info div").hide();
+    $("." + $(this).data("t")).fadeIn();
+});
+
+
+
+
 
 
 // Scrolling Event
@@ -98,75 +126,44 @@ setInterval( function () {
 
 //Projects Carousal
 
-$('.project-carousal').slick({
+// $('.project-carousal').slick({
 
-    centerMode: true,
+//     centerMode: true,
 
-    centerPadding: '0',
+//     centerPadding: '0',
 
-    slidesToShow: 3,
+//     slidesToShow: 3,
 
-    slidesToScroll: 1,
+//     slidesToScroll: 1,
 
-    autoplaySpeed: 3000,
+//     autoplaySpeed: 3000,
 
-    autoplay: true,
+//     autoplay: true,
 
-    responsive: [
+//     responsive: [
 
-        {
+//         {
 
-            breakpoint: 1024,
+//             breakpoint: 1024,
 
-            settings: {
+//             settings: {
 
-                arrows: false,
+//                 arrows: false,
 
-                slidesToShow: 1
+//                 slidesToShow: 1
 
-            }
+//             }
 
-        }
+//         }
 
-    ]
+//     ]
 
-});
+// });
 
 
 
 //Service Carousal
 
-$('.service-carousal').slick({
-
-    centerMode: true,
-
-    centerPadding: '0',
-
-    slidesToShow: 2,
-
-    slidesToScroll: 1,
-
-    responsive: [
-
-        {
-
-            breakpoint: 768,
-
-            settings: {
-
-                centerMode: true,
-
-                arrows: false,
-
-                slidesToShow: 1
-
-            }
-
-        }
-
-    ]
-
-});
 
 
 
