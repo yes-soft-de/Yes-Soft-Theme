@@ -9,7 +9,6 @@ var customNav = $('.navbar.custom-nav'),
 
 
 // Padding For The Document
-
 $('html').css('padding-top', customNav.innerHeight());
 
 // Slider all Section
@@ -18,9 +17,9 @@ $('.home-slider, .our-projects-slider, .specialise-slider, .about-us-slider, .cl
     vertical: true,
     verticalSwiping: true,
     dots: true,
-    autoplaySpeed: 4000,
+    arrows: false,
+    autoplaySpeed: 40000,
 });
-
 
 $("#project-1 .row div.project-item").click(function () {
     $(this).addClass("selected").siblings("div.project-item").removeClass("selected");

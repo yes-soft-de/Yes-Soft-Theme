@@ -9,7 +9,7 @@
 <!-- End Up Button Section -->
 
 <div class="home">
-    <div class="bg-nav-logo">
+    <div class="bg-nav-logo d-none d-md-block">
         <img src="<?php echo get_template_directory_uri() . '/img/bg-logo.png' ?>" class="responsive-element" alt="background Logo">
         <div class="nav-logo">
             <a href="<?php echo get_site_url()?>">
@@ -19,35 +19,35 @@
     </div>
     <!--Start slider section-->
     <div class="home-slider">
-        <div class="home-slide">
+        <div class="home-slide col-12">
             <div class="row">
-                <div class="col-5 offset-1 slider-content align-self-center text-center">
+                <div class="col-9 col-lg-6 col-xl-7 offset-lg-2 offset-xl-1 slider-content align-self-center text-center mx-auto">
                     <h1>Ecommerce Website</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt sint fugiat suscipit culpa</p>
                 </div>
-                <div class="col-5 align-self-center">
+                <div class="col-8 col-md-6 col-lg-4 align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/e-marketing.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
         </div>
         <div class="home-slide">
             <div class="row">
-                <div class="col-6 offset-1 slider-content align-self-center text-center">
+                <div class="col-9 col-lg-6 col-xl-7 offset-lg-2 offset-xl-1 slider-content align-self-center text-center mx-auto">
                     <h1>Android Application</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt sint fugiat suscipit culpa</p>
                 </div>
-                <div class="col-4 align-self-center">
+                <div class="col-8 col-md-6 col-lg-4 align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/android_app.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
         </div>
         <div class="home-slide">
             <div class="row">
-                <div class="col-6 offset-1 slider-content align-self-center text-center">
+                <div class="col-9 col-lg-6 col-xl-7 offset-lg-2 offset-xl-1 slider-content align-self-center text-center mx-auto">
                     <h1>Online Trade</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt sint fugiat suscipit culpa</p>
                 </div>
-                <div class="col-4 align-self-center">
+                <div class="col-8 col-md-6 col-lg-4 align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/online_trade.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
@@ -59,9 +59,9 @@
     <div class="our-projects">
         <div class="container-fluid">
             <h2 class="text-center">Our Projects</h2>
-            <p class="col-6 lead text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt sint fugiat suscipit culpa</p>
+            <p class="col-10 col-md-8 col-lg-6 lead text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt sint fugiat suscipit culpa</p>
             <div class="our-projects-slider">
-                <div class="col-9 offset-2 project">
+                <div class="col-11 col-md-10 col-lg-9 offset-1 offset-md-2 project">
                     <div id="project-1" class="project-list list">
                         <div class="row">
                             <div data-t="professional" class="col-4 selected project-item">
@@ -94,7 +94,7 @@
                     </div>
                 </div>
 
-                <div class="col-9 offset-2 project">
+                <div class="col-11 col-md-10 col-lg-9 offset-1 offset-md-2 project">
                     <div id="project-2" class="project-list list">
                         <div class="row">
                             <div data-t="programing" class="col-4 selected project-item">
@@ -138,19 +138,19 @@
             <h2 class="text-center mt-5">We Are Specialised In</h2>
             <div class="container-fluid specialise-slider">
                 <div class="specialise">
-                    <div class="col-3 specialise-image">
+                    <div class="col-6 col-md-5 col-lg-4 col-xl-3 col-xl-3 specialise-image">
                         <img src="<?php echo get_template_directory_uri() . '/img/wordpress-solution.png' ?>" class="img-fluid" alt="">
                     </div>
-                    <div class="col-4 specialise-desc p-3">
+                    <div class="col-7 col-md-6 col-lg-4 specialise-desc p-3">
                         <h3>UI & UX Design</h3>
                         <p>For Start Up, For Business & For You</p>
                     </div>
                 </div>
                 <div class="specialise">
-                    <div class="col-3 specialise-image">
+                    <div class="col-6 col-md-5 col-lg-4 col-xl-3 specialise-image">
                         <img src="<?php echo get_template_directory_uri() . '/img/graphic-design.jpg' ?>" class="img-fluid" alt="">
                     </div>
-                    <div class="col-4 specialise-desc p-3">
+                    <div class="col-7 col-md-6 col-lg-4 specialise-desc p-3">
                         <h3>Graphic Design</h3>
                         <p>For You, For Business & For Start Up</p>
                     </div>
@@ -165,9 +165,9 @@
         <img src="<?php echo get_template_directory_uri() . '/img/bg-about-us.png'?>" class="responsive-element" alt="special-image">
         <div class="about-us-body">
             <h2 class="text-center mt-5">About Us</h2>
-            <h3 class="col-3 h1">Think Smart</h3>
+            <h3 class="col-4 col-lg-3">Think Smart</h3>
             <div class="container-fluid about-us-slider position-absolute">
-                <div class="col-7 about-us-content mx-auto">
+                <div class="col-10 col-md-8 col-lg-7 about-us-content mx-auto">
                     <div class="about-us-text">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti maxime molestias nemo obcaecati rem.
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-7 about-us-content mx-auto">
+                <div class="col-10 col-md-8 col-lg-7 about-us-content mx-auto">
                     <div class="about-us-text">
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis deleniti maxime molestias nemo obcaecati rem.
@@ -250,34 +250,34 @@
             <h2 class="text-center">Our Client Say</h2>
             <hr class="w-25">
             <div class="client-say-slider mb-0">
-                <div class="col-8 offset-2 client">
+                <div class="col-9 col-md-8 offset-2 client">
                     <div class="row">
                         <div class="col-3">
                             <div class="client-image text-center">
                                 <img class="rounded-circle mx-auto" src="<?php echo get_template_directory_uri() . '/img/default-avatar.jpg'?>" alt="codeway" />
-                                <h5 class="client-name font-weight-bold mt-3">First Client<a href="#"><i class="fab fa-linkedin fa-fw"></i></a></h5>
+                                <h5 class="client-name font-weight-bold mt-2 mt-lg-3">First Client<a href="#"><i class="fab fa-linkedin fa-fw"></i></a></h5>
                                 <p class="text-secondary">Client Career</p>
                             </div>
                         </div>
                         <div class="col-9">
-                            <p class="lead text-secondary pt-5">
+                            <p class="lead text-secondary pt-3 pt-md-4 pt-lg-5">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione tempora consequatur quisquam nisi enim dicta fugiat blanditiis vel.
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione tempora consequatur quisquam nisi enim dicta fugiat blanditiis vel.
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="col-8 offset-2 client">
+                <div class="col-9 col-md-8 offset-2 client">
                     <div class="row">
                         <div class="col-3">
                             <div class="client-image text-center">
                                 <img class="rounded-circle mx-auto" src="<?php echo get_template_directory_uri() . '/img/default-avatar.jpg'?>" alt="codeway" />
-                                <h5 class="client-name font-weight-bold mt-3">Second Client<a href="#"><i class="fab fa-linkedin fa-fw"></i></a></h5>
+                                <h5 class="client-name font-weight-bold mt-2 mt-lg-3">Second Client<a href="#"><i class="fab fa-linkedin fa-fw"></i></a></h5>
                                 <p class="text-secondary">Client Career</p>
                             </div>
                         </div>
                         <div class="col-9">
-                            <p class="lead text-secondary pt-5">
+                            <p class="lead text-secondary pt-3 pt-md-4 pt-lg-5">
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione tempora consequatur quisquam nisi enim dicta fugiat blanditiis vel.
                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione tempora consequatur quisquam nisi enim dicta fugiat blanditiis vel.
                             </p>
@@ -292,25 +292,26 @@
     <!--Start Our Team Section-->
     <div class="our-team py-5">
         <div class="container-fluid">
-            <h2 class="text-center mb-4">Our Client Say</h2>
+            <h2 class="text-center mb-4">Our Team</h2>
             <div class="our-team-slider">
-                <div class="col-8 offset-2 team">
+                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
                     <div class="row">
                         <div class="col-6">
-                            <div class="team-member position-relative p-5">
+                            <div class="team-member position-relative px-3 px-lg-4 py-5">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/talal-danoun.jpg' ?>" class="rounded-circle" alt="Talal Image">
                                 <div class="team-member-body">
-                                    <h5><a href="#">Talal Danoun</a></h5>
-                                    <p class="text-secondary">Web Developer</p>
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Talal Danoun</a></h5>
+                                    <p class="text-secondary d-inline-block">Web Developer</p>
+                                    <a href="https://www.linkedin.com/in/talal-danoon-38945b154"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                    <a href="https://github.com/tald7344"><i class="fab fa-github fa-fw"></i></a>
                                     <div class="col-12 team-member-content">
                                         <div class="row">
                                             <div class="col-1">
                                                 <i class="fas fa-quote-right fa-lg"></i>
                                             </div>
-                                            <div class="col-11">
+                                            <div class="col-10 pl-sm-1 pl-md-3">
                                                 <p class="text-secondary">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis, consectetur deleniti eaque enim error,
-                                                    exercitationem facere ipsum maiores minima nostrum perspiciatis provident quae quasi repudiandae tenetur velit veritatis voluptatem!
+                                                    Leave your comfort zone and you’ll reach the impossible
                                                 </p>
                                             </div>
                                         </div>
@@ -319,20 +320,22 @@
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="team-member position-relative p-5">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/hammam-zarefa.jpg' ?>" class="rounded-circle" alt="Talal Image">
+                            <div class="team-member position-relative py-5 px-3 px-lg-4 ">
+                                <img src="<?php echo get_template_directory_uri() . '/img/team/hammam-zarefa.jpg' ?>" class="rounded-circle" alt="Hammam Zarefa">
                                 <div class="team-member-body">
-                                    <h5><a href="#">Hammam Zarefa</a></h5>
-                                    <p class="text-secondary">Web Developer</p>
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Hammam Zarefa</a></h5>
+                                    <p class="text-secondary d-inline-block">Web Developer</p>
+                                    <a href="https://www.linkedin.com/in/hammam-zarefa-806721190"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                    <a href="https://github.com/HammamZarefa"><i class="fab fa-github fa-fw"></i></a>
+
                                     <div class="col-12 team-member-content">
                                         <div class="row">
                                             <div class="col-1">
                                                 <i class="fas fa-quote-right fa-lg"></i>
                                             </div>
-                                            <div class="col-11">
+                                            <div class="col-10 pl-sm-1 pl-md-3">
                                                 <p class="text-secondary">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis, consectetur deleniti eaque enim error,
-                                                    exercitationem facere ipsum maiores minima nostrum perspiciatis provident quae quasi repudiandae tenetur velit veritatis voluptatem!
+                                                    Never dream of success, work for it
                                                 </p>
                                             </div>
                                         </div>
@@ -342,23 +345,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-8 offset-2 team">
+                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
                     <div class="row">
                         <div class="col-6">
-                            <div class="team-member position-relative p-5">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/kenan-hussein.jpg' ?>" class="rounded-circle" alt="Talal Image">
+                            <div class="team-member position-relative py-5 px-3 px-lg-4 ">
+                                <img src="<?php echo get_template_directory_uri() . '/img/team/kenan-hussein.jpg' ?>" class="rounded-circle" alt="Kenan Hussein">
                                 <div class="team-member-body">
-                                    <h5><a href="#">Kenan Hussein</a></h5>
-                                    <p class="text-secondary">Web Developer</p>
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Kenan Hussein</a></h5>
+                                    <p class="text-secondary d-inline-block">Web Developer</p>
+                                    <a href="https://www.linkedin.com/in/kenan-hussein"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                    <a href="https://github.com/Kenan-Hussein"><i class="fab fa-github fa-fw"></i></a>
                                     <div class="col-12 team-member-content">
                                         <div class="row">
                                             <div class="col-1">
                                                 <i class="fas fa-quote-right fa-lg"></i>
                                             </div>
-                                            <div class="col-11">
+                                            <div class="col-10 pl-sm-1 pl-md-3">
                                                 <p class="text-secondary">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis, consectetur deleniti eaque enim error,
-                                                    exercitationem facere ipsum maiores minima nostrum perspiciatis provident quae quasi repudiandae tenetur velit veritatis voluptatem!
+                                                    Think a lot, code a few, Keep it simple, keep it stupid
                                                 </p>
                                             </div>
                                         </div>
@@ -366,21 +370,175 @@
                                 </div>
                             </div>
                         </div>
+                        <!--Qusai Ali-->
                         <div class="col-6">
-                            <div class="team-member position-relative p-5">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/qusai-ali.png' ?>" class="rounded-circle" alt="Talal Image">
+                            <div class="team-member position-relative py-5 px-3 px-lg-4 ">
+                                <img src="<?php echo get_template_directory_uri() . '/img/team/qusai-ali.png' ?>" class="rounded-circle" alt="Qusai Ali">
                                 <div class="team-member-body">
-                                    <h5><a href="#">Qusai Ali</a></h5>
-                                    <p class="text-secondary">Web Developer</p>
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Qusai Ali</a></h5>
+                                    <p class="text-secondary d-inline-block">Front End Developer</p>
+                                    <a href="https://www.linkedin.com/in/qusai-ali-it/"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                    <a href="https://github.com/qusai-ali/IT"><i class="fab fa-github fa-fw"></i></a>
                                     <div class="col-12 team-member-content">
                                         <div class="row">
                                             <div class="col-1">
                                                 <i class="fas fa-quote-right fa-lg"></i>
                                             </div>
-                                            <div class="col-11">
+                                            <div class="col-10 pl-sm-1 pl-md-3">
                                                 <p class="text-secondary">
-                                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab blanditiis, consectetur deleniti eaque enim error,
-                                                    exercitationem facere ipsum maiores minima nostrum perspiciatis provident quae quasi repudiandae tenetur velit veritatis voluptatem!
+                                                    Work smarter, not harder
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
+                    <div class="row">
+                        <!--Osama Alhamoud-->
+                        <div class="col-6">
+                            <div class="team-member position-relative py-5 px-3 px-lg-4 ">
+                                <img src="<?php echo get_template_directory_uri() . '/img/team/osama-alhamoud.jpg' ?>" class="rounded-circle" alt="Osama Alhamoud">
+                                <div class="team-member-body">
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Osama Alhamoud</a></h5>
+                                    <p class="text-secondary d-inline-block">CEO</p>
+                                    <a href="https://www.linkedin.com/in/osama-alhamoud"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                    <a href="https://github.com/osama-alhamoud"><i class="fab fa-github fa-fw"></i></a>
+                                    <div class="col-12 team-member-content">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <i class="fas fa-quote-right fa-lg"></i>
+                                            </div>
+                                            <div class="col-10 pl-sm-1 pl-md-3">
+                                                <p class="text-secondary">
+                                                    Open your eyes and say Yes
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Mohammad Al Kalaleeb-->
+                        <div class="col-6">
+                            <div class="team-member position-relative py-5 px-3 px-lg-4 ">
+                                <img src="<?php echo get_template_directory_uri() . '/img/team/mohammad-al-kalaleeb.jpg' ?>" class="rounded-circle" alt="Mohammad Al Kalaleeb">
+                                <div class="team-member-body">
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Mohammad Al Kalaleeb</a></h5>
+                                    <p class="text-secondary d-inline-block">Web Developer</p>
+                                    <a href="https://www.linkedin.com/in/mohammad-al-kalaleeb-6ab521140"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                    <a href="https://github.com/mickSawy3r"><i class="fab fa-github fa-fw"></i></a>
+                                    <div class="col-12 team-member-content">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <i class="fas fa-quote-right fa-lg"></i>
+                                            </div>
+                                            <div class="col-10 pl-sm-1 pl-md-3">
+                                                <p class="text-secondary">
+                                                    Success is a deep passion, long hours of work, and a lifestyle
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
+                    <div class="row">
+                        <!--Basel Sallom -->
+                        <div class="col-6">
+                            <div class="team-member position-relative py-5 px-3 px-lg-4 ">
+                                <img src="<?php echo get_template_directory_uri() . '/img/team/basel-sallom.jpg' ?>" class="rounded-circle" alt="Basel Sallom">
+                                <div class="team-member-body">
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Basel Sallom</a></h5>
+                                    <p class="text-secondary d-inline-block">Graphic Designer</p>
+                                    <div class="col-12 team-member-content">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <i class="fas fa-quote-right fa-lg"></i>
+                                            </div>
+                                            <div class="col-10 pl-sm-1 pl-md-3">
+                                                <p class="text-secondary">
+                                                    It's not only a style .. it's an attitude era
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Mahmoud Aldiek -->
+                        <div class="col-6">
+                            <div class="team-member position-relative py-5 px-3 px-lg-4 ">
+                                <img src="<?php echo get_template_directory_uri() . '/img/team/mahmoud.jpg' ?>" class="rounded-circle" alt="Mahmoud Aldiek">
+                                <div class="team-member-body">
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Mahmoud Aldiek</a></h5>
+                                    <p class="text-secondary d-inline-block">Content Manager</p>
+                                    <div class="col-12 team-member-content">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <i class="fas fa-quote-right fa-lg"></i>
+                                            </div>
+                                            <div class="col-10 pl-sm-1 pl-md-3">
+                                                <p class="text-secondary">
+                                                    work hard, achieve your goals when you are still young and live the joy of victory for a long time
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
+                    <div class="row">
+                        <!--Mujeeba Haj Najeeb-->
+                        <div class="col-6">
+                            <div class="team-member position-relative py-5 px-3 px-lg-4 ">
+                                <img src="<?php echo get_template_directory_uri() . '/img/team/mujeeba-haj-najeeb.jpg' ?>" class="rounded-circle" alt="Mujeeba Haj Najeeb">
+                                <div class="team-member-body">
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Mujeeba Haj Najeeb</a></h5>
+                                    <p class="text-secondary d-inline-block">Scrum Master</p>
+                                    <a href="https://www.linkedin.com/in/mujeeba-haj-najeeb-327228161"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                    <a href="https://github.com/Mujeeba-Haj-Najeeb "><i class="fab fa-github fa-fw"></i></a>
+                                    <div class="col-12 team-member-content">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <i class="fas fa-quote-right fa-lg"></i>
+                                            </div>
+                                            <div class="col-10 pl-sm-1 pl-md-3">
+                                                <p class="text-secondary">
+                                                    Dream big & work hard
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Hanan Aljarmakani-->
+                        <div class="col-6">
+                            <div class="team-member position-relative py-5 px-3 px-lg-4 ">
+                                <img src="<?php echo get_template_directory_uri() . '/img/team/hanan.png' ?>" class="rounded-circle" alt="Hanan Aljarmakani">
+                                <div class="team-member-body">
+                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Hanan Aljarmakani</a></h5>
+                                    <p class="text-secondary d-inline-block">UX / UI Designer</p>
+                                    <a href="https://www.linkedin.com/in/hanan-aljarmakani-6908b294/"><i class="fab fa-linkedin-in fa-fw"></i></a>
+                                    <div class="col-12 team-member-content">
+                                        <div class="row">
+                                            <div class="col-1">
+                                                <i class="fas fa-quote-right fa-lg"></i>
+                                            </div>
+                                            <div class="col-10 pl-sm-1 pl-md-3">
+                                                <p class="text-secondary">
+                                                    We are what we believe in. I believe in unlimited ideas ,  creative souls and unlimited passion I believe in unlimitedly
                                                 </p>
                                             </div>
                                         </div>

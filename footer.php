@@ -23,11 +23,11 @@
                 </div>
                 <hr class="col-12 bg-white mt-5 mb-0">
                 <!-- Footer Menu-->
-                <div class="col-6 footer-menu text-center mx-auto py-2">
+                <div class="col-8 col-md-6 footer-menu text-center mx-auto py-2">
                     <div class="row">
-                        <div class="col-12 col-sm-4"><a href="<?php echo get_site_url() . '/privacy-policy'?>">Legal Information</a></div>
-                        <div class="col-12 col-sm-4"><a href="<?php echo get_site_url() . '/privacy-policy'?>">Privacy</a></div>
-                        <div class="col-12 col-sm-4"><a href="<?php echo get_site_url() . '/#about-us'?>">About Us</a></div>
+                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/privacy-policy'?>">Legal Information</a></div>
+                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/privacy-policy'?>">Privacy</a></div>
+                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/#about-us'?>">About Us</a></div>
                     </div>
                 </div>
                 <hr class="col-12 bg-white mb-4 mt-0">
