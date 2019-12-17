@@ -39,6 +39,20 @@
         left: 2.5%;
     }
 }
+
+/*style for xs Screen*/
+@media (min-width: 500px) and (max-width: 575px) {
+    .slick-dots {
+        left: 0;
+    }
+}
+
+/*style for small than xs Screen*/
+@media (max-width: 499px) {
+    .slick-dots {
+        left: -4%;
+    }
+}
 /* ---- Global Style ---- */
 body {
     font-family: "Roboto Slab" , serif;
@@ -72,7 +86,12 @@ a:hover {
         font-size: 30px !important
     }
 }
-
+/*style for small than xs Screen*/
+@media (max-width: 499px) {
+    h2 {
+        font-size: 25px !important
+    }
+}
 /* ---- Start NavBar ---- */
 .navbar.custom-nav {
     background-color: var(--blue);
@@ -113,6 +132,25 @@ nav ul li a {
 
 /*style for sm Screen*/
 @media (min-width: 576px) and (max-width: 767px) {
+    .navbar.custom-nav {
+        direction: rtl;
+    }
+
+    .custom-nav .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: var(--white);
+    }
+
+    .navbar-light .collapse {
+        border-bottom: 1px solid;
+    }
+}
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
     .navbar.custom-nav {
         direction: rtl;
     }
@@ -252,12 +290,42 @@ nav ul li a {
         font-size: 1.1rem;
     }
 }
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
+    .home-slide .slider-content {
+        top: 10%;
+    }
+
+    .home-slide .slider-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .home-slide .slider-content p {
+        font-size: 1.1rem;
+    }
+}
+
+/*style for small than xs Screen*/
+@media (max-width: 499px) {
+    .home-slide .slider-content h1 {
+        font-size: 2rem;
+    }
+
+    .home-slide .slider-content p {
+        font-size: 1rem;
+    }
+}
 /*End home slider section*/
 
 /*Start Our Projects Section*/
 .our-projects .project-list .project-item {
-    height: 165px;
+    height: 130px;
     cursor: pointer;
+}
+
+.our-projects .project-list .project-item p {
+    display: none;
 }
 
 .our-projects .project-list div.selected .project-hovering {
@@ -322,6 +390,75 @@ nav ul li a {
 
     .our-projects .info p {
         font-size: 1rem;
+    }
+}
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
+    .our-projects p {
+        font-size: 1rem;
+    }
+
+    .project-hovering:not(:nth-of-type(2)) {
+        font-size: 1.2rem;
+    }
+
+    .our-projects .info h3 {
+        font-size: 1.4rem;
+    }
+
+    .our-projects .info p {
+        font-size: 1rem;
+    }
+}
+
+/*style for small than xs Screen*/
+@media (max-width: 499px) {
+    .our-projects .project-list .project-item {
+        height: auto;
+        cursor: pointer;
+    }
+
+    .our-projects .project-list .project-item:nth-of-type(2) {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .our-projects .project-list .project-item:nth-of-type(1) {
+        padding-right: 0 !important;
+    }
+
+    .our-projects .project-list .project-item:nth-of-type(3) {
+        padding-left: 0 !important;
+    }
+
+    .our-projects .project-list .project-item img,
+    .our-projects .project-list .project-item .project-hovering {
+        display: none;
+    }
+
+    .our-projects .project-list .project-item p {
+        display: block;
+        background: #eee;
+        padding: 5px;
+        border-radius: 5px 5px 0 0;
+        margin-bottom: 1px;
+        text-align: center;
+        opacity: 0.7;
+        font-size: .9rem;
+    }
+
+    .our-projects .project-list .project-item.selected p {
+        opacity: 1;
+        background-color: #ccc;
+    }
+
+    .our-projects .info h3 {
+        font-size: 1.2rem;
+    }
+
+    .our-projects .info p {
+        font-size: .8rem;
     }
 }
 /*End Our Projects Section*/
@@ -395,6 +532,50 @@ nav ul li a {
         font-size: 1.1rem;
     }
 }
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
+    .specialise-content .specialise .specialise-image {
+        top: 5rem;
+        left: 10%;
+    }
+
+    .specialise-content .specialise .specialise-desc {
+        bottom: 0;
+        left: 17%;
+    }
+
+    .specialise .specialise-desc h3 {
+        font-size: 1.7rem;
+    }
+
+    .specialise .specialise-desc p {
+        font-size: 1.1rem;
+    }
+}
+
+/*style for small than xs Screen*/
+@media (max-width: 499px) {
+    .specialise-content .specialise .specialise-image {
+        top: 4rem;
+    }
+
+    .specialise-content .specialise .specialise-desc {
+        bottom: 1rem;
+    }
+
+    .specialise .specialise-desc h3 {
+        font-size: 1.4rem;
+    }
+
+    .specialise .specialise-desc p {
+        font-size: 0.9rem;
+    }
+
+    .specialise-in ul.slick-dots {
+        left: 0;
+    }
+}
 /*End specialize in Section*/
 
 /*Start About Us Section*/
@@ -411,6 +592,10 @@ nav ul li a {
     left: 20%;
 }
 
+.about-us-content .about-us-text p span {
+    color: var(--blue);
+}
+
 .about-us-content .language-circle {
     border: 1px solid;
     border-radius: 50%;
@@ -421,7 +606,7 @@ nav ul li a {
 }
 
 .about-us .slick-list.draggable {
-    height: 345px !important;
+    height: 400px !important;
 }
 
 .about-us-content .language-circle h3 {
@@ -475,7 +660,7 @@ nav ul li a {
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: 1.5rem
+        font-size: 1.3rem
     }
 }
 
@@ -484,7 +669,7 @@ nav ul li a {
 @media (min-width: 576px) and (max-width: 767px) {
     .about-us .about-us-body h3 {
         top: 7%;
-        font-size: 1.7rem;
+        font-size: 1.6rem;
     }
 
     .about-us-content .row .col-3 {
@@ -511,7 +696,72 @@ nav ul li a {
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: 1.3rem
+        font-size: 1.1rem
+    }
+}
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
+    .about-us .about-us-body h3 {
+        top: 7%;
+        font-size: 1.4rem;
+    }
+
+    .about-us-content .row .col-3 {
+        padding-left: 0;
+    }
+
+    .about-us .about-us-slider {
+        top: 32%;
+    }
+
+    .about-us-content {
+        left: 0;
+        text-align: justify;
+    }
+
+    .about-us-content .language-circle {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .about-us-content .language-circle h3 {
+        margin-top: 25%;
+        margin-bottom: 0;
+    }
+
+    .about-us-content .language-circle h3,
+    .about-us-content .language-circle span {
+        font-size: .95rem
+    }
+}
+
+/*style for small than xs Screen*/
+@media (max-width: 499px) {
+    .about-us .about-us-body h3 {
+        top: 6%;
+    }
+
+    .about-us .about-us-slider {
+        top: 29%;
+    }
+
+    .about-us .about-us-body h3 {
+        font-size: .9rem;
+        padding-left: 0;
+    }
+
+    .about-us-content {
+        left: 1%;
+    }
+    .about-us-content .about-us-text p {
+        font-size: .9rem;
+    }
+}
+
+@media (max-width: 399px) {
+    .about-us-content .language-circle {
+        display: none;
     }
 }
 /*End About Us Section*/
@@ -546,7 +796,7 @@ nav ul li a {
         font-size: 1.1rem;
     }
 
-    .client-say .client .col-9 p,
+    .client-say .client .client-content p,
     .client-say .client .client-image p {
         font-size: .9rem;
     }
@@ -567,8 +817,49 @@ nav ul li a {
         font-size: .8rem;
     }
 
-    .client-say .client .col-9 p {
+    .client-say .client .client-content p {
         font-size: 1rem;
+    }
+}
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
+    .client-say .client .client-image img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .client-say .client .client-image h5 {
+        font-size: 1rem;
+    }
+
+    .client-say .client .client-image p {
+        font-size: .8rem;
+    }
+
+    .client-say .client .client-content p {
+        font-size: 1rem;
+    }
+}
+
+/*style for small than xs Screen*/
+@media (max-width: 499px) {
+    .client-say .client .client-image h5 {
+        font-size: 1rem;
+    }
+
+    .client-say .client .client-image p {
+        font-size: .8rem;
+        margin-bottom: 0;
+    }
+
+    .client-say .client .client-content p {
+        font-size: .95rem;
+        text-align: justify;
+    }
+
+    .client-say .slick-list.draggable {
+        height: 400px !important;
     }
 }
 /*End Client Section*/
@@ -653,6 +944,62 @@ nav ul li a {
         left: -7%;
     }
 }
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
+    .our-team .our-team-slider .team {
+        margin-bottom: 8rem;
+    }
+
+    .our-team .team-member {
+        min-height: 100%;
+    }
+
+    .our-team .team-member img {
+        width: 50px;
+        height: 50px;
+        top: -25px;
+    }
+
+    .our-team .team-member .team-member-body p {
+        font-size: .9rem;
+    }
+
+    .our-team .team-member-body .team-member-content i {
+        font-size: .8rem;
+    }
+
+    .our-team .our-team-slider .slick-list.draggable {
+        padding-top: 40px;
+    }
+
+    .our-team ul.slick-dots {
+        left: -10%;
+    }
+}
+
+/*style for small than xs Screen*/
+@media (max-width: 499px) {
+    .our-team {
+        padding-bottom: 1rem !important;
+    }
+    
+    .our-team .our-team-slider .team {
+        margin-bottom: 10rem;
+    }
+
+    .our-team .team-member {
+        padding-bottom: 1rem !important;
+    }
+
+    .our-team .team-member .team-member-body p {
+        margin-bottom: .5rem;
+    }
+
+    .our-team ul.slick-dots {
+        left: -20%;
+    }
+}
 /*End Our Team Section*/
 
 /* ---- Start footer ---- */
@@ -688,41 +1035,98 @@ nav ul li a {
 .footer .footer-menu a:hover {
     color: var(--orange);
 }
+
+/*style for sm Screen*/
+@media (min-width: 500px) and (max-width: 575px) {
+    .footer .footer-phone {
+        border-left: 0 !important;
+        border-right: 0 !important;
+    }
+}
 /* ---- End footer ---- */
 
 /*Start Grouping Code Section*/
-.slick-vertical .slick-slide,
-.home-slider .slick-list .slick-track,
-.home-slider .row {
-    height: calc(100vh - 150px) !important;
+@media (min-width: 576px) {
+    .slick-vertical .slick-slide,
+    .home-slider .slick-list .slick-track,
+    .home-slider .row {
+        height: calc(100vh - 150px) !important;
+    }
+
+    .home-slider,
+    .specialise-in,
+    .about-us {
+        height: calc(100vh - var(--header-height)) !important;
+    }
+
+    .our-projects .slick-list.draggable,
+    .specialise-in .slick-list.draggable,
+    .our-team .slick-list.draggable {
+        height: 25rem !important;
+    }
+
+    .our-projects .slick-list .slick-track,
+    .specialise-in .slick-list .slick-track,
+    .about-us .slick-list .slick-track,
+    .client-say .slick-list .slick-track,
+    .our-team .slick-list .slick-track {
+        height: 100% !important;
+    }
+
+    .specialise-in .specialise-content,
+    .about-us .about-us-body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
 }
 
-.home-slider,
-.specialise-in,
-.about-us {
-    height: calc(100vh - var(--header-height)) !important;
+@media (max-width: 575px) {
+    .slick-vertical .slick-slide,
+    .home-slider .slick-list .slick-track,
+    .home-slider .row {
+        height: calc(100vh - 150px) !important;    }
+
+    .home-slider,
+    .specialise-in,
+    .about-us {
+        height: calc(100vh - var(--header-height)) !important;
+    }
+
+    .our-projects .slick-list.draggable,
+    .specialise-in .slick-list.draggable {
+        height: 25rem !important;
+    }
+
+    .our-team .slick-list.draggable {
+        height: 34rem !important;
+    }
+
+    .our-projects .slick-list .slick-track,
+    .specialise-in .slick-list .slick-track,
+    .about-us .slick-list .slick-track,
+    .client-say .slick-list .slick-track,
+    .our-team .slick-list .slick-track {
+        height: 100% !important;
+    }
+
+    .specialise-in .specialise-content,
+    .about-us .about-us-body {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
 }
 
-.our-projects .slick-list.draggable,
-.specialise-in .slick-list.draggable,
-.our-team .slick-list.draggable {
-    height: 25rem !important;
-}
 
-.our-projects .slick-list .slick-track,
-.specialise-in .slick-list .slick-track,
-.about-us .slick-list .slick-track,
-.client-say .slick-list .slick-track,
-.our-team .slick-list .slick-track {
-    height: 100% !important;
-}
-
-.specialise-in .specialise-content,
-.about-us .about-us-body {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+@media (max-width: 499px) {
+    .our-projects .slick-list.draggable,
+    .specialise-in .slick-list.draggable {
+        height: 20rem !important;
+    }
 }
 /*End Grouping Code Section*/

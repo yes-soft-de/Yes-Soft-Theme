@@ -18,7 +18,7 @@ $('.home-slider, .our-projects-slider, .specialise-slider, .about-us-slider, .cl
     verticalSwiping: true,
     dots: true,
     arrows: false,
-    autoplaySpeed: 40000,
+    autoplaySpeed: 100000,
 });
 
 $("#project-1 .row div.project-item").click(function () {

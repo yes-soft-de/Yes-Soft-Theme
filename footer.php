@@ -6,17 +6,19 @@
                 <img src="<?php echo get_template_directory_uri() . '/img/logo.svg'?>" class="img-fluid" alt="Yes Soft Logo">
             </div>
             <div class="row">
-                <div class="col-4">
+                <div class="col-12 col-sm-4">
                     <i class="fas fa-map-marker-alt fa-2x mb-3"></i>
                     <h6>Address</h6>
                     <p>Deutschland - Berlin 10827</p>
                 </div>
-                <div class="col-4  border border-top-0 border-bottom-0 border-white">
+                <hr class="col-6 bg-white mb-3 mt-1 d-sm-none">
+                <div class="col-12 col-sm-4 border border-top-0 border-bottom-0 border-white footer-phone">
                     <i class="fas fa-phone fa-fw fa-2x mb-3"></i>
                     <h6>Berlin Phone</h6>
                     <p>+491633733146</p>
                 </div>
-                <div class="col-4">
+                <hr class="col-6 bg-white mb-3 mt-1 d-sm-none">
+                <div class="col-12 col-sm-4">
                     <i class="fas fa-envelope fa-fw fa-2x mb-3"></i>
                     <h6>Email</h6>
                     <p>info@yes-soft.de</p>
