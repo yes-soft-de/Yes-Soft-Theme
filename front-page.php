@@ -23,10 +23,14 @@
             <div class="row">
                 <div class="col-9 col-lg-6 col-xl-7 offset-2 offset-xl-1 slider-content align-self-center text-center">
                     <h1>E-commerce services</h1>
-                    <p>it’s our main business field. We design and develop ecommerce websites and mobile apps from A to Z. Our products are highly secure, well designed and implemented, interactive and mobile-friendly. We deploy high trending techniques. Elasticsearch, Spryker, OAuth, Symfony, just to name a few. You can visit ISHTAR ART in order to take a look about products we build</p>
+                    <p>
+                        It’s our main business field. We design and develop ecommerce websites from A to Z.
+                        Our products are highly secure, well designed and implemented, interactive and mobile-friendly.
+                        We deploy high trending techniques. Elasticsearch, Spryker, OAuth, Symfony, just to name a few
+                    </p>
                 </div>
                 <div class="col-8 col-md-6 col-lg-4 align-self-center mx-auto">
-                    <img src="<?php echo get_template_directory_uri() . '/img/e-marketing.png'?>" class="img-fluid" alt="Slider Image">
+                    <img src="<?php echo get_template_directory_uri() . '/img/e-commerce.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
         </div>
@@ -44,11 +48,11 @@
         <div class="home-slide">
             <div class="row">
                 <div class="col-9 col-lg-6 col-xl-7 offset-2 offset-xl-1 slider-content align-self-center text-center">
-                    <h1>Remote maintenance</h1>
+                    <h1>Remote Maintenance</h1>
                     <p>this field is also trending in today’s world. We offer e-marketing campaigns at social media platforms or email-based, graphic design, promoting videos, content marketing, and SEO</p>
                 </div>
                 <div class="col-8 col-md-6 col-lg-4 align-self-center mx-auto">
-                    <img src="<?php echo get_template_directory_uri() . '/img/online_trade.png'?>" class="img-fluid" alt="Slider Image">
+                    <img src="<?php echo get_template_directory_uri() . '/img/remote-maintenance.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
         </div>
@@ -63,35 +67,45 @@
                 <div class="col-11 col-md-10 col-lg-9 offset-1 offset-md-2 project">
                     <div id="project-1" class="project-list list">
                         <div class="row">
-                            <div data-t="professional" class="col-4 selected project-item">
+                            <div data-t="ishtar" class="col-4 selected project-item">
                                 <img src="<?php echo get_template_directory_uri() . '/img/project-1.jpg'?>" class="responsive-element" alt="Project Image">
-                                <div class="project-hovering">ISHTAR</div>
-                                <p>Prof</p>
+                                <div class="project-hovering">Ishtar</div>
+                                <p>Ishtar</p>
                             </div>
-                            <div data-t="personal" class="col-4 project-item px-0">
+                            <div data-t="ishtar-art" class="col-4 project-item px-0">
                                 <img src="<?php echo get_template_directory_uri() . '/img/project-2.jpg';?>" class="responsive-element" alt="Project Image">
-                                <div class="project-hovering w-100">Personal</div>
-                                <p>Pers</p>
+                                <div class="project-hovering w-100">Ishtar art</div>
+                                <p>art</p>
                             </div>
-                            <div data-t="furniture" class="col-4 project-item">
+                            <div data-t="ishtar-goals" class="col-4 project-item">
                                 <img src="<?php echo get_template_directory_uri() . '/img/project-3.jpg'?>" class="responsive-element" alt="Project Image">
-                                <div class="project-hovering">Furniture</div>
-                                <p>Furni</p>
+                                <div class="project-hovering">Goals</div>
+                                <p>goals</p>
                             </div>
                         </div>
                     </div>
                     <div class="info">
-                        <div class="professional">
-                            <h3>Background</h3>
-                            <p>Today if we say the word "Syria", a stereotype will pop up to minds. It is related to war and victims. They may forget how Syria was full of creativity and beauty a few years ago. And how Syrians were living a fancy life. So, our mission at ISHTAR is to introduce Syrian Art and Artists again to the world. Thus, alter the word "Syria" to mean beauty and creativity again as it was forever.</p>
+                        <div class="ishtar">
+                            <h3>Ishtar</h3>
+                            <p>
+                                Ishtar is the East Semitic Akkadian, Assyrian and Babylonian goddess of fertility, love, war, and sex. She is the counterpart to the Sumerian Inanna, and is the cognate for the Northwest Semitic Aramean goddess Astarte.
+                            </p>
                         </div>
-                        <div class="personal">
-                            <h3>Personal</h3>
-                            <p>About this is our first feature for the fast one thisture for the fast one the fast one thisture for the fast onethe fast one thisture for the fast onethis isture for the fast one this is is our first feature for the fast one this is our first feature for the fast one this is</p>
+                        <div class="ishtar-art">
+                            <h3>Ishtar art</h3>
+                            <p>
+                                Ishtar is a website to introduce you with modern syrian painting art and artists. Our mission is showing the best of emerging syrian artists in the art market today
+                            </p>
                         </div>
-                        <div class="furniture">
-                            <h3>Furniture</h3>
-                            <p>About this is our first feature for the fast one thisture for the fast one the fast one thisture for the fast onethe fast one thisture for the fast onethis isture for the fast one this is is our first feature for the fast one this is our first feature for the fast one this is</p>
+                        <div class="ishtar-goals">
+                            <h3>Ishtar's goals</h3>
+                            <p>
+                                ISHTAR is a website for art & artists that aims to:<br>
+                                ● Display paintings<br>
+                                ● Introduce Artists<br>
+                                ● Make interactions with content possible through the platform<br>
+                                ● Facilitate buying process
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -100,35 +114,41 @@
                     <div class="project-big-style">
                         <div id="project-2" class="project-list list">
                             <div class="row">
-                                <div data-t="programing" class="col-4 selected project-item">
+                                <div data-t="doctor-notebook" class="col-4 selected project-item">
                                     <img src="<?php echo get_template_directory_uri() . '/img/project-4.jpg'?>" class="responsive-element" alt="Project Image">
-                                    <div class="project-hovering">Programing</div>
-                                    <p>Prog</p>
+                                    <div class="project-hovering">Doctor</div>
+                                    <p>NDoctor</p>
                                 </div>
-                                <div data-t="webDoctor" class="col-4 project-item px-0">
+                                <div data-t="online-store" class="col-4 project-item px-0">
                                     <img src="<?php echo get_template_directory_uri() . '/img/project-5.png'?>" class="responsive-element" alt="Project Image">
-                                    <div class="project-hovering w-100">WebDoctor</div>
-                                    <p>WebD</p>
+                                    <div class="project-hovering w-100">Online Store</div>
+                                    <p>Store</p>
                                 </div>
-                                <div data-t="laptop" class="col-4 project-item">
+                                <div data-t="maintenance" class="col-4 project-item">
                                     <img src="<?php echo get_template_directory_uri() . '/img/project-6.jpg'?>" class="responsive-element" alt="Project Image">
-                                    <div class="project-hovering">Laptop</div>
-                                    <p>Laptop</p>
+                                    <div class="project-hovering">Maintain</div>
+                                    <p>Maint</p>
                                 </div>
                             </div>
                         </div>
                         <div class="info">
-                            <div class="programing">
-                                <h3>Programing</h3>
-                                <p>About this is our first feature for the fast one thisture for the fast one the fast one thisture for the fast onethe fast one thisture for the fast onethis isture for the fast one this is is our first feature for the fast one this is our first feature for the fast one this is</p>
+                            <div class="doctor-notebook">
+                                <h3>Doctor notebook</h3>
+                                <p>
+                                    Doctor notebook store is located in Brazil.
+                                </p>
                             </div>
-                            <div class="webDoctor">
-                                <h3>WebDoctor</h3>
-                                <p>About this is our first feature for the fast one thisture for the fast one the fast one thisture for the fast onethe fast one thisture for the fast onethis isture for the fast one this is is our first feature for the fast one this is our first feature for the fast one this is</p>
+                            <div class="online-store">
+                                <h3>Online store</h3>
+                                <p>
+                                    Doctor notebook is a website that sell computers, laptops and related gadgets.
+                                </p>
                             </div>
-                            <div class="laptop">
-                                <h3>Laptop</h3>
-                                <p>About this is our first feature for the fast one thisture for the fast one the fast one thisture for the fast onethe fast one thisture for the fast onethis isture for the fast one this is is our first feature for the fast one this is our first feature for the fast one this is</p>
+                            <div class="maintenance">
+                                <h3>Maintenance services</h3>
+                                <p>
+                                    It also provides maintenance services (Software & Hardware) to any of the computers and laptops it sells
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -182,30 +202,30 @@
                         </p>
                     </div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-4">
                             <div class="language-circle">
-                                <h3>Python</h3>
-                                <span>90%</span>
+                                <h3>Mysql</h3>
+                                <span>15%</span>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-4">
                             <div class="language-circle">
                                 <h3>Php</h3>
-                                <span>50%</span>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="language-circle">
-                                <h3>Java</h3>
                                 <span>30%</span>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-4">
                             <div class="language-circle">
-                                <h3>Javascript</h3>
-                                <span>80%</span>
+                                <h3>Java</h3>
+                                <span>25%</span>
                             </div>
                         </div>
+<!--                        <div class="col-3">-->
+<!--                            <div class="language-circle">-->
+<!--                                <h3>Angular</h3>-->
+<!--                                <span>20%</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
                     </div>
                 </div>
                 <div class="col-12 col-sm-10 col-md-8 col-lg-7 about-us-content mx-auto">
@@ -216,30 +236,30 @@
                         </p>
                     </div>
                     <div class="row">
-                        <div class="col-3">
+                        <div class="col-4">
                             <div class="language-circle">
-                                <h3>Assemble</h3>
+                                <h3>Symfony</h3>
+                                <span>25%</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="language-circle">
+                                <h3>Angular</h3>
                                 <span>20%</span>
                             </div>
                         </div>
-                        <div class="col-3">
+                        <div class="col-4">
                             <div class="language-circle">
-                                <h3>Rube</h3>
-                                <span>70%</span>
+                                <h3>TypeScript</h3>
+                                <span>15%</span>
                             </div>
                         </div>
-                        <div class="col-3">
-                            <div class="language-circle">
-                                <h3>C#</h3>
-                                <span>40%</span>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="language-circle">
-                                <h3>C++</h3>
-                                <span>10%</span>
-                            </div>
-                        </div>
+<!--                        <div class="col-3">-->
+<!--                            <div class="language-circle">-->
+<!--                                <h3>C++</h3>-->
+<!--                                <span>10%</span>-->
+<!--                            </div>-->
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -612,18 +632,19 @@
         <div class="container">
             <h2 class="text-center mb-5">Our Client</h2>
             <div class="row text-center">
-                <div class="col-6 col-sm-3">
-                    <h4>Clients one</h4>
+                <div class="col-6 col-sm-3 mx-auto">
+                    <img src="<?php echo get_template_directory_uri() . '/img/doctor-notebook.png'?>" class="img-fluid" alt="Doctor Notebook">
+<!--                    <h4><img src="--><?php //echo get_template_directory_uri() . '/img/doctor-notebook.jpg'?><!--" class="img-fluild" alt="Doctor Notebook"></h4>-->
                 </div>
-                <div class="col-6 col-sm-3">
-                    <h4>Clients Two</h4>
-                </div>
-                <div class="col-6 col-sm-3">
-                    <h4>Clients Three</h4>
-                </div>
-                <div class="col-6 col-sm-3">
-                    <h4>Clients Four</h4>
-                </div>
+<!--                <div class="col-6 col-sm-3">-->
+<!--                    <h4>Clients Two</h4>-->
+<!--                </div>-->
+<!--                <div class="col-6 col-sm-3">-->
+<!--                    <h4>Clients Three</h4>-->
+<!--                </div>-->
+<!--                <div class="col-6 col-sm-3">-->
+<!--                    <h4>Clients Four</h4>-->
+<!--                </div>-->
             </div>
         </div>
     </div>

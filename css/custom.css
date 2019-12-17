@@ -399,7 +399,7 @@ nav ul li a {
     }
 
     .project-hovering:not(:nth-of-type(2)) {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .our-projects .info h3 {
@@ -1002,6 +1002,79 @@ nav ul li a {
 /*End Our Team Section*/
 /* ---- End Our Front-Page page---- */
 
+
+/* ---- Start Blog Page ---- */
+.our-posts .post {
+    background: #f8f9fa;
+    margin-top: 20px;
+    border: 1px solid #eee;
+    border-radius: 4px
+}
+
+.our-posts .post .post-title {
+    color: #45a9b7;
+    letter-spacing: 1px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.our-posts .post a.post-image {
+    width: 100%;
+    height: 25%;
+    display: block
+}
+
+.our-posts .post a.post-image:hover {
+    text-decoration: none;
+}
+
+.our-posts .post a.post-image:hover h3 {
+    color: #ee6825
+}
+
+.our-posts .post a img {
+    max-height: 250px !important;
+    width: 100%;
+    height: 100%
+}
+
+.our-posts .post .post-content-meta {
+    letter-spacing: 2px
+}
+
+.our-posts .post .post-content-meta a {
+    text-decoration: none;
+    color: #394240;
+}
+
+.our-posts .post .post-content-meta .date:hover,
+.our-posts .post .post-content-footer-comment:hover,
+.our-posts .post .post-content-meta a:hover {
+    color: #ee6825 !important;
+}
+
+.our-posts .post .post-content-meta a:last-child {
+    color: #45a9b7
+}
+
+.our-posts .post .post-content-meta a:last-child::before,
+.our-posts .post .post-content-meta a:last-child::after {
+    content: ' | ';
+    color: #394240;
+}
+
+.our-posts .post .post-content p {
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px
+}
+
+.our-posts .post .post-content-footer a:last-child::before,
+.our-posts .post .post-content-footer a:last-child::after {
+    content: '';
+}
+/* ---- Start Our Services Page ---- */
+
 /* ---- Start Our Services Page ---- */
 .our-services {
     background: url("../img/background.png") no-repeat;
@@ -1047,12 +1120,20 @@ nav ul li a {
 }
 
 .hire-service p {
+    font-size: 2rem
+}
+
+.hire-service .email-to-hire {
     font-size: 3rem
 }
 
 /*style for sm Screen*/
 @media (min-width: 576px) and (max-width: 767px) {
     .hire-service p {
+        font-size: 1.5rem !important
+    }
+
+    .hire-service .email-to-hire {
         font-size: 2.5rem
     }
 }
@@ -1060,6 +1141,10 @@ nav ul li a {
 /*style for xs Screen*/
 @media (max-width: 575px) {
     .hire-service p {
+        font-size: 1rem !important;
+    }
+
+    .hire-service .email-to-hire {
         font-size: 2rem
     }
 }
@@ -1079,27 +1164,6 @@ nav ul li a {
 
 .e-commerce-service p {
     font-size: 1.5rem
-}
-
-/*style for sm Screen*/
-@media (min-width: 576px) and (max-width: 767px) {
-    .hire-service p {
-        font-size: 2.5rem
-    }
-}
-
-/*style for xs Screen*/
-@media (max-width: 575px) {
-    .hire-service p {
-        font-size: 2rem
-    }
-}
-
-/*style for small than xs Screen*/
-@media (max-width: 499px) {
-    .hire-service p {
-        font-size: 1.3rem
-    }
 }
 /* ---- End Hire Services Page ---- */
 

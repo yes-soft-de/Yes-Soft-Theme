@@ -2,7 +2,7 @@
 <?php get_header() ?>
 
     <!--STart Our Posts Page-->
-    <div class="our-posts our-services mb-4">
+    <div class="our-posts our-services pb-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

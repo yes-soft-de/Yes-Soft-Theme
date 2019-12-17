@@ -11,8 +11,7 @@
         <hr class="col-6 bg-white mb-3 mt-1">
         <div class="col-12 text-center pb-4">
             <p class="mb-0">
-                <strong>Describe: </strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci cupiditate, libero modi nisi officiis quia rem.
-                Cum cupiditate deleniti ipsum, maxime nostrum officia quam quasi recusandae veniam. Accusantium, consequatur, voluptates!
+                <strong>E-commerce services:  </strong>it’s our main business field. We design and develop ecommerce websites and mobile apps from A to Z. Our products are highly secure, well designed and implemented, interactive and mobile-friendly. We deploy high trending techniques. Elasticsearch, Spryker, OAuth, Symfony, just to name a few. You can visit ISHTAR ART in order to take a look about products we build.
             </p>
         </div>
         <hr class="col-6 bg-white mb-3 mt-1">
