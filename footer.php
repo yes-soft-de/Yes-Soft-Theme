@@ -1,5 +1,5 @@
 	<!--Start Footer-->
-	<div class="footer text-center text-white pt-4 mt-4" id="footer">
+	<div class="footer text-center text-white pt-4" id="footer">
 		<div class="container">
             <!--Brand-->
             <div class="col-12 flex-column brand pb-2 mb-5">
