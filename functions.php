@@ -20,7 +20,7 @@ function my_theme_enqueue_styles() {
     // Slick Jquery Plugin
     wp_enqueue_style( 'slick-css', get_template_directory_uri() . '/css/slick.min.css' );
     wp_enqueue_style( 'slick-theme', get_template_directory_uri() . '/css/slick-theme.min.css' );
-    wp_enqueue_style( 'custom-css', get_template_directory_uri() . '/css/custom.min.css' );
+//    wp_enqueue_style( 'custom-css', get_template_directory_uri() . '/css/custom.min.css' );
     wp_enqueue_style( 'new-css', get_template_directory_uri() . '/css/custom.css' );
     wp_enqueue_style( 'font-family', get_template_directory_uri() . '/css/font-family.min.css' );
 }

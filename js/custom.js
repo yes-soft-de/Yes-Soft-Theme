@@ -1,5 +1,6 @@
 var customNav = $('.navbar.custom-nav'),
-
+    projectItem = $('div.project-item');
+    info = $('.info');
     upButton = $('.move-up .move-up-button');
 
 // Make Web Loader
@@ -12,31 +13,40 @@ var customNav = $('.navbar.custom-nav'),
 $('html').css('padding-top', customNav.innerHeight());
 
 // Slider all Section
-$('.home-slider, .our-projects-slider, .specialise-slider, .about-us-slider, .client-say-slider, .our-team-slider').slick({
+$('.home-slider, .our-projects-slider, .specialise-slider, .about-us-slider, .our-team-slider').slick({
     autoplay: true,
     vertical: true,
     verticalSwiping: true,
     dots: true,
     arrows: false,
-    autoplaySpeed: 100000,
+    autoplaySpeed: 4000,
 });
 
 $("#project-1 .row div.project-item").click(function () {
-    $(this).addClass("selected").siblings("div.project-item").removeClass("selected");
-    $(this).parents("#project-1").siblings('.info');
-    // console.log($(this).parents("#project-1").siblings('.info').children().hide());
-    $(this).parents("#project-1").siblings('.info').children().hide();
+    $(this).addClass("selected").siblings(projectItem).removeClass("selected");
+    $(this).parents("#project-1").siblings(info);
+    $(this).parents("#project-1").siblings(info).children().hide();
     $("." + $(this).data("t")).fadeIn();
 });
 
 $("#project-2 .row div.project-item").click(function () {
-    $(this).addClass("selected").siblings("div.project-item").removeClass("selected");
-    $(this).parents("#project-2").siblings('.info').children().hide();
-    // $(".info div").hide();
+    $(this).addClass("selected").siblings(projectItem).removeClass("selected");
+    $(this).parents("#project-2").siblings(info).children().hide();
     $("." + $(this).data("t")).fadeIn();
 });
 
+$("#project-3 .row div.project-item").click(function () {
+    $(this).addClass("selected").siblings(projectItem).removeClass("selected");
+    $(this).parents("#project-3").siblings(info).children().hide();
+    $("." + $(this).data("t")).fadeIn();
+});
 
+// E-commerce Service Detail Page
+$("#project-4 .row div.project-item").click(function () {
+    $(this).addClass("selected").siblings(projectItem).removeClass("selected");
+    $(this).parents("#project-4").siblings(info).children().hide();
+    $("." + $(this).data("t")).fadeIn();
+});
 
 
 

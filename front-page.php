@@ -26,10 +26,9 @@
                     <p>
                         It’s our main business field. We design and develop ecommerce websites from A to Z.
                         Our products are highly secure, well designed and implemented, interactive and mobile-friendly.
-                        We deploy high trending techniques. Elasticsearch, Spryker, OAuth, Symfony, just to name a few
                     </p>
                 </div>
-                <div class="col-8 col-md-6 col-lg-4 align-self-center mx-auto">
+                <div class="col-7 col-md-4 align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/e-commerce.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
@@ -38,9 +37,9 @@
             <div class="row">
                 <div class="col-9 col-lg-6 col-xl-7 offset-2 offset-xl-1 slider-content align-self-center text-center">
                     <h1>Android App Development</h1>
-                    <p>Do you know that most of the internet traffic today comes from mobile users. This means that building an app will help your business bring value to modern users. Whether it is your first app or third, our expertise in android app development will help you succeed with your mobile strategy</p>
+                    <p>Most of the internet traffic today comes from mobile users. This means that building an app will help your business bring value to modern users. our expertise in android app development will help you succeed with your mobile strategy</p>
                 </div>
-                <div class="col-8 col-md-6 col-lg-4 align-self-center mx-auto">
+                <div class="col-7 col-md-4 align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/android_app.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
@@ -51,7 +50,7 @@
                     <h1>Remote Maintenance</h1>
                     <p>this field is also trending in today’s world. We offer e-marketing campaigns at social media platforms or email-based, graphic design, promoting videos, content marketing, and SEO</p>
                 </div>
-                <div class="col-8 col-md-6 col-lg-4 align-self-center mx-auto">
+                <div class="col-7 col-md-4 align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/remote-maintenance.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
@@ -62,23 +61,25 @@
     <div class="our-projects">
         <div class="container-fluid">
             <h2 class="text-center">Our Projects</h2>
-            <p class="col-12 col-sm-10 col-md-8 col-lg-6 lead text-center mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt incidunt sint fugiat suscipit culpa</p>
+            <p class="col-12 col-sm-10 col-md-8 col-lg-6 lead text-center mx-auto">
+                The final result will be a website where users can browse, interact, review and buy masterpieces or order a custom one if wanted. They also can follow artists or art schools.
+            </p>
             <div class="our-projects-slider">
                 <div class="col-11 col-md-10 col-lg-9 offset-1 offset-md-2 project">
                     <div id="project-1" class="project-list list">
                         <div class="row">
                             <div data-t="ishtar" class="col-4 selected project-item">
-                                <img src="<?php echo get_template_directory_uri() . '/img/project-1.jpg'?>" class="responsive-element" alt="Project Image">
+                                <img src="<?php echo get_template_directory_uri() . '/img/ishtar.jpg'?>" class="responsive-element" alt="Project Image">
                                 <div class="project-hovering">Ishtar</div>
                                 <p>Ishtar</p>
                             </div>
                             <div data-t="ishtar-art" class="col-4 project-item px-0">
-                                <img src="<?php echo get_template_directory_uri() . '/img/project-2.jpg';?>" class="responsive-element" alt="Project Image">
+                                <img src="<?php echo get_template_directory_uri() . '/img/ishtar-art.png';?>" class="responsive-element" alt="Project Image">
                                 <div class="project-hovering w-100">Ishtar art</div>
                                 <p>art</p>
                             </div>
                             <div data-t="ishtar-goals" class="col-4 project-item">
-                                <img src="<?php echo get_template_directory_uri() . '/img/project-3.jpg'?>" class="responsive-element" alt="Project Image">
+                                <img src="<?php echo get_template_directory_uri() . '/img/ishtar-goal.png'?>" class="responsive-element" alt="Project Image">
                                 <div class="project-hovering">Goals</div>
                                 <p>goals</p>
                             </div>
@@ -109,23 +110,65 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="col-11 col-md-10 col-lg-9 offset-1 offset-md-2 project">
                     <div class="project-big-style">
                         <div id="project-2" class="project-list list">
                             <div class="row">
+                                <div data-t="elect-store" class="col-4 selected project-item">
+                                    <img src="<?php echo get_template_directory_uri() . '/img/project-agora-01.png'?>" class="responsive-element" alt="Project Image">
+                                    <div class="project-hovering">Elect store</div>
+                                    <p>Store</p>
+                                </div>
+                                <div data-t="Shopping" class="col-4 project-item px-0">
+                                    <img src="<?php echo get_template_directory_uri() . '/img/project-agora-02.png'?>" class="responsive-element" alt="Project Image">
+                                    <div class="project-hovering w-100">Online Shopping</div>
+                                    <p>Shop</p>
+                                </div>
+                                <div data-t="multi-rate" class="col-4 project-item">
+                                    <img src="<?php echo get_template_directory_uri() . '/img/project-agora-03.png'?>" class="responsive-element" alt="Project Image">
+                                    <div class="project-hovering">Multi Rate</div>
+                                    <p>Rate</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info">
+                            <div class="elect-store">
+                                <h3>Brazilian electronics store </h3>
+                                <p>
+                                    Electronics store is located in Brazil.
+                                </p>
+                            </div>
+                            <div class="Shopping">
+                                <h3>Easy online shopping</h3>
+                                <p>
+                                    Easy online shopping to sell computers, laptops and related gadgets.
+                                </p>
+                            </div>
+                            <div class="multi-rate">
+                                <h3>Multiple ratings and great item control capabilities</h3>
+                                <p>
+                                    It also provides great item control capabilities services (Software & Hardware) to any of the computers and laptops it sells
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-11 col-md-10 col-lg-9 offset-1 offset-md-2 project">
+                    <div class="project-big-style">
+                        <div id="project-3" class="project-list list">
+                            <div class="row">
                                 <div data-t="doctor-notebook" class="col-4 selected project-item">
-                                    <img src="<?php echo get_template_directory_uri() . '/img/project-4.jpg'?>" class="responsive-element" alt="Project Image">
+                                    <img src="<?php echo get_template_directory_uri() . '/img/doctor-site.png'?>" class="responsive-element" alt="Project Image">
                                     <div class="project-hovering">Doctor</div>
                                     <p>NDoctor</p>
                                 </div>
                                 <div data-t="online-store" class="col-4 project-item px-0">
-                                    <img src="<?php echo get_template_directory_uri() . '/img/project-5.png'?>" class="responsive-element" alt="Project Image">
+                                    <img src="<?php echo get_template_directory_uri() . '/img/doctor-store.png'?>" class="responsive-element" alt="Project Image">
                                     <div class="project-hovering w-100">Online Store</div>
                                     <p>Store</p>
                                 </div>
                                 <div data-t="maintenance" class="col-4 project-item">
-                                    <img src="<?php echo get_template_directory_uri() . '/img/project-6.jpg'?>" class="responsive-element" alt="Project Image">
+                                    <img src="<?php echo get_template_directory_uri() . '/img/doctor-maintenance.jpg'?>" class="responsive-element" alt="Project Image">
                                     <div class="project-hovering">Maintain</div>
                                     <p>Maint</p>
                                 </div>
@@ -165,21 +208,23 @@
             <h2 class="text-center mt-5">We Are Specialised In</h2>
             <div class="container-fluid specialise-slider">
                 <div class="specialise">
-                    <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xl-3 specialise-image">
-                        <img src="<?php echo get_template_directory_uri() . '/img/wordpress-solution.png' ?>" class="img-fluid" alt="">
+                    <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xl-3 specialise-image">
+                        <img src="<?php echo get_template_directory_uri() . '/img/online-shopping.png' ?>" class="img-fluid" alt="online shopping">
                     </div>
-                    <div class="col-8 col-md-6 col-lg-4 specialise-desc p-3">
-                        <h3>UI & UX Design</h3>
-                        <p>For Start Up, For Business & For You</p>
+                    <div class="col-10 col-sm-8 col-md-6 col-lg-4 specialise-desc p-3">
+                        <h3>Working remotely</h3>
+                        <p>Our presence around the world makes us aware of all the modern technologies that exist in the world</p>
                     </div>
                 </div>
                 <div class="specialise">
-                    <div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 specialise-image">
-                        <img src="<?php echo get_template_directory_uri() . '/img/graphic-design.jpg' ?>" class="img-fluid" alt="">
+                    <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 specialise-image">
+                        <img src="<?php echo get_template_directory_uri() . '/img/special-commerce.png' ?>" class="img-fluid" alt="special commerce">
                     </div>
-                    <div class="col-8 col-md-6 col-lg-4 specialise-desc p-3">
-                        <h3>Graphic Design</h3>
-                        <p>For You, For Business & For Start Up</p>
+                    <div class="col-10 col-sm-8 col-md-6 col-lg-4 specialise-desc p-3">
+                        <h3>Great experience in e-commerce</h3>
+                        <p>
+                           The multiplicity of experiences and openness to all that is new will be the reason for achieving the best results
+                        </p>
                     </div>
                 </div>
             </div>
@@ -268,7 +313,7 @@
     <!--End About Us Section-->
 
     <!--Start Client Say Section-->
-    <div class="client-say pt-5">
+    <div class="client-say py-5">
         <div class="container-fluid">
             <h2 class="text-center">Our Client Say</h2>
             <hr class="w-25">
@@ -278,31 +323,13 @@
                         <div class="col-12 col-sm-3">
                             <div class="client-image text-center">
                                 <img class="rounded-circle mx-auto" src="<?php echo get_template_directory_uri() . '/img/default-avatar.jpg'?>" alt="codeway" />
-                                <h5 class="client-name font-weight-bold mt-2 mt-lg-3">First Client<a href="#"><i class="fab fa-linkedin fa-fw"></i></a></h5>
-                                <p class="text-secondary">Client Career</p>
+                                <h5 class="client-name font-weight-bold mt-2 mt-lg-3">Waleed Alhamoud<a href="https://www.linkedin.com/in/walid-alhamoud-06b1b9157"><i class="fab fa-linkedin fa-fw"></i></a></h5>
+                                <p class="text-secondary">CEO Of Notebook Doctor</p>
                             </div>
                         </div>
                         <div class="col-12 col-sm-9 client-content">
                             <p class="lead text-secondary pt-3 pt-md-4 pt-lg-5">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione tempora consequatur quisquam nisi enim dicta fugiat blanditiis vel.
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione tempora consequatur quisquam nisi enim dicta fugiat blanditiis vel.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-11 col-sm-9 col-md-8 offset-1 offset-sm-2 client">
-                    <div class="row">
-                        <div class="col-12 col-sm-3">
-                            <div class="client-image text-center">
-                                <img class="rounded-circle mx-auto" src="<?php echo get_template_directory_uri() . '/img/default-avatar.jpg'?>" alt="codeway" />
-                                <h5 class="client-name font-weight-bold mt-2 mt-lg-3">Second Client<a href="#"><i class="fab fa-linkedin fa-fw"></i></a></h5>
-                                <p class="text-secondary">Client Career</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-9 client-content">
-                            <p class="lead text-secondary pt-3 pt-md-4 pt-lg-5">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione tempora consequatur quisquam nisi enim dicta fugiat blanditiis vel.
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ratione tempora consequatur quisquam nisi enim dicta fugiat blanditiis vel.
+                                Through my long market experience I found with Yes Soft a lot of variation. Punctuality, excellent performance and great communication are what sets them apart. I'm so happy to be one of your clients
                             </p>
                         </div>
                     </div>
@@ -323,7 +350,7 @@
                             <div class="team-member position-relative px-3 px-lg-4 py-5">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/talal-danoun.jpg' ?>" class="rounded-circle" alt="Talal Image">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Talal Danoun</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Talal Danoun</a></h5>
                                     <p class="text-secondary d-inline-block">Web Developer</p>
                                     <a href="https://www.linkedin.com/in/talal-danoon-38945b154"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <a href="https://github.com/tald7344"><i class="fab fa-github fa-fw"></i></a>
@@ -346,7 +373,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/hammam-zarefa.jpg' ?>" class="rounded-circle" alt="Hammam Zarefa">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Hammam Zarefa</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Hammam Zarefa</a></h5>
                                     <p class="text-secondary d-inline-block">Backend Developer</p>
                                     <a href="https://www.linkedin.com/in/hammam-zarefa-806721190"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <a href="https://github.com/HammamZarefa"><i class="fab fa-github fa-fw"></i></a>
@@ -374,7 +401,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/kenan-hussein.jpg'?>" class="rounded-circle" alt="Kenan Hussein">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Kenan Hussein</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Kenan Hussein</a></h5>
                                     <p class="text-secondary d-inline-block">Web Developer</p>
                                     <a href="https://www.linkedin.com/in/kenan-hussein"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <a href="https://github.com/Kenan-Hussein"><i class="fab fa-github fa-fw"></i></a>
@@ -398,7 +425,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/qusai-ali.jpg'?>" class="rounded-circle" alt="Qusai Ali">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Qusai Ali</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Qusai Ali</a></h5>
                                     <p class="text-secondary d-inline-block">Front End Developer</p>
                                     <a href="https://www.linkedin.com/in/qusai-ali-it/"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <a href="https://github.com/qusai-ali/IT"><i class="fab fa-github fa-fw"></i></a>
@@ -426,7 +453,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/osama-alhamoud.jpg' ?>" class="rounded-circle" alt="Osama Alhamoud">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Osama Alhamoud</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Osama Alhamoud</a></h5>
                                     <p class="text-secondary d-inline-block">Manager</p>
                                     <a href="https://www.linkedin.com/in/osama-alhamoud"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <a href="https://github.com/osama-alhamoud"><i class="fab fa-github fa-fw"></i></a>
@@ -450,7 +477,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/mohammad-al-kalaleeb.jpg' ?>" class="rounded-circle" alt="Mohammad Al Kalaleeb">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Mohammad Al Kalaleeb</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Mohammad Al Kalaleeb</a></h5>
                                     <p class="text-secondary d-inline-block">Web Developer</p>
                                     <a href="https://www.linkedin.com/in/mohammad-al-kalaleeb-6ab521140"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <a href="https://github.com/mickSawy3r"><i class="fab fa-github fa-fw"></i></a>
@@ -478,7 +505,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/basel-sallom.jpg' ?>" class="rounded-circle" alt="Bassel Al-Salloum">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Bassel Al-Salloum</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Bassel Al-Salloum</a></h5>
                                     <p class="text-secondary d-inline-block">Graphic Designer</p>
                                     <a href="https://www.linkedin.com/in/basel-sy-851910196/ "><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <div class="col-12 team-member-content">
@@ -501,7 +528,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/mahmoud.jpg' ?>" class="rounded-circle" alt="Mahmoud Aldiek">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Mahmoud Aldiek</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Mahmoud Aldiek</a></h5>
                                     <p class="text-secondary d-inline-block">Emarketer & Content Creator</p>
                                     <a href="https://www.linkedin.com/in/mahmoud-aldiek-74a919196"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <div class="col-12 team-member-content">
@@ -528,7 +555,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/mujeeba-haj-najeeb.jpg' ?>" class="rounded-circle" alt="Mujeeba Haj Najeeb">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Mujeeba Haj Najeeb</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Mujeeba Haj Najeeb</a></h5>
                                     <p class="text-secondary d-inline-block">Scrum Master</p>
                                     <a href="https://www.linkedin.com/in/mujeeba-haj-najeeb-327228161"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <a href="https://github.com/Mujeeba-Haj-Najeeb "><i class="fab fa-github fa-fw"></i></a>
@@ -552,7 +579,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/hanan.jpg' ?>" class="rounded-circle" alt="Hanan Aljarmakani">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Hanan Al-Jarmakani</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Hanan Al-Jarmakani</a></h5>
                                     <p class="text-secondary d-inline-block">UX / UI Designer</p>
                                     <a href="https://www.linkedin.com/in/hanan-aljarmakani-6908b294/"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <div class="col-12 team-member-content">
@@ -579,7 +606,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/nisreen-abu-zidan.jpg' ?>" class="rounded-circle" alt="Nisreen Abu Zidan">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Nisreen Abu Zidan</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Nisreen Abu Zidan</a></h5>
                                     <p class="text-secondary d-inline-block">Business Development Manager</p>
                                     <a href="https://www.linkedin.com/in/nisreenabuzidan/"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <div class="col-12 team-member-content">
@@ -602,7 +629,7 @@
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
                                 <img src="<?php echo get_template_directory_uri() . '/img/team/ahmad-mustafa.jpg' ?>" class="rounded-circle" alt="Ahmad Mustafa">
                                 <div class="team-member-body">
-                                    <h5 class="mb-md-0 mb-lg-1"><a href="#">Ahmad Mustafa</a></h5>
+                                    <h5 class="mb-md-0 mb-lg-1"><a>Ahmad Mustafa</a></h5>
                                     <p class="text-secondary d-inline-block">E-Marketer</p>
                                     <a href="https://www.linkedin.com/in/ahmadmustafa-business"><i class="fab fa-linkedin-in fa-fw"></i></a>
                                     <div class="col-12 team-member-content">
@@ -634,11 +661,10 @@
             <div class="row text-center">
                 <div class="col-6 col-sm-3 mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/doctor-notebook.png'?>" class="img-fluid" alt="Doctor Notebook">
-<!--                    <h4><img src="--><?php //echo get_template_directory_uri() . '/img/doctor-notebook.jpg'?><!--" class="img-fluild" alt="Doctor Notebook"></h4>-->
                 </div>
-<!--                <div class="col-6 col-sm-3">-->
-<!--                    <h4>Clients Two</h4>-->
-<!--                </div>-->
+                <div class="col-6 col-sm-3 mx-auto">
+                    <img src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png'?>" class="img-fluid" alt="Doctor Notebook">
+                </div>
 <!--                <div class="col-6 col-sm-3">-->
 <!--                    <h4>Clients Three</h4>-->
 <!--                </div>-->
