@@ -24,7 +24,6 @@ $('.home-slider, .our-projects-slider, .specialise-slider, .about-us-slider, .ou
 
 $("#project-1 .row div.project-item").click(function () {
     $(this).addClass("selected").siblings(projectItem).removeClass("selected");
-    $(this).parents("#project-1").siblings(info);
     $(this).parents("#project-1").siblings(info).children().hide();
     $("." + $(this).data("t")).fadeIn();
 });
@@ -96,15 +95,10 @@ $(window).scroll(function () {
 
 
 // Scrolling To Top By Up Button
-
 upButton.click(function () {
-
     $('html, body').animate({
-
         scrollTop: 0
-
     }, 500);
-
 });
 
 
@@ -131,86 +125,41 @@ setInterval( function () {
 
 
 
-
-
-//Projects Carousal
-
-// $('.project-carousal').slick({
-
-//     centerMode: true,
-
-//     centerPadding: '0',
-
-//     slidesToShow: 3,
-
-//     slidesToScroll: 1,
-
-//     autoplaySpeed: 3000,
-
-//     autoplay: true,
-
-//     responsive: [
-
-//         {
-
-//             breakpoint: 1024,
-
-//             settings: {
-
-//                 arrows: false,
-
-//                 slidesToShow: 1
-
-//             }
-
-//         }
-
-//     ]
-
-// });
-
-
-
-//Service Carousal
-
-
-
-
 //Our Team Carousal
 
-$('.team-carousal').slick({
-
-    centerMode: true,
-
-    centerPadding: '0',
-
-    slidesToShow: 3,
-
-    slidesToScroll: 1,
-
-    autoplaySpeed: 3000,
-
-    autoplay: true,
-
-    responsive: [
-
-        {
-
-            breakpoint: 1024,
-
-            settings: {
-
-                arrows: false,
-
-                slidesToShow: 1
-
-            }
-
-        }
-
-    ]
-
-});
+// $('.team-carousal').slick({
+//
+//     centerMode: true,
+//
+//     centerPadding: '0',
+//
+//     slidesToShow: 3,
+//
+//     slidesToScroll: 1,
+//
+//     autoplaySpeed: 3000,
+//
+//     autoplay: true,
+//
+//     responsive: [
+//
+//         {
+//
+//             breakpoint: 1024,
+//
+//             settings: {
+//
+//                 arrows: false,
+//
+//                 slidesToShow: 1
+//
+//             }
+//
+//         }
+//
+//     ]
+//
+// });
 
 
 

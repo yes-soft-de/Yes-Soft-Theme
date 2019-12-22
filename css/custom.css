@@ -1208,7 +1208,7 @@ nav ul li a {
 
 /* ---- Start Hire Services Page ---- */
 .e-commerce-service {
-    background: url("../img/quality-e-commerce.jpg") no-repeat;
+    background: url("../img/service-background.png") no-repeat;
     background-size: cover;
 }
 
@@ -1238,7 +1238,6 @@ nav ul li a {
 
 .e-commerce-service .project-item {
     cursor: pointer;
-
 }
 
 .e-commerce-service .project-item.selected {
@@ -1254,6 +1253,47 @@ nav ul li a {
 .e-commerce-service .info .premium button {
     color: var(--white);
     background-color: var(--blue);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .e-commerce-service h1 {
+        font-size: 2.2rem;
+    }
+}
+
+/*style for sm Screen*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .e-commerce-service h1 {
+        font-size: 1.85rem;
+    }
+
+    .e-commerce-service .general-desc {
+        font-size: 1.1rem
+    }
+}
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
+    .e-commerce-service h1 {
+        font-size: 1.8rem;
+    }
+
+    .e-commerce-service .general-desc {
+        font-size: 1rem
+    }
+}
+
+/*style for Custom Size Screen < 500px*/
+@media (max-width: 499px) {
+    .e-commerce-service .general-desc,
+    .e-commerce-service p,
+    .e-commerce-service strong {
+        font-size: .9rem;
+    }
+
+    .e-commerce-service h1 {
+        font-size: 1.4rem;
+    }
 }
 /* ---- End Hire Services Page ---- */
 

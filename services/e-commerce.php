@@ -3,7 +3,7 @@
 
 <div class="our-posts e-commerce-service our-services py-5">
     <div class="container">
-        <h1 class="col-6 mx-auto text-center">High Quality Scalable E-commerce Platform</h1>
+        <h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center">High Quality Scalable<br> E-commerce Platform</h1>
         <div class="post p-3 pb-4 bg-white mb-5">
             <hr class="mb-3 mt-1">
             <p class="general-desc mb-5">
@@ -42,7 +42,7 @@
                             <div class="col-12 mt-3 mb-1"><p class="mb-0">Number of pages: 5</p></div>
                             <div class="col-12 mb-1"><p class="mb-0">Number of products: 50</p></div>
                             <div class="col-12 mb-1"><p class="mb-0">Data Entry</p></div>
-                            <div class="col-12 text-center">
+                            <div class="col-12 text-center mt-5">
                                 <button type="button" class="btn">Continue With Basic</button>
                             </div>
                         </div>
@@ -65,7 +65,7 @@
                             <div class="col-12 mb-1"><p class="mb-0">Number of products: 50</p></div>
                             <div class="col-12 mb-1"><p class="mb-0">Responsive Design</p></div>
                             <div class="col-12 mb-1"><p class="mb-0">Data Entry</p></div>
-                            <div class="col-12 text-center">
+                            <div class="col-12 text-center mt-5">
                                 <button type="button" class="btn">Continue With Standard</button>
                             </div>
                         </div>
@@ -89,7 +89,7 @@
                             <div class="col-12 mb-1"><p class="mb-0">Responsive Design</p></div>
                             <div class="col-12 mb-1"><p class="mb-0">Data Entry</p></div>
                             <div class="col-12 mb-1"><p class="mb-0">Design Customisation</p></div>
-                            <div class="col-12 text-center">
+                            <div class="col-12 text-center mt-5">
                                 <button type="button" class="btn">Continue With Premium</button>
                             </div>
                         </div>
