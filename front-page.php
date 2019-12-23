@@ -28,7 +28,7 @@
                         Our products are highly secure, well designed and implemented, interactive and mobile-friendly.
                     </p>
                 </div>
-                <div class="col-7 col-md-4 align-self-center mx-auto">
+                <div class="col-7 col-md-4 slider-img align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/e-commerce.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
@@ -39,7 +39,7 @@
                     <h1>Android App Development</h1>
                     <p>Most of the internet traffic today comes from mobile users. This means that building an app will help your business bring value to modern users. our expertise in android app development will help you succeed with your mobile strategy</p>
                 </div>
-                <div class="col-7 col-md-4 align-self-center mx-auto">
+                <div class="col-7 col-md-4 slider-img align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/android_app.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
@@ -50,7 +50,7 @@
                     <h1>Remote Maintenance</h1>
                     <p>this field is also trending in today’s world. We offer e-marketing campaigns at social media platforms or email-based, graphic design, promoting videos, content marketing, and SEO</p>
                 </div>
-                <div class="col-7 col-md-4 align-self-center mx-auto">
+                <div class="col-7 col-md-4 slider-img align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/remote-maintenance.png'?>" class="img-fluid" alt="Slider Image">
                 </div>
             </div>
@@ -65,7 +65,7 @@
                 The final result will be a website where users can browse, interact, review and buy masterpieces or order a custom one if wanted. They also can follow artists or art schools.
             </p>
             <div class="our-projects-slider">
-                <div class="col-11 col-md-10 col-lg-9 offset-1 offset-md-2 project">
+                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-1 offset-md-2 project">
                     <div id="project-1" class="project-list list">
                         <div class="row">
                             <div data-t="ishtar" class="col-4 selected project-item">
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-11 col-md-10 col-lg-9 offset-1 offset-md-2 project">
+                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-1 offset-md-2 project">
                     <div class="project-big-style">
                         <div id="project-2" class="project-list list">
                             <div class="row">
@@ -153,7 +153,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-11 col-md-10 col-lg-9 offset-1 offset-md-2 project">
+                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-1 offset-md-2 project">
                     <div class="project-big-style">
                         <div id="project-3" class="project-list list">
                             <div class="row">
@@ -320,14 +320,14 @@
             <div class="client-say-slider mb-0">
                 <div class="col-11 col-sm-9 col-md-8 offset-1 offset-sm-2 client">
                     <div class="row">
-                        <div class="col-12 col-sm-3">
+                        <div class="col-12 col-sm-4">
                             <div class="client-image text-center">
                                 <img class="rounded-circle mx-auto" src="<?php echo get_template_directory_uri() . '/img/default-avatar.jpg'?>" alt="codeway" />
                                 <h5 class="client-name font-weight-bold mt-2 mt-lg-3">Waleed Alhamoud<a href="https://www.linkedin.com/in/walid-alhamoud-06b1b9157"><i class="fab fa-linkedin fa-fw"></i></a></h5>
                                 <p class="text-secondary">CEO Of Notebook Doctor</p>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-9 client-content">
+                        <div class="col-12 col-sm-8 client-content">
                             <p class="lead text-secondary pt-3 pt-md-4 pt-lg-5">
                                 Through my long market experience I found with Yes Soft a lot of variation. Punctuality, excellent performance and great communication are what sets them apart. I'm so happy to be one of your clients
                             </p>

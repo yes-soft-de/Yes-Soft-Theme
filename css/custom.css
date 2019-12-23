@@ -166,6 +166,17 @@ nav ul li a {
     .navbar-light .collapse {
         border-bottom: 1px solid;
     }
+    
+    .navbar.custom-nav .header-img-logo img {
+        width: 75%;
+    }
+}
+
+/*style for Custom Size Screen*/
+@media (max-width: 499px) {
+    .navbar.custom-nav .header-img-logo img {
+        width: 100%;
+    }
 }
 /* ---- End NavBar ---- */
 
@@ -293,15 +304,15 @@ nav ul li a {
 /*style for xs Screen*/
 @media (max-width: 575px) {
     .home-slide .slider-content {
-        top: 5%;
+        top: 0;
     }
 
     .home-slide .slider-content h1 {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     .home-slide .slider-content p {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 }
 
@@ -394,6 +405,11 @@ nav ul li a {
     .our-projects .info p {
         font-size: 1rem;
     }
+    
+    .our-projects .slick-dots {
+        left: -0.5%;
+    }
+    
 }
 
 /*style for xs Screen*/
@@ -412,6 +428,11 @@ nav ul li a {
 
     .our-projects .info p {
         font-size: 1rem;
+    }
+    
+    
+   .our-projects .slick-dots {
+        left: -3.5%;
     }
 }
 
@@ -462,6 +483,10 @@ nav ul li a {
 
     .our-projects .info p {
         font-size: .8rem;
+    }
+    
+    .our-projects .slick-dots {
+        left: -8%;
     }
 }
 /*End Our Projects Section*/
@@ -609,7 +634,7 @@ nav ul li a {
 }
 
 .about-us .slick-list.draggable {
-    height: 400px !important;
+    height: 320px !important;
 }
 
 .about-us-content .language-circle h3 {
@@ -648,7 +673,7 @@ nav ul li a {
         font-size: 1.7rem;
     }
 
-    .about-us-content .row .col-3 {
+    .about-us-content .row .col-4 {
         padding-left: 0;
     }
 
@@ -671,11 +696,11 @@ nav ul li a {
 /*style for sm Screen*/
 @media (min-width: 576px) and (max-width: 767px) {
     .about-us .about-us-body h3 {
-        top: 7%;
+        top: 5%;
         font-size: 1.6rem;
     }
 
-    .about-us-content .row .col-3 {
+    .about-us-content .row .col-4 {
         padding-left: 0;
     }
 
@@ -706,11 +731,11 @@ nav ul li a {
 /*style for xs Screen*/
 @media (max-width: 575px) {
     .about-us .about-us-body h3 {
-        top: 7%;
+        top: 5%;
         font-size: 1.4rem;
     }
 
-    .about-us-content .row .col-3 {
+    .about-us-content .row .col-4 {
         padding-left: 0;
     }
 
@@ -944,7 +969,7 @@ nav ul li a {
     }
 
     .our-team ul.slick-dots {
-        left: -7%;
+        left: -10%;
     }
 }
 
@@ -977,7 +1002,7 @@ nav ul li a {
     }
 
     .our-team ul.slick-dots {
-        left: -10%;
+        left: -13%;
     }
 }
 
@@ -1000,7 +1025,28 @@ nav ul li a {
     }
 
     .our-team ul.slick-dots {
-        left: -20%;
+        left: -16%;
+    }
+}
+
+/*style For Custom Size Screen*/
+@media (max-width: 449px) {
+    .our-team ul.slick-dots {
+        left: -19%;
+    }
+}
+
+/*style For Custom Size Screen*/
+@media (max-width: 399px) {
+    .our-team ul.slick-dots {
+        left: -22%;
+    }
+}
+
+/*style For Custom Size Screen*/
+@media (max-width: 349px) {
+    .our-team ul.slick-dots {
+        left: -25%;
     }
 }
 /*End Our Team Section*/
@@ -1084,19 +1130,8 @@ nav ul li a {
     background-size: cover;
 }
 
-/*.our-services .post:hover {*/
-/*    -webkit-transform: translateY(-2px);*/
-/*    -moz-transform: translateY(-2px);*/
-/*    -o-transform: translateY(-2px);*/
-/*    -ms-transform: translateY(-2px);*/
-/*    transform: translateY(-2px);*/
-/*    -webkit-box-shadow: 0 4px 32px 0 rgba(0,0,0,.1);*/
-/*    -moz-box-shadow: 0 4px 32px 0 rgba(0,0,0,.1);*/
-/*    -o-box-shadow: 0 4px 32px 0 rgba(0,0,0,.1);*/
-/*    box-shadow: 0 4px 32px 0 rgba(0,0,0,.1);*/
-/*}*/
-
-.our-services .post .card .card-img-top {
+.our-services .post .card .card-img-top,
+.our-services .other-service .card .card-img-top {
     height: 250px;
 }
 
@@ -1104,37 +1139,28 @@ nav ul li a {
     text-align: center;
 }
 
-/*.our-services .post .image {*/
-/*    align-self: center*/
-/*}*/
-
-/*.our-services .post .content {*/
-/*    text-align: justify;*/
-/*    align-self: center*/
-/*}*/
-
-/*.our-services .post .content h2 {*/
-/*    font-weight: 600;*/
-/*}*/
-
 /*style for md Screen*/
 @media (min-width: 768px) and (max-width: 991px) {
-    .our-services .post .card .card-img-top {
+    .our-services .post .card .card-img-top,
+    .our-services .other-service .card .card-img-top {
         height: 200px;
     }
 
-    .our-services .post .card .card-title {
+    .our-services .post .card .card-title,
+    .our-services .other-service .card .card-title {
         font-size: 1rem;
     }
 }
 
 /*style for sm Screen*/
 @media (max-width: 767px) {
-    .our-services .post .card .card-img-top {
+    .our-services .post .card .card-img-top,
+    .our-services .other-service .card .card-img-top {
         height: 200px;
     }
 
-    .our-services .post .card .card-title {
+    .our-services .post .card .card-title,
+    .our-services .other-service .card .card-title {
         font-size: 1rem;
     }
 }
@@ -1149,14 +1175,17 @@ nav ul li a {
         font-size: 1.2rem
     }
 
-    .our-services .post .card .card-img-top {
+    .our-services .post .card .card-img-top,
+    .our-services .other-service .card .card-img-top {
         height: 130px;
     }
 
-    .our-services .post .card .card-body {
+    .our-services .post .card .card-body,
+    .our-services .other-service .card .card-body {
         padding: 1rem .5rem;
     }
-    .our-services .post .card-body .card-title {
+    .our-services .post .card-body .card-title,
+    .our-services .other-service .card-body .card-title {
         font-size: .7rem;
         margin-bottom: 0;
     }
@@ -1396,7 +1425,7 @@ nav ul li a {
 
     .our-projects .slick-list.draggable,
     .specialise-in .slick-list.draggable {
-        height: 25rem !important;
+        height: 23rem !important;
     }
 
     .our-team .slick-list.draggable {
@@ -1430,7 +1459,7 @@ nav ul li a {
     }
     
     .home-slider .slick-list.draggable {
-        height: 30rem !important;
+        height: 90% !important;
     }
     
     .our-projects .slick-list.draggable,

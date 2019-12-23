@@ -36,7 +36,7 @@
                                 </a>
                             </div>
                             <div class="col-6 col-md-4">
-                                <a href="">
+                                <a href="<?php echo get_site_url() . '/business-card-service'?>">
                                     <div class="card mb-3">
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/business-card-design.png'?>" alt="business card design">
                                         <div class="card-body">
@@ -46,7 +46,7 @@
                                 </a>
                             </div>
                             <div class="col-6 col-md-4">
-                                <a href="">
+                                <a href="<?php echo get_site_url() . '/flayer-design-service'?>">
                                     <div class="card mb-3">
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/flayer-service.png'?>" alt="Flayer Service">
                                         <div class="card-body">
@@ -56,7 +56,7 @@
                                 </a>
                             </div>
                             <div class="col-6 col-md-4">
-                                <a href="">
+                                <a href="<?php echo get_site_url() . '/remote-maintenance-service'?>">
                                     <div class="card mb-3">
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/website-test.png'?>" alt="Remote Maintenance">
                                         <div class="card-body">
@@ -66,7 +66,7 @@
                                 </a>
                             </div>
                             <div class="col-6 col-md-4">
-                                <a href="">
+                                <a href="<?php echo get_site_url() . '/website-testing-service'?>">
                                     <div class="card mb-3">
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/programming-test.png'?>" alt="Website Test">
                                         <div class="card-body">
