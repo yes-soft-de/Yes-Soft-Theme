@@ -1153,7 +1153,7 @@ nav ul li a {
 }
 
 /*style for sm Screen*/
-@media (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
     .our-services .post .card .card-img-top,
     .our-services .other-service .card .card-img-top {
         height: 200px;
@@ -1162,6 +1162,22 @@ nav ul li a {
     .our-services .post .card .card-title,
     .our-services .other-service .card .card-title {
         font-size: 1rem;
+    }
+}
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
+    .our-services .service-desc {
+        font-size: .8rem;
+    }
+
+    .our-services .post h4 {
+        font-size: 1.2rem
+    }
+
+    .our-services .post .card-body .card-title,
+    .our-services .other-service .card-body .card-title {
+        margin-bottom: 0;
     }
 }
 
@@ -1175,18 +1191,8 @@ nav ul li a {
         font-size: 1.2rem
     }
 
-    .our-services .post .card .card-img-top,
-    .our-services .other-service .card .card-img-top {
-        height: 130px;
-    }
-
-    .our-services .post .card .card-body,
-    .our-services .other-service .card .card-body {
-        padding: 1rem .5rem;
-    }
     .our-services .post .card-body .card-title,
     .our-services .other-service .card-body .card-title {
-        font-size: .7rem;
         margin-bottom: 0;
     }
 }

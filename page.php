@@ -25,7 +25,7 @@
                     <div class="post p-3">
                         <h4 class="text-center mb-4">Services we provide</h4>
                         <div class="row">
-                            <div class="col-6 col-md-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <a href="<?php echo get_site_url() . '/e-commerce-service'?>">
                                     <div class="card mb-3">
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/quality-e-commerce.jpg'?>" alt="Card image cap">
@@ -35,7 +35,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-6 col-md-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <a href="<?php echo get_site_url() . '/business-card-service'?>">
                                     <div class="card mb-3">
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/business-card-design.png'?>" alt="business card design">
@@ -45,7 +45,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-6 col-md-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <a href="<?php echo get_site_url() . '/flayer-design-service'?>">
                                     <div class="card mb-3">
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/flayer-service.png'?>" alt="Flayer Service">
@@ -55,7 +55,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-6 col-md-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <a href="<?php echo get_site_url() . '/remote-maintenance-service'?>">
                                     <div class="card mb-3">
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/website-test.png'?>" alt="Remote Maintenance">
@@ -65,7 +65,7 @@
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-6 col-md-4">
+                            <div class="col-12 col-sm-6 col-md-4">
                                 <a href="<?php echo get_site_url() . '/website-testing-service'?>">
                                     <div class="card mb-3">
                                         <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/programming-test.png'?>" alt="Website Test">

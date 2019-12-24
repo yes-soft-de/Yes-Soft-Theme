@@ -102,17 +102,17 @@
 
             <h4 class="text-center my-4">Other Services</h4>
             <div class="row other-service">
-                <div class="col-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4">
                     <a href="<?php echo get_site_url() . '/e-commerce-service'?>">
                         <div class="card mb-3">
                             <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/quality-e-commerce.jpg'?>" alt="Card image cap">
-                            <div class="card-body">
+                            <div class="card-body text-center">
                                 <h5 class="card-title">High Quality Scalable E-commerce Platform</h5>
                             </div>
                         </div>
                     </a>
                 </div>
-                <div class="col-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4">
                     <a href="<?php echo get_site_url() . '/remote-maintenance-service'?>">
                         <div class="card mb-3">
                             <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/website-test.png'?>" alt="Remote Maintenance">
@@ -122,7 +122,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="col-6 col-md-4">
+                <div class="col-12 col-sm-6 col-md-4">
                     <a href="<?php echo get_site_url() . '/website-testing-service'?>">
                         <div class="card mb-3">
                             <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/programming-test.png'?>" alt="Website Test">
