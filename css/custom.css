@@ -810,15 +810,15 @@ nav ul li a {
     display: block;
     position: absolute;
     bottom: -4em;
+    width: 140%;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .about-e-commerce-section .image-section::after,
 .about-remote-section .image-section::after {
     left: -30%;
-    width: 140%;
-    height: 50px;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .about-e-commerce-section .image-section::after {
@@ -827,11 +827,7 @@ nav ul li a {
 
 .about-marketing-section .image-section::after {
     background-image: url('../img/blue-bottom-line.png');
-    left: -12%;
-    width: 140%;
-    height: 50px;
-    background-size: cover;
-    background-repeat: no-repeat;
+    left: -6%;
 }
 
 .about-remote-section .image-section::after {
@@ -860,6 +856,40 @@ nav ul li a {
 .about-us-separate-page .about-remote-section {
     background-color: #ccc;
     padding-bottom: 100px;
+}
+
+@media (min-width: 1100px) and (max-width: 1199px) {
+    .about-marketing-section .image-section::after {
+        left: 3%;
+    }
+}
+
+/*style for md Screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .about-us-separate-page .about-us-section hr {
+        width: 8%;
+    }
+}
+
+/*style for sm Screen*/
+@media (min-width: 576px) and (max-width: 767px) {
+    .about-us-separate-page .about-us-section hr {
+        width: 15%;
+    }
+}
+
+/*style for xs Screen*/
+@media (max-width: 575px) {
+    .about-us-separate-page .about-us-section hr {
+        width: 10%;
+    }
+}
+
+/*style for small than xs Screen*/
+@media (max-width: 499px) {
+    .about-us-separate-page .about-us-section hr {
+        width: 12%;
+    }
 }
 /*End About Us Separate Page Section*/
 

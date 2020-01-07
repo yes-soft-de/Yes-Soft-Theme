@@ -8,7 +8,10 @@
 		<div class="about-us-section">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 col-sm-7 offset-1">
+                    <div class="col-6 d-sm-none mx-auto pl-0">
+                        <img src="<?php echo get_template_directory_uri() . '/img/laptop.png'; ?>" class="img-fluid" alt="laptop Image">
+                    </div>
+					<div class="col-12 col-sm-7 offset-md-1">
                         <hr class="mb-0 ml-2 mt-1">
 						<p class="text-justify">
 							<strong>Yes Soft</strong> is an ecommerce specialized software company located in Berlin/ Germany. It adopts open-source methodology. All its projects’ codes are available on <a href="https://github.com/yes-soft-de/">Github</a>.<br>
@@ -17,10 +20,8 @@
 							Are you still hesitated about the company? Why don't you check out <a href="http://ishtar-art.de/">ISHTAR ART</a> to evaluate everything by yourself?
 						</p>
 					</div>
-					<div class="col-12 col-sm-2 pl-0">
+					<div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 d-none d-sm-block pl-0">
                         <img src="<?php echo get_template_directory_uri() . '/img/laptop.png'; ?>" class="img-fluid" alt="laptop Image">
-<!--                        <div class="image-section mx-auto">-->
-<!--						</div>-->
 					</div>
 				</div>
 			</div>
@@ -28,13 +29,13 @@
 		<div class="about-e-commerce-section py-5">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 col-sm-3">
+					<div class="col-6 col-md-4 col-xl-3 mx-auto mx-md-0">
 						<div class="image-section mx-auto">
 							<img src="<?php echo get_template_directory_uri() . '/img/quality-e-commerce.jpg'; ?>" class="img-fluid" alt="laptop Image">
                             <p class="image-title-section text-center font-weight-bold">Ecommerce</p>
                         </div>
 					</div>
-					<div class="col-12 col-sm-7 pt-5">
+					<div class="col-12 col-sm-10 col-md-8 col-lg-7 pt-5 mx-auto mx-md-0">
 						<p class="text-justify">
 							<strong>E-Commerce</strong> means buying and selling of goods, products, or services over the internet. These services provided online over the internet network. Transaction of money, funds, and data are also considered as E-commerce.
 							At Yes Soft we adopted Ecommerce as a main working discipline. It’s the future as we see it. We have an online-working team. So, we concentrates on it as it has similarities with our vision. We are looking forward and working hard to be the first company that deliver this service in the whole world. We know that there are lots of companies working in this discipline out there and the competition is hot, but we know ourselves very good, too.
@@ -58,7 +59,13 @@
 		<div class="about-marketing-section py-5">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 col-sm-8 offset-1 pt-5">
+                    <div class="col-6 col-md-4 col-xl-3 mx-auto mx-md-0 d-md-none">
+                        <div class="image-section mx-auto">
+                            <img src="<?php echo get_template_directory_uri() . '/img/front-end.jpg'; ?>" class="img-fluid" alt="laptop Image">
+                            <p class="image-title-section text-center font-weight-bold">Ecommerce</p>
+                        </div>
+                    </div>
+					<div class="col-12 col-sm-10 col-md-7 col-xl-8 offset-sm-1 pt-5">
 						<p class="text-justify">
 							<strong>E-marketing</strong> is the process of marketing a product or service using the Internet. E-marketing not only includes marketing on the Internet, but also includes marketing done via email and wireless media. It uses a range of technologies to help connect businesses to their customers.
 							<br/><br/>
@@ -69,7 +76,7 @@
 							Of course they have. Do you know that E-marketing reduces marketing campaign cost as the marketing is done through the internet. And it facilitates monitoring through the web tracking capabilities. Finally, do you realize before how many hours do you spend online daily? Answer this question and you’ll get the point yourself.
 						</p>
 					</div>
-					<div class="col-12 col-sm-3" style="overflow: hidden;">
+					<div class="col-md-4 col-xl-3 mx-auto mx-md-0 d-none d-md-block" style="overflow: hidden;">
 						<div class="image-section mx-auto">
 							<img src="<?php echo get_template_directory_uri() . '/img/front-end.jpg'; ?>" class="img-fluid" alt="laptop Image">
                             <p class="image-title-section text-center font-weight-bold">Marketing</p>
@@ -81,13 +88,13 @@
 		<div class="about-remote-section pt-5">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-12 col-sm-3">
+					<div class="col-6 col-md-4 col-xl-3 mx-auto mx-md-0">
 						<div class="image-section mx-auto">
 							<img src="<?php echo get_template_directory_uri() . '/img/front-end.jpg'; ?>" class="img-fluid" alt="laptop Image">
                             <p class="image-title-section text-center font-weight-bold">Remote Maintenance</p>
                         </div>
 					</div>
-					<div class="col-12 col-sm-7 pt-5">
+					<div class="col-12 col-sm-10 col-md-8 col-lg-7 pt-5 mx-auto mx-md-0">
 						<p class="text-justify">
 							The third important side to tell you about in order to complete Our base triangle is: <strong>Remote maintenance</strong>.
 							<br/><br/>
