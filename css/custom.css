@@ -786,13 +786,82 @@ nav ul li a {
         font-size: .9rem;
     }
 }
-
-@media (max-width: 399px) {
-    .about-us-content .language-circle {
-        /*display: none;*/
-    }
-}
 /*End About Us Section*/
+
+/*Start About Us Separate Page Section*/
+.about-us-separate-page .about-us-section hr {
+    width: 5%;
+    height: 2px;
+    background: var(--orange);
+}
+
+.about-us-separate-page .image-section {
+    width: 70%;
+    position: relative;
+}
+
+.about-us-separate-page .image-section .image-title-section {
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+
+.about-us-separate-page .image-section::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -4em;
+}
+
+.about-e-commerce-section .image-section::after,
+.about-remote-section .image-section::after {
+    left: -30%;
+    width: 140%;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-e-commerce-section .image-section::after {
+    background-image: url('../img/orange-bottom-line.png');
+}
+
+.about-marketing-section .image-section::after {
+    background-image: url('../img/blue-bottom-line.png');
+    left: -12%;
+    width: 140%;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-remote-section .image-section::after {
+    background-image: url('../img/black-bottom-line.png');
+}
+
+.about-us-separate-page .about-us-section {
+    padding: 100px 0 50px;
+}
+
+.about-us-separate-page .about-e-commerce-section p span {
+    display: block;
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 1.15rem;
+}
+
+.about-us-separate-page .about-e-commerce-section {
+    background-color: #ffe7ff;
+}
+
+.about-us-separate-page .about-marketing-section {
+    background-color: #eee;
+}
+
+.about-us-separate-page .about-remote-section {
+    background-color: #ccc;
+    padding-bottom: 100px;
+}
+/*End About Us Separate Page Section*/
 
 /*Start Customer Section*/
 .client-say hr {
