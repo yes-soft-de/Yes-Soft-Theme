@@ -87,7 +87,7 @@
                     </div>
                     <div class="info">
                         <div class="ishtar">
-                            <h3>Ishtar</h3>
+                            <h3><a href="http://ishtar-art.de/">Ishtar</a></h3>
                             <p>
                                 Ishtar is the East Semitic Akkadian, Assyrian and Babylonian goddess of fertility, love, war, and sex. She is the counterpart to the Sumerian Inanna, and is the cognate for the Northwest Semitic Aramean goddess Astarte.
                             </p>
