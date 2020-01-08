@@ -107,7 +107,7 @@ a:hover {
 
 nav ul li.menu-item {
     padding-left: 20px;
-    margin-left: 25px;
+    margin-left: 15px;
 }
 
 nav ul li a {
@@ -184,11 +184,12 @@ nav ul li a {
 .bg-nav-logo {
     position: absolute;
     top: -16px;
-    left: 0%;
+    left: 0;
     width: 25%;
     z-index: 999999;
-    height: 30%;
+    height: 280%;
 }
+
 .nav-logo {
     top: 30%;
     position: absolute;
@@ -200,14 +201,14 @@ nav ul li a {
 /*style for lg Screen*/
 @media (min-width: 992px) and (max-width: 1199px) {
     .bg-nav-logo {
-        height: 25%;
+        height: 250%;
     }
 }
 
 /*style for md Screen*/
 @media (min-width: 768px) and (max-width: 991px) {
     .bg-nav-logo {
-        height: 20%;
+        height: 200%;
     }
 }
 /* ---- End Background NavBar Logo---- */
@@ -835,7 +836,7 @@ nav ul li a {
 }
 
 .about-us-separate-page .about-us-section {
-    padding: 100px 0 50px;
+    padding: 10% 0 50px;
 }
 
 .about-us-separate-page .about-e-commerce-section p span {

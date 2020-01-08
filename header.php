@@ -43,8 +43,18 @@
                 <span class="navbar-toggler-icon"></span>
 
             </button>
+            <div class="bg-nav-logo d-none d-md-block">
+                <img src="<?php echo get_template_directory_uri() . '/img/bg-logo.png' ?>" class="responsive-element" alt="background Logo">
+                <div class="nav-logo">
+                    <a href="<?php echo get_site_url()?>">
+                        <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" class="responsive-element" alt="Logo">
+                    </a>
+                </div>
+            </div>
             <div class="col-4 d-md-none px-0 px-sm-3">
-                <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" class="" alt="yes soft logo">
+                <a href="<?php echo get_site_url(); ?>">
+                    <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" class="" alt="yes soft logo">
+                </a>
             </div>
 
 

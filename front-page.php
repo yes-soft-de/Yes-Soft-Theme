@@ -9,14 +9,6 @@
 <!-- End Up Button Section -->
 
 <div class="home">
-    <div class="bg-nav-logo d-none d-md-block">
-        <img src="<?php echo get_template_directory_uri() . '/img/bg-logo.png' ?>" class="responsive-element" alt="background Logo">
-        <div class="nav-logo">
-            <a href="<?php echo get_site_url()?>">
-                <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" class="responsive-element" alt="Logo">
-            </a>
-        </div>
-    </div>
     <!--Start slider section-->
     <div class="home-slider">
         <div class="home-slide col-12">
