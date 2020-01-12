@@ -1,7 +1,7 @@
 <?php
 
 // Include Our Function admin file
-require get_template_directory() . '/inc/function-admin.php';
+require get_template_directory() . '/inc/custom-user-fields.php';
 // Include NavWalker Class For Bootstrap Navigation Menu
 require_once 'wp-bootstrap-navwalker.php';
 

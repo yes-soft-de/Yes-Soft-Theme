@@ -343,7 +343,7 @@
     <div class="our-team py-5">
         <?php
         global $wpdb;
-        $query = "SELECT ID from $wpdb->users";
+        $query = "SELECT * from $wpdb->users";
         $author_ids = $wpdb->get_results($query);
         $users = array();
         foreach($author_ids as $author) {
