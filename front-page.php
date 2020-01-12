@@ -333,6 +333,33 @@
 
     <!--Start Our Team Section-->
     <div class="our-team py-5">
+        <?php
+        global $wpdb;
+        $query = "SELECT * from $wpdb->users";
+        $author_ids = $wpdb->get_results($query);
+        $users = array();
+        foreach($author_ids as $author) {
+	        // Get user data
+	        $curauth = get_userdata($author->ID);
+	        // Get link to author page
+	        $link = 'author/' . $curauth->user_nicename;
+	        $name = $curauth->display_name;
+	        $users[$link] = $name;
+        }
+        asort($users);
+        ?>
+        <ol>
+            // Loop through each author
+		    <?php foreach($users as $link => $name) : ?>
+                <li>
+                    <a href="<?php echo $link; ?>" title="<?php echo $name; ?>">
+					    <?php echo $name; ?>
+                    </a>
+                </li>
+		    <?php endforeach; ?>
+        </ol>
+
+        ?>
         <div class="container-fluid">
             <h2 class="text-center mb-4">Our Team</h2>
             <div class="our-team-slider">
