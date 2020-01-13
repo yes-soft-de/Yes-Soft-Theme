@@ -304,7 +304,13 @@ nav ul li a {
 
 /*style for xs Screen*/
 @media (max-width: 575px) {
+    .home-slider .home-slide {
+        left: 1% !important;
+        width: 100vw !important;
+    }
+
     .home-slide .slider-content {
+        margin: 0 auto;
         top: 0;
     }
 
@@ -430,7 +436,10 @@ nav ul li a {
     .our-projects .info p {
         font-size: 1rem;
     }
-    
+
+    .our-projects .project {
+        width: 100vh;
+    }
     
    .our-projects .slick-dots {
         left: -3.5%;
@@ -564,14 +573,20 @@ nav ul li a {
 
 /*style for xs Screen*/
 @media (max-width: 575px) {
+    .specialise-content .specialise {
+        width: 100vh;
+    }
+
     .specialise-content .specialise .specialise-image {
         top: 5rem;
-        left: 10%;
+        left: 0;
+        margin: 0 auto;
     }
 
     .specialise-content .specialise .specialise-desc {
         bottom: 0;
-        left: 17%;
+        margin: 0 auto;
+        left: 0;
     }
 
     .specialise .specialise-desc h3 {
@@ -738,6 +753,7 @@ nav ul li a {
 
     .about-us-content .row .col-4 {
         padding-left: 0;
+        padding-right: 0;
     }
 
     .about-us .about-us-slider {
@@ -780,9 +796,6 @@ nav ul li a {
         padding-left: 0;
     }
 
-    .about-us-content {
-        left: 1%;
-    }
     .about-us-content .about-us-text p {
         font-size: .9rem;
     }

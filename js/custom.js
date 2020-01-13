@@ -1,6 +1,9 @@
 var customNav = $('.navbar.custom-nav'),
-    projectItem = $('div.project-item');
-    info = $('.info');
+    projectItem = $('div.project-item'),
+    info = $('.info'),
+    verticalSwipingSlick = true,
+    verticalSlick = true,
+    dotsSlick = true,
     upButton = $('.move-up .move-up-button');
 
 // Make Web Loader
@@ -12,12 +15,22 @@ var customNav = $('.navbar.custom-nav'),
 // Padding For The Document
 $('html').css('padding-top', customNav.innerHeight());
 
+// Check For Mobile screen size
+if (window.innerWidth < '576') {
+    verticalSlick = false;
+    verticalSwipingSlick = false;
+    dotsSlick = false;
+} else {
+    verticalSlick = true;
+    verticalSwipingSlick = true;
+    dotsSlick = true;
+}
 // Slider all Section
 $('.home-slider, .our-projects-slider, .specialise-slider, .about-us-slider, .our-team-slider').slick({
     autoplay: true,
-    vertical: true,
-    verticalSwiping: true,
-    dots: true,
+    vertical: verticalSlick,
+    verticalSwiping: verticalSwipingSlick,
+    dots: dotsSlick,
     arrows: false,
     autoplaySpeed: 4000,
 });

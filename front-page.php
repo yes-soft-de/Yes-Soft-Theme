@@ -11,9 +11,9 @@
 <div class="home">
     <!--Start slider section-->
     <div class="home-slider">
-        <div class="home-slide col-12">
+        <div class="home-slide">
             <div class="row">
-                <div class="col-9 col-lg-6 col-xl-7 offset-2 offset-xl-1 slider-content align-self-center text-center">
+                <div class="col-9 col-lg-6 col-xl-7 offset-sm-2 offset-xl-1 slider-content align-self-center text-center">
                     <h1>E-commerce services</h1>
                     <p>
                         It’s our main business field. We design and develop ecommerce websites from A to Z.
@@ -27,7 +27,7 @@
         </div>
         <div class="home-slide">
             <div class="row">
-                <div class="col-9 col-lg-6 col-xl-7 offset-2 offset-xl-1 slider-content align-self-center text-center">
+                <div class="col-9 col-lg-6 col-xl-7 offset-sm-2 offset-xl-1 slider-content align-self-center text-center">
                     <h1>Android App Development</h1>
                     <p>Most of the internet traffic today comes from mobile users. This means that building an app will help your business bring value to modern users. our expertise in android app development will help you succeed with your mobile strategy</p>
                 </div>
@@ -38,7 +38,7 @@
         </div>
         <div class="home-slide">
             <div class="row">
-                <div class="col-9 col-lg-6 col-xl-7 offset-2 offset-xl-1 slider-content align-self-center text-center">
+                <div class="col-9 col-lg-6 col-xl-7 offset-sm-2 offset-xl-1 slider-content align-self-center text-center">
                     <h1>Remote Maintenance</h1>
                     <p>this field is also trending in today’s world. We offer e-marketing campaigns at social media platforms or email-based, graphic design, promoting videos, content marketing, and SEO</p>
                 </div>
@@ -57,7 +57,7 @@
                 The final result will be a website where users can browse, interact, review and buy masterpieces or order a custom one if wanted. They also can follow artists or art schools.
             </p>
             <div class="our-projects-slider">
-                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-1 offset-md-2 project">
+                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">
                     <div id="project-1" class="project-list list">
                         <div class="row">
                             <div data-t="ishtar" class="col-4 selected project-item">
@@ -102,7 +102,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-1 offset-md-2 project">
+                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">
                     <div class="project-big-style">
                         <div id="project-2" class="project-list list">
                             <div class="row">
@@ -145,7 +145,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-1 offset-md-2 project">
+                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">
                     <div class="project-big-style">
                         <div id="project-3" class="project-list list">
                             <div class="row">
@@ -310,7 +310,7 @@
             <h2 class="text-center">Our Client Say</h2>
             <hr class="w-25">
             <div class="client-say-slider mb-0">
-                <div class="col-11 col-sm-9 col-md-8 offset-1 offset-sm-2 client">
+                <div class="col-12 col-sm-11 col-sm-9 col-md-8 offset-sm-2 client">
                     <div class="row">
                         <div class="col-12 col-sm-4">
                             <div class="client-image text-center">
@@ -334,36 +334,36 @@
     <!--Start Our Team Section-->
     <div class="our-team py-5">
         <?php
-        global $wpdb;
-        $query = "SELECT * from $wpdb->users";
-        $author_ids = $wpdb->get_results($query);
-        $users = array();
-        foreach($author_ids as $author) {
-	        // Get user data
-	        $curauth = get_userdata($author->ID);
-	        // Get link to author page
-	        $link = 'author/' . $curauth->user_nicename;
-	        $name = $curauth->display_name;
-	        $users[$link] = $name;
-        }
-        asort($users);
-        ?>
-        <ol>
-            // Loop through each author
-		    <?php foreach($users as $link => $name) : ?>
-                <li>
-                    <a href="<?php echo $link; ?>" title="<?php echo $name; ?>">
-					    <?php echo $name; ?>
-                    </a>
-                </li>
-		    <?php endforeach; ?>
-        </ol>
+//        global $wpdb;
+//        $query = "SELECT * from $wpdb->users";
+//        $author_ids = $wpdb->get_results($query);
+//        $users = array();
+//        foreach($author_ids as $author) {
+//	        // Get user data
+//	        $curauth = get_userdata($author->ID);
+//	        // Get link to author page
+//	        $link = 'author/' . $curauth->user_nicename;
+//	        $name = $curauth->display_name;
+//	        $users[$link] = $name;
+//        }
+//        asort($users);
+//        ?>
+<!--        <ol>-->
+<!--            // Loop through each author-->
+<!--		    --><?php //foreach($users as $link => $name) : ?>
+<!--                <li>-->
+<!--                    <a href="--><?php //echo $link; ?><!--" title="--><?php //echo $name; ?><!--">-->
+<!--					    --><?php //echo $name; ?>
+<!--                    </a>-->
+<!--                </li>-->
+<!--		    --><?php //endforeach; ?>
+<!--        </ol>-->
 
-        ?>
+<!--        ?>-->
         <div class="container-fluid">
             <h2 class="text-center mb-4">Our Team</h2>
             <div class="our-team-slider">
-                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
+                <div class="col-12 col-sm-11 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 team">
                     <div class="row">
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative px-3 px-lg-4 py-5">
@@ -414,7 +414,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
+                <div class="col-12 col-sm-11 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 team">
                     <div class="row">
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
@@ -465,7 +465,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
+                <div class="col-12 col-sm-11 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 team">
                     <div class="row">
                         <!--Osama Alhamoud-->
                         <div class="col-12 col-sm-6 mb-5">
@@ -517,7 +517,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
+                <div class="col-12 col-sm-11 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 team">
                     <div class="row">
                         <!--Bassel Al-Salloum-->
                         <div class="col-12 col-sm-6 mb-5">
@@ -567,7 +567,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
+                <div class="col-12 col-sm-11 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 team">
                     <div class="row">
                         <!--Mujeeba Haj Najeeb-->
                         <div class="col-12 col-sm-6 mb-5">
@@ -618,7 +618,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-9 col-xl-8 offset-1 offset-md-2 team">
+                <div class="col-12 col-sm-11 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 team">
                     <div class="row">
                         <!--Nisreen Abu Zidan-->
                         <div class="col-12 col-sm-6 mb-5">
