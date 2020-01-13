@@ -13,7 +13,7 @@ var customNav = $('.navbar.custom-nav'),
 
 
 // Padding For The Document
-$('html').css('padding-top', customNav.innerHeight());
+$('body').css('padding-top', customNav.innerHeight());
 
 // Check For Mobile screen size
 if (window.innerWidth < '576') {
