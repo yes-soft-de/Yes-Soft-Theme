@@ -60,7 +60,19 @@ $("#project-4 .row div.project-item").click(function () {
     $("." + $(this).data("t")).fadeIn();
 });
 
+// Business Card Service Detail Page
+$("#project-business-card .row div.project-item").click(function () {
+    $(this).addClass("selected").siblings(projectItem).removeClass("selected");
+    $(this).parents("#project-business-card").siblings(info).children().hide();
+    $("." + $(this).data("t")).fadeIn();
+});
 
+// Business Card Service Detail Page
+$("#project-presta-shop .row div.project-item").click(function () {
+    $(this).addClass("selected").siblings(projectItem).removeClass("selected");
+    $(this).parents("#project-presta-shop").siblings(info).children().hide();
+    $("." + $(this).data("t")).fadeIn();
+});
 
 
 // Scrolling Event

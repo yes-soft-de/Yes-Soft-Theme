@@ -23,6 +23,15 @@
     transform: rotate(90deg);
 }
 
+.slick-dots li button:before {
+    content: '';
+    width: 20px;
+    height: 10px;
+    opacity: .25;
+    background: #333;
+    border-radius: 10px;
+}
+
 :root {
     scroll-behavior: smooth;
     --darker: #212322;
@@ -265,6 +274,14 @@ nav ul li a {
     line-height: 2;
 }
 
+.home-slider .slick-dots li button:before {
+    opacity: 1;
+    background: #333;
+}
+
+.home-slider .slick-dots li.slick-active button:before {
+    background: #fff;
+}
 /*style for lg Screen*/
 @media (min-width: 992px) and (max-width: 1199px) {
     .home-slide .slider-content h1 {
@@ -366,14 +383,24 @@ nav ul li a {
     color: #fff
 }
 
-.our-projects .info > div  {
-    background: #ccc;
+.our-projects .info > div {
+    background: #fff;
     padding: 20px;
     font-size: 20px;
+    border: 1px solid #45a9b7;
 }
 
 .our-projects .info > div:not(:first-of-type){
     display: none;
+}
+
+.our-projects .slick-dots li button:before {
+    opacity: 1;
+    background: #333;
+}
+
+.our-projects .slick-dots li.slick-active button:before {
+    background: var(--blue);
 }
 
 /*style for md Screen*/
@@ -522,6 +549,14 @@ nav ul li a {
     font-size: 1.5rem;
 }
 
+.specialise-content .slick-dots li button:before {
+    opacity: 1;
+    background: #fff;
+}
+
+.specialise-content .slick-dots li.slick-active button:before {
+    background: var(--blue);
+}
 /*style for lg Screen*/
 @media (min-width: 992px) and (max-width: 1199px) {
     .specialise .specialise-desc h3 {
@@ -661,6 +696,16 @@ nav ul li a {
 .about-us-content .language-circle span {
     font-size: 2rem
 }
+
+.about-us .slick-dots li button:before {
+    opacity: 1;
+    background: #fff;
+}
+
+.about-us .slick-dots li.slick-active button:before {
+    background: var(--blue);
+}
+
 /*style for lg Screen*/
 @media (min-width: 992px) and (max-width: 1199px) {
     .about-us .about-us-body h3 {
@@ -1266,14 +1311,16 @@ nav ul li a {
 }
 
 .our-team .team-member img {
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
     position: absolute;
-    top: -25px;
+    top: -40px;
 }
+
 .our-team .team-member .team-member-content i {
     color: var(--orange);
 }
+
 .our-team .our-team-slider .slick-list.draggable {
     padding-top: 40px;
 }
@@ -1285,8 +1332,8 @@ nav ul li a {
     }
 
     .our-team .team-member img {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         top: -25px;
     }
 
@@ -1314,8 +1361,8 @@ nav ul li a {
     }
 
     .our-team .team-member img {
-        width: 50px;
-        height: 50px;
+        width: 60px;
+        height: 60px;
         top: -25px;
     }
 
@@ -1347,8 +1394,8 @@ nav ul li a {
     }
 
     .our-team .team-member img {
-        width: 50px;
-        height: 50px;
+        width: 65px;
+        height: 65px;
         top: -25px;
     }
 
@@ -1490,7 +1537,14 @@ nav ul li a {
 /* ---- Start Our Services Page ---- */
 .our-services {
     background: url("../img/background.png") no-repeat;
-    background-size: cover;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+
+.our-services.our-posts .post {
+    background-color: #fff;
 }
 
 .our-services .post .card .card-img-top,
@@ -1562,16 +1616,33 @@ nav ul li a {
 /* ---- End Our Services Page ---- */
 
 /* ---- Start Hire Services Page ---- */
-.hire-service {
-    background: var(--blue);
+.hire-service.our-posts .post {
+    border: 1px solid #ddd;
 }
 
-.hire-service p {
+.hire-service h4 {
+    color: var(--blue);
+}
+
+.hire-service .hire-image-background {
+    width: 100%;
+    height: 85vh;
+}
+
+.hire-service .hire-image-background  p {
     font-size: 2rem
 }
 
+.hire-service .hire-image-background  p span {
+    color: var(--orange);
+}
+
+.hire-service .hire-content {
+    font-size: 1.5rem;
+}
+
 .hire-service .email-to-hire {
-    font-size: 3rem
+    font-size: 2.5rem
 }
 
 /*style for sm Screen*/
@@ -1604,7 +1675,7 @@ nav ul li a {
 }
 /* ---- End Hire Services Page ---- */
 
-/* ---- Start Hire Services Page ---- */
+/* ---- Start Ecommerce Services Page ---- */
 .e-commerce-service {
     background: url("../img/service-background.png") no-repeat;
     background-size: cover;
@@ -1642,8 +1713,41 @@ nav ul li a {
     border: 1.5px solid var(--blue) !important;
 }
 
+.e-commerce-service .info p {
+    font-size: 1.2rem;
+}
+
+.e-commerce-service .info p span {
+    color: var(--blue);
+}
+
 .e-commerce-service .info > div:not(:first-of-type){
     display: none;
+}
+
+.e-commerce-service .info .basic,
+.e-commerce-service .info .standard,
+.e-commerce-service .info .premium {
+    position: relative;;
+}
+
+.e-commerce-service .info .service-cost {
+    background: url("../img/cost-background.png") no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    right: -32px;
+    z-index: 99;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.e-commerce-service .info .service-cost span {
+    vertical-align: -webkit-baseline-middle;
 }
 
 .e-commerce-service .info .basic button,
@@ -1693,7 +1797,7 @@ nav ul li a {
         font-size: 1.4rem;
     }
 }
-/* ---- End Hire Services Page ---- */
+/* ---- End Ecommerce  Services Page ---- */
 
 /* ---- Start footer ---- */
 .footer {

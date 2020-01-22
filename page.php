@@ -6,7 +6,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-
                     <div class="col-md-10 mx-auto pt-5">
                         <div class="row">
                             <div class="col-4 col-sm-3 col-md-2 mx-auto mb-3">
@@ -23,8 +22,32 @@
 
 
                     <div class="post p-3">
-                        <h4 class="text-center mb-4">Services we provide</h4>
+                        <h4 class="text-center mb-3">Services we provide</h4>
+                        <hr class="w-25 bg-secondary mx-auto mb-5" />
                         <div class="row">
+                            <div class="col-12 mb-3">
+                                <h4>Ecommerce Service :</h4>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <a href="<?php echo get_site_url() . '/presta-shop'?>">
+                                    <div class="card mb-3">
+                                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/presta-shop.jpg'?>" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">PrestaShop</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <a href="<?php echo get_site_url() . '/magento-service'?>">
+                                    <div class="card mb-3">
+                                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/presta-shop.jpg'?>" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Magento</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                             <div class="col-12 col-sm-6 col-md-4">
                                 <a href="<?php echo get_site_url() . '/e-commerce-service'?>">
                                     <div class="card mb-3">
@@ -55,6 +78,20 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="col-12 mb-3">
+                                <hr class="w-50 bg-secondary mx-auto mb-5" />
+                                <h4>Emarketing Service :</h4>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <a href="<?php echo get_site_url() . '/facebook-instagram-management'?>">
+                                    <div class="card mb-3">
+                                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/website-test.png'?>" alt="Remote Maintenance">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Facebook & instagram page management</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                             <div class="col-12 col-sm-6 col-md-4">
                                 <a href="<?php echo get_site_url() . '/remote-maintenance-service'?>">
                                     <div class="card mb-3">
@@ -75,10 +112,35 @@
                                     </div>
                                 </a>
                             </div>
+                            <div class="col-12 mb-3">
+                                <hr class="w-50 bg-secondary mx-auto mb-5" />
+                                <h4>Wordpress Service :</h4>
+                            </div>
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <a href="#">
+                                    <div class="card mb-3">
+                                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/programming-test.png'?>" alt="Website Test">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Create Premium Theme</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-4">
+                                <a href="#">
+                                    <div class="card mb-3">
+                                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/programming-test.png'?>" alt="Website Test">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Fix Errors</h5>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
                         </div>
-                    </div>
+                    </div><!--.port-->
                 </div>               
-            </div>
+            </div><!--.row-->
         </div>
     </div>
     <!--End Post Content Page-->
