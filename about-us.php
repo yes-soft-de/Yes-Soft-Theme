@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-6 col-md-4 col-xl-3 mx-auto mx-md-0">
                         <div class="image-section mx-auto">
-                            <img src="<?php echo get_template_directory_uri() . '/img/quality-e-commerce.jpg'; ?>" class="img-fluid" alt="laptop Image">
+                            <img src="<?php echo get_template_directory_uri() . '/img/aboutus-ecommerce.png'; ?>" class="img-fluid" alt="laptop Image">
                             <p class="image-title-section text-center font-weight-bold">Ecommerce</p>
                         </div>
                     </div>
@@ -92,7 +92,7 @@
                 <div class="row">
                     <div class="col-6 col-md-4 col-xl-3 mx-auto mx-md-0">
                         <div class="image-section mx-auto">
-                            <img src="<?php echo get_template_directory_uri() . '/img/website-test.png'; ?>" class="img-fluid" alt="laptop Image">
+                            <img src="<?php echo get_template_directory_uri() . '/img/aboutus-remote-maintenance.png'; ?>" class="img-fluid" alt="laptop Image">
                             <p class="image-title-section text-center font-weight-bold">Remote Maintenance</p>
                         </div>
                     </div>

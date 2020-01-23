@@ -94,7 +94,7 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <a href="<?php echo get_site_url() . '/e-commerce-service'?>">
                         <div class="card mb-3">
-                            <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/quality-e-commerce.jpg'?>" alt="Card image cap">
+                            <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/quality-e-commerce.jpg'?>" alt="Card image cap">
                             <div class="card-body text-center">
                                 <h5 class="card-title">High Quality Scalable E-commerce Platform</h5>
                             </div>
@@ -104,7 +104,7 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <a href="<?php echo get_site_url() . '/flayer-design-service'?>">
                         <div class="card mb-3">
-                            <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/flayer-service.png'?>" alt="Flayer Service">
+                            <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/flayer-service.png'?>" alt="Flayer Service">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Flayer Design</h5>
                             </div>
@@ -115,7 +115,7 @@
                 <div class="col-12 col-sm-6 col-md-4">
                     <a href="<?php echo get_site_url() . '/website-testing-service'?>">
                         <div class="card mb-3">
-                            <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/programming-test.png'?>" alt="Website Test">
+                            <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/programming-test.png'?>" alt="Website Test">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Website Test</h5>
                             </div>

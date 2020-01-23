@@ -112,7 +112,7 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <a href="<?php echo get_site_url() . '/business-card-service'?>">
                     <div class="card mb-3">
-                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/business-card-design.png'?>" alt="business card design">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/business-card-design.png'?>" alt="business card design">
                         <div class="card-body text-center">
                             <h5 class="card-title">Business Card</h5>
                         </div>
@@ -122,7 +122,7 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <a href="<?php echo get_site_url() . '/flayer-design-service'?>">
                     <div class="card mb-3">
-                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/flayer-service.png'?>" alt="Flayer Service">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/flayer-service.png'?>" alt="Flayer Service">
                         <div class="card-body text-center">
                             <h5 class="card-title">Flayer Design</h5>
                         </div>
@@ -132,7 +132,7 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <a href="<?php echo get_site_url() . '/remote-maintenance-service'?>">
                     <div class="card mb-3">
-                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/website-test.png'?>" alt="Remote Maintenance">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/website-test.png'?>" alt="Remote Maintenance">
                         <div class="card-body text-center">
                             <h5 class="card-title">Remote Maintenance</h5>
                         </div>

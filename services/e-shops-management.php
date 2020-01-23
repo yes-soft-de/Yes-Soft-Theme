@@ -1,13 +1,13 @@
-<?php /* Template Name: facebookInstagramManagement */ ?>
+<?php /* Template Name: eShopsManagement */ ?>
 <?php get_header() ?>
 
 <div class="our-posts e-commerce-service our-services py-5">
     <div class="container">
-        <h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center">Facebook  & instagram page management</h1>
+        <h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center">E shops management</h1>
         <div class="post p-3 pb-4 bg-white mb-5">
             <hr class="mb-3 mt-1">
             <p class="general-desc mb-5">
-                Pages management needs time, organization, experience, and team, and to get the best results, it needs constant follow-up and continuity.
+                Interesting in the e-store and managing it in an ideal way, need specialists, filter data in friendly ways for search engines, follow up on results, and develop the store day by day and discover weaknesses and strengths, all this needs specialists.
             </p>
             <div class="project">
                 <div id="project-presta-shop" class="project-list list mb-3">
@@ -47,13 +47,11 @@
                             <div class="col-12 col-md-6 text-center text-md-right mb-3">
                                 <h3 class="font-weight-bold">Revisions: 1 </h3>
                             </div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Facebook page management</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Page Profile Design (Cover + Personal Photo)</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Design a visual identity for all posts and create post templates</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Setting dates for publication during the month according to a publication strategy that matches your business</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Daily content management and publishing</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Increase the quality of posts, respond to comments, and respond to messages</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Monthly report on page performance and results</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Inserting products on a daily basis</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Managing offers</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Content management on all store pages</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Issuing daily reports on the site's performance</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">A monthly report on visitor and sales traffic and a plan to improve performance</p></div>
                             <div class="col-12 d-none text-center mt-5">
                                 <button type="button" class="btn">Continue With Basic</button>
                             </div>
@@ -82,14 +80,12 @@
                             <div class="col-12 col-md-6 text-center text-md-right mb-3">
                                 <h3 class="font-weight-bold">Revisions: 1 </h3>
                             </div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Facebook page management</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Page Profile Design (Cover + Personal Photo)</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Design a visual identity for all posts and create post templates</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Setting dates for publication during the month according to a publication strategy that matches your business</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Daily content management and publishing</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Increase the quality of posts, respond to comments, and respond to messages</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Monthly report on page performance and results</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Instegram page management</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Inserting products on a daily basis</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Managing offers</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Content management on all store pages</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Issuing daily reports on the site's performance</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">A monthly report on visitor and sales traffic and a plan to improve performance</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Customer service 24/24</p></div>
                             <div class="col-12 d-none text-center mt-5">
                                 <button type="button" class="btn">Continue With Standard</button>
                             </div>
@@ -118,19 +114,13 @@
                             <div class="col-12 col-md-6 text-center text-md-right mb-3">
                                 <h3 class="font-weight-bold">Revisions: 1 </h3>
                             </div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Facebook page management</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Page Profile Design (Cover + Personal Photo)</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Design a visual identity for all posts and create post templates</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Setting dates for publication during the month according to a publication strategy that matches your business</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Daily content management and publishing</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Increase the quality of posts, respond to comments, and respond to messages</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Monthly report on page performance and results</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Instegram page management</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Expand the target slide</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Conducting a marketing study</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Competitors analysis</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Building a community for page fans</p></div>
-                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Publishing to other societies</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Inserting products on a daily basis</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Managing offers</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Content management on all store pages</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Issuing daily reports on the site's performance</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">A monthly report on visitor and sales traffic and a plan to improve performance</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Customer service 24/24</p></div>                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Monthly report on page performance and results</p></div>
+                            <div class="col-12 col-sm-4 mt-3 mb-1 mx-auto text-center"><p class="mb-0">Shop Marketing</p></div>
                             <div class="col-12 d-none text-center mt-5">
                                 <button type="button" class="btn">Continue With Premium</button>
                             </div>

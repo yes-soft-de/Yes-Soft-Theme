@@ -31,7 +31,7 @@
                 <div class="info">
                     <div class="basic">
                         <div class="service-cost position-absolute text-center">
-                            <span>600$</span>
+                            <span>600&euro;</span>
                         </div>
                         <p>
                             Online Shop based on Ishtar platform high quality responsive SPA search engine friendly.
@@ -60,7 +60,7 @@
                     </div>
                     <div class="standard">
                         <div class="service-cost position-absolute text-center">
-                            <span>900$</span>
+                            <span>900&euro;</span>
                         </div>
                         <p>
                             Online shop based on Ishtar platform+ SEO+ Managing your marketing for one month.
@@ -91,7 +91,7 @@
                     </div>
                     <div class="premium">
                         <div class="service-cost position-absolute text-center">
-                            <span>1200$</span>
+                            <span>1200&euro;</span>
                         </div>
                         <p>
                             Online Shop + Android App. Online shop based on Ishtar platform + Basic Android App.
@@ -130,7 +130,7 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <a href="<?php echo get_site_url() . '/business-card-service'?>">
                     <div class="card mb-3">
-                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/business-card-design.png'?>" alt="business card design">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/business-card-design.png'?>" alt="business card design">
                         <div class="card-body text-center">
                             <h5 class="card-title">Business Card</h5>
                         </div>
@@ -140,7 +140,7 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <a href="<?php echo get_site_url() . '/flayer-design-service'?>">
                     <div class="card mb-3">
-                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/flayer-service.png'?>" alt="Flayer Service">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/flayer-service.png'?>" alt="Flayer Service">
                         <div class="card-body text-center">
                             <h5 class="card-title">Flayer Design</h5>
                         </div>
@@ -150,7 +150,7 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <a href="<?php echo get_site_url() . '/website-testing-service'?>">
                     <div class="card mb-3">
-                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/website-test.png'?>" alt="Remote Maintenance">
+                        <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/website-test.png'?>" alt="Remote Maintenance">
                         <div class="card-body text-center">
                             <h5 class="card-title">Remote Maintenance</h5>
                         </div>
