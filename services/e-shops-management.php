@@ -9,6 +9,78 @@
             <p class="general-desc mb-5">
                 Interesting in the e-store and managing it in an ideal way, need specialists, filter data in friendly ways for search engines, follow up on results, and develop the store day by day and discover weaknesses and strengths, all this needs specialists.
             </p>
+
+            <div class="row">
+                <div class="col-4 text-center mb-3">
+                    <img src="<?php echo get_template_directory_uri() . '/img/services/presta-shop.jpg' ?>" class="img-fluid" alt="" />
+                </div>
+                <div class="col-4 text-center mb-3">
+                    <img src="<?php echo get_template_directory_uri() . '/img/services/presta-shop-2.jpg' ?>" class="img-fluid" alt="" />
+                </div>
+                <div class="col-4 text-center mb-3">
+                    <img src="<?php echo get_template_directory_uri() . '/img/services/presta-shop-3.jpg' ?>" class="img-fluid" alt="" />
+                </div>
+            </div>
+            <h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center pt-5">Presta Shop Service</h1>
+            <hr class="my-3">
+            <p class="general-desc mb-5">
+                Interesting in the e-store and managing it in an ideal way, need specialists, filter data in friendly ways for search engines, follow up on results, and develop the store day by day and discover weaknesses and strengths, all this needs specialists.
+            </p>
+            <table class="table">
+                <thead class="thead-light">
+                <tr>
+                    <th scope="col">Services</th>
+                    <th scope="col" class="text-center">Basic</th>
+                    <th scope="col" class="text-center">Standard</th>
+                    <th scope="col" class="text-center">Premium</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">Design Customization.</th>
+                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">Responsive Design.</th>
+                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">PContent Upload.</th>
+                    <td></td>
+                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">Setup Payment Gateway.</th>
+                    <td></td>
+                    <td></td>
+                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                </tr>
+                <tr>
+                    <th scope="row">Delivery time</th>
+                    <td class="text-center">5 Days</td>
+                    <td class="text-center">10 Days</td>
+                    <td class="text-center">15 Days</td>
+                </tr>
+                <tr>
+                    <th scope="row">Revisions</th>
+                    <td class="text-center">1</td>
+                    <td class="text-center">2</td>
+                    <td class="text-center">3</td>
+                </tr>
+                <tr>
+                    <th scope="row">Price</th>
+                    <td><span>600&euro;</span></td>
+                    <td><span>900&euro;</span></td>
+                    <td><span>1200&euro;</span></td>
+                </tr>
+                </tbody>
+            </table>
+
             <div class="project">
                 <div id="project-presta-shop" class="project-list list mb-3">
                     <div class="row">

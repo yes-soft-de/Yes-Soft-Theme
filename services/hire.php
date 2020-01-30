@@ -8,22 +8,28 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="post p-3">
-                    <h4 class="text-center mb-5">We are Hiring</h4>
+                    <h4 class="text-center mb-1">We are Hiring</h4>
+                    <p class="lead text-center">
+                        Be one of our team
+                        Programmars front end / back
+                        end
+                        <span>Required</span>
+                    </p>
                     <div class="row">
                         <div class="col-12">
                             <div class="hire-image-background position-relative">
                                 <img src="<?php echo get_template_directory_uri() . '/img/services/hire-background.png' ?>" class="responsive-element position-absolute" alt="Hire Image" />
-                                <div class="row">
-                                    <div class="col-6">
-                                        <p class="text-center">
-                                            Be one of our team<br>
-                                            Programmars front end / back<br>
-                                            end<br>
-                                            <span>Required</span>
-                                        </p>
-                                    </div>
-                                    <div class="col-6"></div>
-                                </div>
+<!--                                <div class="row">-->
+<!--                                    <div class="col-6">-->
+<!--                                        <p class="text-center">-->
+<!--                                            Be one of our team<br>-->
+<!--                                            Programmars front end / back<br>-->
+<!--                                            end<br>-->
+<!--                                            <span>Required</span>-->
+<!--                                        </p>-->
+<!--                                    </div>-->
+<!--                                    <div class="col-6"></div>-->
+<!--                                </div>-->
                             </div>
                         </div>
                         <div class="col-12">
