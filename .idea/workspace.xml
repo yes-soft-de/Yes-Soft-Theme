@@ -4,16 +4,9 @@
     <list default="true" id="c6e10236-ae4f-4b38-be7f-60c8e48e8a7c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/serviceBoard.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/services/online-shopping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/services/shopping-basket.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/e-shops-management.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/e-shops-management.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/facebook-instagram-management.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/facebook-instagram-management.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/hire.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/hire.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/magento.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/magento.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/presta-shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/services/presta-shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/front-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,39 +20,24 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/custom.css">
+        <entry file="file://$PROJECT_DIR$/front-page.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="1545" column="1" lean-forward="true" selection-start-line="1545" selection-start-column="1" selection-end-line="1545" selection-end-column="1" />
+            <state relative-caret-position="1512">
+              <caret line="284" column="41" selection-start-line="284" selection-start-column="38" selection-end-line="284" selection-end-column="41" />
+              <folding>
+                <element signature="e#19409#19432#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/page.php">
+        <entry file="file://$PROJECT_DIR$/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/page-old.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/about-us.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="36" />
+            <state relative-caret-position="451">
+              <caret line="669" lean-forward="true" selection-start-line="669" selection-end-line="669" />
             </state>
           </provider>
         </entry>
@@ -68,9 +46,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>'.info'</find>
-      <find>premium</find>
-      <find>col-4</find>
       <find>card-title</find>
       <find>&lt;p&gt;</find>
       <find>align-self-center</find>
@@ -98,6 +73,9 @@
       <find>overflow</find>
       <find>image-section</find>
       <find>our-s</find>
+      <find>services</find>
+      <find>team-member</find>
+      <find>about-us</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;a&gt;</replace>
@@ -122,8 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/front-page.php" />
-        <option value="$PROJECT_DIR$/functions.php" />
         <option value="$PROJECT_DIR$/services/flyer-design.php" />
         <option value="$PROJECT_DIR$/services/website-test.php" />
         <option value="$PROJECT_DIR$/services/remote-maintenance.php" />
@@ -137,14 +113,17 @@
         <option value="$PROJECT_DIR$/services/e-shops-management.php" />
         <option value="$PROJECT_DIR$/services/presta-shop.php" />
         <option value="$PROJECT_DIR$/js/custom.js" />
-        <option value="$PROJECT_DIR$/css/custom.css" />
         <option value="$PROJECT_DIR$/page.php" />
+        <option value="$PROJECT_DIR$/header.php" />
+        <option value="$PROJECT_DIR$/functions.php" />
+        <option value="$PROJECT_DIR$/front-page.php" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="30" />
-    <option name="y" value="215" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1790" />
     <option name="height" value="570" />
   </component>
@@ -186,22 +165,6 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="Yes-Soft-Theme" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yes-Soft-Theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="Yes-Soft-Theme" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Yes-Soft-Theme" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress" type="462c0819:PsiDirectoryNode" />
-              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="Yes-Soft-Theme" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -261,18 +224,21 @@
       <workItem from="1580064721341" duration="1497000" />
       <workItem from="1580381080639" duration="11528000" />
       <workItem from="1580409126601" duration="5487000" />
-      <workItem from="1580415192440" duration="4204000" />
+      <workItem from="1580415192440" duration="4335000" />
+      <workItem from="1580653013902" duration="7492000" />
+      <workItem from="1580669286610" duration="1034000" />
+      <workItem from="1580745055732" duration="4410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70558000" />
+    <option name="totallyTimeSpent" value="83625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21543624" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22483222" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -303,13 +269,6 @@
     <entry file="file://$PROJECT_DIR$/css/custom.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-29306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="23" column="80" selection-start-line="23" selection-start-column="80" selection-end-line="23" selection-end-column="80" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/footer.php">
@@ -351,13 +310,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="67">
           <caret line="11" column="38" lean-forward="true" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -410,8 +362,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page-old.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="41" column="71" lean-forward="true" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="86" />
+        <state relative-caret-position="984">
+          <caret line="41" column="71" selection-start-line="41" selection-start-column="71" selection-end-line="41" selection-end-column="86" />
         </state>
       </provider>
     </entry>
@@ -422,17 +374,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/custom.css">
+    <entry file="file://$PROJECT_DIR$/page.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="1545" column="1" lean-forward="true" selection-start-line="1545" selection-start-column="1" selection-end-line="1545" selection-end-column="1" />
+        <state relative-caret-position="97">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page.php">
+    <entry file="file://$PROJECT_DIR$/../../../wp-includes/general-template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+        <state relative-caret-position="646">
+          <caret line="2878" column="4" selection-start-line="2878" selection-start-column="4" selection-end-line="2878" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user-cv.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/author-old-file.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page-alternative.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16371" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="69" column="21" selection-start-line="69" selection-start-column="21" selection-end-line="69" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="161" column="14" lean-forward="true" selection-start-line="161" selection-start-column="14" selection-end-line="161" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="284" column="41" selection-start-line="284" selection-start-column="38" selection-end-line="284" selection-end-column="41" />
+          <folding>
+            <element signature="e#19409#19432#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="451">
+          <caret line="669" lean-forward="true" selection-start-line="669" selection-end-line="669" />
         </state>
       </provider>
     </entry>

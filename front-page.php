@@ -305,30 +305,30 @@
     <!--End About Us Section-->
 
     <!--Start Client Say Section-->
-    <div class="client-say py-5">
-        <div class="container-fluid">
-            <h2 class="text-center">Our Client Say</h2>
-            <hr class="w-25">
-            <div class="client-say-slider mb-0">
-                <div class="col-12 col-sm-11 col-sm-9 col-md-8 offset-sm-2 client">
-                    <div class="row">
-                        <div class="col-12 col-sm-4">
-                            <div class="client-image text-center">
-                                <img class="rounded-circle mx-auto" src="<?php echo get_template_directory_uri() . '/img/default-avatar.jpg'?>" alt="codeway" />
-                                <h5 class="client-name font-weight-bold mt-2 mt-lg-3">Waleed Alhamoud<a href="https://www.linkedin.com/in/walid-alhamoud-06b1b9157"><i class="fab fa-linkedin fa-fw"></i></a></h5>
-                                <p class="text-secondary">CEO Of Notebook Doctor</p>
-                            </div>
-                        </div>
-                        <div class="col-12 col-sm-8 client-content">
-                            <p class="lead text-secondary pt-3 pt-md-4 pt-lg-5">
-                                Through my long market experience I found with Yes Soft a lot of variation. Punctuality, excellent performance and great communication are what sets them apart. I'm so happy to be one of your clients
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="client-say py-5">-->
+<!--        <div class="container-fluid">-->
+<!--            <h2 class="text-center">Our Client Say</h2>-->
+<!--            <hr class="w-25">-->
+<!--            <div class="client-say-slider mb-0">-->
+<!--                <div class="col-12 col-sm-11 col-sm-9 col-md-8 offset-sm-2 client">-->
+<!--                    <div class="row">-->
+<!--                        <div class="col-12 col-sm-4">-->
+<!--                            <div class="client-image text-center">-->
+<!--                                <img class="rounded-circle mx-auto" src="--><?php //echo get_template_directory_uri() . '/img/default-avatar.jpg'?><!--" alt="codeway" />-->
+<!--                                <h5 class="client-name font-weight-bold mt-2 mt-lg-3">Waleed Alhamoud<a href="https://www.linkedin.com/in/walid-alhamoud-06b1b9157"><i class="fab fa-linkedin fa-fw"></i></a></h5>-->
+<!--                                <p class="text-secondary">CEO Of Notebook Doctor</p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="col-12 col-sm-8 client-content">-->
+<!--                            <p class="lead text-secondary pt-3 pt-md-4 pt-lg-5">-->
+<!--                                Through my long market experience I found with Yes Soft a lot of variation. Punctuality, excellent performance and great communication are what sets them apart. I'm so happy to be one of your clients-->
+<!--                            </p>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <!--End Customer Section-->
 
     <!--Start Our Team Section-->
@@ -673,26 +673,61 @@
     </div>
     <!--End Our Team Section-->
 
-    <!--Start Our Clients Section-->
-    <div class="our-clients py-5">
+    <!--Start Our Services Section-->
+    <div class="our-home-services py-5">
         <div class="container">
-            <h2 class="text-center mb-5">Our Client</h2>
-            <div class="row text-center">
-                <div class="col-6 col-sm-3 mx-auto">
-                    <img src="<?php echo get_template_directory_uri() . '/img/doctor-notebook.png'?>" class="img-fluid" alt="Doctor Notebook">
+            <h2 class="text-center mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 p-0 bg-graphic-section">
+                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <h4 class="font-weight-bold text-right mr-3">Graphic Design</h4>
                 </div>
-                <div class="col-6 col-sm-3 mx-auto">
-                    <img src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png'?>" class="img-fluid" alt="Doctor Notebook">
+                <div class="col-12 col-sm-6 col-lg-4 p-0 border border-info">
+                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <h4 class="font-weight-bold text-right mr-3">Development</h4>
                 </div>
+                <div class="col-12 col-sm-6 col-lg-4 p-0 bg-maintenance-section">
+                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <h4 class="font-weight-bold text-right mr-3">Maintenance</h4>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 p-0 border border-info">
+                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <h4 class="font-weight-bold text-right mr-3">UI/UX Design</h4>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 p-0 bg-market-section">
+                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <h4 class="font-weight-bold text-right mr-3">E-Market</h4>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 p-0 border border-info">
+                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <h4 class="font-weight-bold text-right mr-3">E-Commerce</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Our Clients Section-->
+
+
+    <!--Start Our Clients Section-->
+<!--    <div class="our-clients py-5">-->
+<!--        <div class="container">-->
+<!--            <h2 class="text-center mb-5">Our Client</h2>-->
+<!--            <div class="row text-center">-->
+<!--                <div class="col-6 col-sm-3 mx-auto">-->
+<!--                    <img src="--><?php //echo get_template_directory_uri() . '/img/doctor-notebook.png'?><!--" class="img-fluid" alt="Doctor Notebook">-->
+<!--                </div>-->
+<!--                <div class="col-6 col-sm-3 mx-auto">-->
+<!--                    <img src="--><?php //echo get_template_directory_uri() . '/img/Agora-logo-01.png'?><!--" class="img-fluid" alt="Doctor Notebook">-->
+<!--                </div>-->
 <!--                <div class="col-6 col-sm-3">-->
 <!--                    <h4>Clients Three</h4>-->
 <!--                </div>-->
 <!--                <div class="col-6 col-sm-3">-->
 <!--                    <h4>Clients Four</h4>-->
 <!--                </div>-->
-            </div>
-        </div>
-    </div>
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
     <!--End Our Clients Section-->
 
 </div>

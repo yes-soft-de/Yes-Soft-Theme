@@ -661,6 +661,7 @@ nav ul li a {
 .about-us .about-us-body h3 {
     left: 57%;
     top: 4%;
+    font-size: 1.6rem;
 }
 
 .about-us .about-us-slider {
@@ -723,7 +724,7 @@ nav ul li a {
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: 1.5rem
+        font-size: 1.4rem;
     }
 }
 
@@ -749,7 +750,7 @@ nav ul li a {
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: 1.3rem
+        font-size: 1.2rem
     }
 }
 
@@ -785,7 +786,7 @@ nav ul li a {
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: 1.1rem
+        font-size: 1rem
     }
 }
 
@@ -822,7 +823,7 @@ nav ul li a {
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: .95rem
+        font-size: .8rem
     }
 }
 
@@ -837,12 +838,12 @@ nav ul li a {
     }
 
     .about-us .about-us-body h3 {
-        font-size: .9rem;
+        font-size: .8rem;
         padding-left: 0;
     }
 
     .about-us-content .about-us-text p {
-        font-size: .9rem;
+        font-size: .8rem;
     }
 }
 /*End About Us Section*/
@@ -1460,6 +1461,20 @@ nav ul li a {
     }
 }
 /*End Our Team Section*/
+
+/*Start Our Home Services Section*/
+.our-home-services .bg-graphic-section {
+    background-color: #c2e9f0;
+}
+
+.our-home-services .bg-maintenance-section {
+    background-color: #c8c8c8;
+}
+
+.our-home-services .bg-market-section {
+    background-color: #ffdac7;
+}
+/*End Our Home Services Section*/
 /* ---- End Our Front-Page page---- */
 
 
