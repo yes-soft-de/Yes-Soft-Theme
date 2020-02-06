@@ -537,7 +537,7 @@ nav ul li a {
 .specialise-content .specialise .specialise-desc {
     background: #ffffff9e;
     left: 25%;
-    bottom: 3rem;
+    bottom: -3rem;
 }
 
 .specialise .specialise-desc h3 {
@@ -574,10 +574,6 @@ nav ul li a {
         top: 5rem;
     }
 
-    .specialise-content .specialise .specialise-desc {
-        bottom: 0;
-    }
-
     .specialise .specialise-desc h3 {
         font-size: 2rem;
     }
@@ -591,10 +587,6 @@ nav ul li a {
 @media (min-width: 576px) and (max-width: 767px) {
     .specialise-content .specialise .specialise-image {
         top: 5rem;
-    }
-
-    .specialise-content .specialise .specialise-desc {
-        bottom: 0;
     }
 
     .specialise .specialise-desc h3 {
@@ -1463,6 +1455,9 @@ nav ul li a {
 /*End Our Team Section*/
 
 /*Start Our Home Services Section*/
+.our-home-services img {
+    width: 40%;
+}
 .our-home-services .bg-graphic-section {
     background-color: #c2e9f0;
 }

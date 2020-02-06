@@ -200,19 +200,19 @@
             <h2 class="text-center mt-5">We Are Specialised In</h2>
             <div class="container-fluid specialise-slider">
                 <div class="specialise">
-                    <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xl-3 specialise-image">
+                    <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xl-3 specialise-image d-none">
                         <img src="<?php echo get_template_directory_uri() . '/img/online-shopping.png' ?>" class="img-fluid" alt="online shopping">
                     </div>
-                    <div class="col-10 col-sm-8 col-md-6 col-lg-4 specialise-desc p-3">
+                    <div class="col-10 col-sm-8 col-md-6 specialise-desc p-3">
                         <h3>Working remotely</h3>
                         <p>Our presence around the world makes us aware of all the modern technologies that exist in the world</p>
                     </div>
                 </div>
                 <div class="specialise">
-                    <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 specialise-image">
+                    <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 specialise-image d-none">
                         <img src="<?php echo get_template_directory_uri() . '/img/special-commerce.png' ?>" class="img-fluid" alt="special commerce">
                     </div>
-                    <div class="col-10 col-sm-8 col-md-6 col-lg-4 specialise-desc p-3">
+                    <div class="col-10 col-sm-8 col-md-6 specialise-desc p-3">
                         <h3>Great experience in e-commerce</h3>
                         <p>
                            The multiplicity of experiences and openness to all that is new will be the reason for achieving the best results
@@ -679,28 +679,28 @@
             <h2 class="text-center mb-5">Our Services</h2>
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-4 p-0 bg-graphic-section">
-                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/graphic-design.png' ?>" alt="" />
                     <h4 class="font-weight-bold text-right mr-3">Graphic Design</h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 border border-info">
-                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/development.png' ?>" alt="" />
                     <h4 class="font-weight-bold text-right mr-3">Development</h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 bg-maintenance-section">
-                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/maintainance.png' ?>" alt="" />
                     <h4 class="font-weight-bold text-right mr-3">Maintenance</h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 border border-info">
-                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
+                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/uiux-designer.png' ?>" alt="" />
                     <h4 class="font-weight-bold text-right mr-3">UI/UX Design</h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 bg-market-section">
-                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
-                    <h4 class="font-weight-bold text-right mr-3">E-Market</h4>
+                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/Digitalmarketing.png' ?>" alt="" />
+                    <h4 class="font-weight-bold text-right mr-3">Digital Market</h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 border border-info">
-                    <img class="custom-image-service text-left" src="<?php echo get_template_directory_uri() . '/img/Agora-logo-01.png' ?>" alt="" />
-                    <h4 class="font-weight-bold text-right mr-3">E-Commerce</h4>
+                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/project-managment.png' ?>" alt="" />
+                    <h4 class="font-weight-bold text-right mr-3">Project Managment</h4>
                 </div>
             </div>
         </div>

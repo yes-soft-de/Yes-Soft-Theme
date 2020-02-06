@@ -1,4 +1,4 @@
-<?php /* Template Name: prestaShopService */ ?>
+<?php /* Template Name: sprykerService */ ?>
 <?php get_header() ?>
 
 <div class="our-posts e-commerce-service our-services py-5">
@@ -15,101 +15,113 @@
                     <img src="<?php echo get_template_directory_uri() . '/img/services/presta-shop-3.jpg' ?>" class="img-fluid" alt="" />
                 </div>
             </div>
-            <h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center pt-5">Presta Shop Service</h1>
+            <h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center pt-5">Spryker Service</h1>
             <hr class="my-3">
             <p class="general-desc mb-5">
-                What if we tell you that we are a Professional Custom Prestashop Development Company?<br />
-                And what if we offer Dedicated Custom Work Services?<br />
-                Then, if you want to develop a long-term professional E-Commerce site, you should always think of Yes-Soft solutions and services, since our reputation goes with it.
+                Are you looking to lift your business into a whole new level?<br />
+                If you are thinking of developing a long-term professional e-commerce site, then It is important to know that the big secret behind success for all businesses all over the world is high-quality products and the special secret behind the success of online businesses is e-commerce.<br />
+                We are glad to inform you that we are a Professional Custom Spryker Development Company, and we offer Dedicated Custom Work Services.<br />
             </p>
             <table class="table">
                 <thead class="thead-light">
-                <tr>
-                    <th scope="col">Services</th>
-                    <th scope="col" class="text-center">Basic</th>
-                    <th scope="col" class="text-center">Standard</th>
-                    <th scope="col" class="text-center">Premium</th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <th scope="row">High-quality SPA Online store.</th>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">Search engine friendly.</th>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">Perfect site speed.</th>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">Mobile responsive.</th>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">Advanced navigation.</th>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">SEO (search engine optimization).</th>
-                    <td></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">Professional marketing management for one month.</th>
-                    <td></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">Best security features.</th>
-                    <td></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">Android APP.</th>
-                    <td></td>
-                    <td></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">Suitable Digital Marketing Strategy,<br/> With implementation (SEO, SEM, SMM)</th>
-                    <td></td>
-                    <td></td>
-                    <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
-                </tr>
-                <tr>
-                    <th scope="row">Delivery time</th>
-                    <td class="text-center">10 Days</td>
-                    <td class="text-center">5 Days</td>
-                    <td class="text-center">3 Days</td>
-                </tr>
-                <tr>
-                    <th scope="row">Revisions</th>
-                    <td class="text-center">1</td>
-                    <td class="text-center">1</td>
-                    <td class="text-center">1</td>
-                </tr>
-                <tr>
-                    <th scope="row">Price</th>
-                    <td><span>500&euro;</span></td>
-                    <td><span>900&euro;</span></td>
-                    <td><span>1200&euro;</span></td>
-                </tr>
+                    <tr>
+                        <th scope="col">Services</th>
+                        <th scope="col" class="text-center">Basic</th>
+                        <th scope="col" class="text-center">Standard</th>
+                        <th scope="col" class="text-center">Premium</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">High-quality SPA Online store.</th>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Search engine friendly.</th>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Perfect site speed.</th>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Mobile responsive.</th>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Advanced navigation.</th>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SEO (search engine optimization).</th>
+                        <td></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Professional marketing management for one month.</th>
+                        <td></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Best security features.</th>
+                        <td></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Android APP.</th>
+                        <td></td>
+                        <td></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SMM (Social Media Marketing) strategy with implementation.</th>
+                        <td></td>
+                        <td></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">SEM (Search Engine Marketing) strategy with implementation.</th>
+                        <td></td>
+                        <td></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Offline marketing strategy.</th>
+                        <td></td>
+                        <td></td>
+                        <td><i class="fas fa-check fa-fw fa-lg text-success"></i></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Delivery time</th>
+                        <td class="text-center">15 Days</td>
+                        <td class="text-center">10 Days</td>
+                        <td class="text-center">5 Days</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Revisions</th>
+                        <td class="text-center">1</td>
+                        <td class="text-center">1</td>
+                        <td class="text-center">2</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Price</th>
+                        <td><span>500&euro;</span></td>
+                        <td><span>900&euro;</span></td>
+                        <td><span>1200&euro;</span></td>
+                    </tr>
                 </tbody>
             </table>
 <!--            <div class="project">-->
@@ -226,15 +238,15 @@
         <h3 class="text-center my-4">About Service</h3>
         <div class="col-12">
             <p class="text-justify mb-5">
-                But what can we do for you?<br />
-                We provide high-quality Prestashop Services, where you can SkyRocket Your Online sales and feel the quality with reasonable prices and flexibility for customizing or adding features based on your requirements.<br />
+                So, how can we help you?<br />
+                In fact, we provide high-quality Spryker Services, where you can SkyRocket your online sales and feel the quality with reasonable prices and flexibility for customizing or adding features based on your requirements since we make Spryker rapidly implemented and ideally suited for continuous development.<br />
                 Our projects are based on Agile method which gives us a lot of flexibility and makes it easier to consider the opinions of customers permanently.<br />
                 The work is carried out by ordered steps, starting from a complete site analysis with the initial design, and ending with the necessary adjustments based on your requests.<br />
                 The tasks will be done by qualified teams who are capable of taking on any instant responsibilities with an effective cost and under high pressure.<br />
                 Your site will be delivered after all the required adjustments are made, and together, we will achieve the desired results.<br />
-                Our team of Prestashop Developers, along with our Designers, Digital Marketing and SEO Specialists will make sure that your E-Commerce platform looks simply awesome and ranks in google search results with the best methods of monitoring and measuring results.<br />
-                With Our 3 flexible plans (Basic - Advanced - Premium) we ensure that we can fit your business needs at no extra cost, giving you only the services needed to make your e-commerce platform a magnet for clients and look smooth.<br />
-                You're Worth It and always remember that we have some nice offers beyond our plans.
+                Our team of Spryker Developers, along with our Designers, Digital Marketing and SEO Specialists will make sure your e-commerce platform looks simply awesome and ranks in google search results with the best methods of monitoring and measuring performance.<br />
+                With our 3 flexible plans (Basic - Advanced - Premium) we make sure that we can fit your business needs at no extra cost, giving you only the services needed to make your e-commerce platform a magnet for clients and looks smooth.<br />
+                You're Worth It, and always remember that we have a lot of nice offers beyond our plans.<br />
             </p>
         </div>
 
