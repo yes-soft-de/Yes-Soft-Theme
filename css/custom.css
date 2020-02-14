@@ -682,12 +682,13 @@ nav ul li a {
 }
 
 .about-us-content .language-circle h3 {
-    margin-top: 30%;
+    margin-top: 40%;
     color: var(--blue)
 }
 
 .about-us-content .language-circle span {
-    font-size: 2rem
+    font-size: 2rem;
+    display: none;
 }
 
 .about-us .slick-dots li button:before {
@@ -773,7 +774,7 @@ nav ul li a {
     }
 
     .about-us-content .language-circle h3 {
-        margin-top: 25%;
+        /*margin-top: 25%;*/
     }
 
     .about-us-content .language-circle h3,
@@ -809,7 +810,7 @@ nav ul li a {
     }
 
     .about-us-content .language-circle h3 {
-        margin-top: 25%;
+        /*margin-top: 25%;*/
         margin-bottom: 0;
     }
 

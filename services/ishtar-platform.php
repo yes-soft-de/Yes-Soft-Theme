@@ -1,4 +1,4 @@
-<?php /* Template Name: seoService */ ?>
+<?php /* Template Name: ishtarPlatform */ ?>
 <?php get_header() ?>
 
 <div class="our-posts e-commerce-service our-services py-5" xmlns="http://www.w3.org/1999/html">
@@ -15,35 +15,35 @@
                     <img src="<?php echo get_template_directory_uri() . '/img/services/presta-shop-3.jpg' ?>" class="img-fluid" alt="" />
                 </div>
             </div>
-            <h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center pt-5">SEO Service</h1>
+            <h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center pt-5">Ishtar Platform</h1>
             <hr class="my-3">
             <p class="general-desc mb-5">
-                Everyone wants to be on the first rank of google search results, but not everyone deserves that.<br />
-                Your business should be qualified to be there, and with us, you can get the right to rank on best google search results.<br />
-                So, how can we help you?<br />
-                We provide high-quality services that are designed to increase your website traffic, optimize your visibility on search results, and make your website consistent with google algorithms.<br />
-                Our strategies are realistic, precise, and based on measuring results with reasonable costs and effective solutions.<br />
-                The tasks will be carried out by professional teams and experts from different fields including web programmers, designers, content writers, and SEO specialists who will take care of your site and make you feel the quality.<br />
-                The project will be divided into the following sections:<br />
+                "Everything you can imagine is real."<br />
+                We are glad to inform you that this is the best place for you to unleash your dreams and get rid of your fears.<br />
+                Sometimes, we need a little push and a big dream!<br />
+                Release your inner-artist, reveal your colors, and let your creative-self take control.<br />
+                With Ishtar, we try to unite artists from Syria and all over the world, to make, share and contribute with others, because we believe in the power of inspiration, so, it's about time you start to get inspired and inspire others like you, who are just waiting for that little push.<br />
+                You may ask yourself, what does Ishtar mean?<br />
+                Ishtar is the East Semitic Akkadian, Assyrian and Babylonian goddess of fertility, love, war, and sex. She is the counterpart to the Sumerian Inanna and is the cognate for the Northwest Semitic Aramean goddess Astarte.<br />
+                This magnificent history requires a great job so that we will introduce our integrated project Ishtar.<br />
+                Ishtar is a unique website that is designed for presenting modern Syrian painting art and artists. We are trying to highlight the best Syrian artists in the art market today.<br />
+                How we did that?<br />
+                One interactive platform that makes it easy for everyone to follow the latest developments in the art field, in addition to secure buying and selling operations.<br />
+                Yes-Soft is one of the first companies that provide artist e-commerce stores, and above that, we are the leading company in this field.<br />
+                Our website has many features, where you can collect information about Artworks that are presented with a description for every piece (vital characteristic and cost).<br />
+                You can select any preferable Artwork, and purchase via Bank Transfer.<br />
+                What a simple guide!<br />
+                Now, let us take a look at some particular characteristics of Ishtar Platform:<br />
+                •	Excellent User Experience that pays attention to every detail.<br />
+                •	Simple panel display with all the information you need to know.<br />
+                •	We concentrate on introducing the Artwork and introducing the Artist.<br />
+                •	A simple overview, showing the Artist's life, career, and his current works.<br />
+                •	Collecting painting reviews.<br />
+                •	A massive variety of the targeted audience.<br />
+                •	Clear purchase methods.<br />
                 <br />
-                <strong>On-Page SEO:</strong><br />
-                •	Content:<br />
-                Optimizing content, keyword research and analysis, text formatting, and blogs.<br />
-                •	Technical issues:<br />
-                Resolving all website problems, programming issues (HTML, CSS, …), internal links, broken links, site map, page load, mobile-friendly, image optimization, and URL structure.<br />
-                •	Design:<br />
-                Responsive design, and user experience.<br />
-                <br />
-                <strong>Off-Page SEO:</strong><br />
-                •	Keywords:<br />
-                Keyword research and analysis.<br />
-                •	Backlinks:<br />
-                Optimizing backlinks, building backlinks, link analysis, commenting, and social bookmarking.<br />
-                •	Analysis:<br />
-                Reporting, monitoring, and google my business profile.<br />
-                <br />
-                Keep in mind that we always have special services beyond our plans, and our experts are here to share their knowledge and apply their carefully chosen strategies.<br />
-                Your site reputation is what google says, and our reputation is what we say, so don't delay in starting your business journey with Yes-Soft.<br />
+                Our belief is "To win in the modern age; we must solve for humans," so Ishtar cares about your entire experience, not just the marketing or sales or service.<br />
+                Keep in mind that our reputation goes with Ishtar, where you can feel the creativity and the quality of modern programming techniques with a soft artistic soul.<br />
             </p>
 
         </div>

@@ -729,6 +729,19 @@
 <!--        </div>-->
 <!--    </div>-->
     <!--End Our Clients Section-->
+    <div class="newsletter-section py-5">
+        <div class="container">
+            <div class="col-12 col-sm-10 col-md-8 mx-auto">
+                <?php
+                // check if This side bar with id we insert is active
+                if (is_active_sidebar('main-sidebar')) {
+                    // fetch this side bar
+                    dynamic_sidebar('main-sidebar');
+                }
+                ?>
+            </div>
+        </div>
+    </div>
 
 </div>
 
