@@ -537,7 +537,7 @@ nav ul li a {
 .specialise-content .specialise .specialise-desc {
     background: #ffffff9e;
     left: 25%;
-    bottom: 3rem;
+    bottom: -3rem;
 }
 
 .specialise .specialise-desc h3 {
@@ -574,10 +574,6 @@ nav ul li a {
         top: 5rem;
     }
 
-    .specialise-content .specialise .specialise-desc {
-        bottom: 0;
-    }
-
     .specialise .specialise-desc h3 {
         font-size: 2rem;
     }
@@ -591,10 +587,6 @@ nav ul li a {
 @media (min-width: 576px) and (max-width: 767px) {
     .specialise-content .specialise .specialise-image {
         top: 5rem;
-    }
-
-    .specialise-content .specialise .specialise-desc {
-        bottom: 0;
     }
 
     .specialise .specialise-desc h3 {
@@ -661,6 +653,7 @@ nav ul li a {
 .about-us .about-us-body h3 {
     left: 57%;
     top: 4%;
+    font-size: 1.6rem;
 }
 
 .about-us .about-us-slider {
@@ -689,12 +682,13 @@ nav ul li a {
 }
 
 .about-us-content .language-circle h3 {
-    margin-top: 30%;
+    margin-top: 40%;
     color: var(--blue)
 }
 
 .about-us-content .language-circle span {
-    font-size: 2rem
+    font-size: 2rem;
+    display: none;
 }
 
 .about-us .slick-dots li button:before {
@@ -723,7 +717,7 @@ nav ul li a {
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: 1.5rem
+        font-size: 1.4rem;
     }
 }
 
@@ -749,7 +743,7 @@ nav ul li a {
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: 1.3rem
+        font-size: 1.2rem
     }
 }
 
@@ -780,12 +774,12 @@ nav ul li a {
     }
 
     .about-us-content .language-circle h3 {
-        margin-top: 25%;
+        /*margin-top: 25%;*/
     }
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: 1.1rem
+        font-size: 1rem
     }
 }
 
@@ -816,13 +810,13 @@ nav ul li a {
     }
 
     .about-us-content .language-circle h3 {
-        margin-top: 25%;
+        /*margin-top: 25%;*/
         margin-bottom: 0;
     }
 
     .about-us-content .language-circle h3,
     .about-us-content .language-circle span {
-        font-size: .95rem
+        font-size: .8rem
     }
 }
 
@@ -837,12 +831,12 @@ nav ul li a {
     }
 
     .about-us .about-us-body h3 {
-        font-size: .9rem;
+        font-size: .8rem;
         padding-left: 0;
     }
 
     .about-us-content .about-us-text p {
-        font-size: .9rem;
+        font-size: .8rem;
     }
 }
 /*End About Us Section*/
@@ -1460,6 +1454,23 @@ nav ul li a {
     }
 }
 /*End Our Team Section*/
+
+/*Start Our Home Services Section*/
+.our-home-services img {
+    width: 40%;
+}
+.our-home-services .bg-graphic-section {
+    background-color: #c2e9f0;
+}
+
+.our-home-services .bg-maintenance-section {
+    background-color: #c8c8c8;
+}
+
+.our-home-services .bg-market-section {
+    background-color: #ffdac7;
+}
+/*End Our Home Services Section*/
 /* ---- End Our Front-Page page---- */
 
 
@@ -1535,84 +1546,119 @@ nav ul li a {
 }
 
 /* ---- Start Our Services Page ---- */
-.our-services {
-    background: url("../img/background.png") no-repeat;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+.our-services .services-title {
+    padding: 5% 0 50px;
 }
 
-.our-services.our-posts .post {
-    background-color: #fff;
+.our-services .ecommerce-section,
+.our-services .market-section,
+.our-services .android-app-section  {
+    /*min-height: 41rem;*/
 }
 
-.our-services .post .card .card-img-top,
-.our-services .other-service .card .card-img-top {
-    height: 250px;
+.our-services .card {
+    background-color: transparent;
+    border: none;
+    color: #000;
 }
 
-.our-services .post .card .card-body {
-    text-align: center;
+.our-services .card img {
+    height: 150px;
 }
 
-/*style for md Screen*/
-@media (min-width: 768px) and (max-width: 991px) {
-    .our-services .post .card .card-img-top,
-    .our-services .other-service .card .card-img-top {
-        height: 200px;
-    }
-
-    .our-services .post .card .card-title,
-    .our-services .other-service .card .card-title {
-        font-size: 1rem;
-    }
+    .our-services .card-body .card-title {
+    font-weight: bold;
 }
 
-/*style for sm Screen*/
-@media (min-width: 576px) and (max-width: 767px) {
-    .our-services .post .card .card-img-top,
-    .our-services .other-service .card .card-img-top {
-        height: 200px;
-    }
+/*.our-services .card:hover {*/
+/*    border: 1px solid #999;*/
+/*    padding: 5px;*/
+/*}*/
 
-    .our-services .post .card .card-title,
-    .our-services .other-service .card .card-title {
-        font-size: 1rem;
-    }
+.our-services .card:hover .card-title {
+    color: var(--blue);
 }
+/* ---- End Our Services Page ---- */
 
-/*style for xs Screen*/
-@media (max-width: 575px) {
-    .our-services .service-desc {
-        font-size: .8rem;
-    }
+/* ---- Start Our Services Page ---- */  /* The Old Our Service Style*/
+/*.our-services {*/
+/*    background: url("../img/background.png") no-repeat;*/
+/*    -webkit-background-size: contain;*/
+/*    -moz-background-size: contain;*/
+/*    -o-background-size: contain;*/
+/*    background-size: contain;*/
+/*}*/
 
-    .our-services .post h4 {
-        font-size: 1.2rem
-    }
+/*.our-services.our-posts .post {*/
+/*    background-color: #fff;*/
+/*}*/
 
-    .our-services .post .card-body .card-title,
-    .our-services .other-service .card-body .card-title {
-        margin-bottom: 0;
-    }
-}
+/*.our-services .post .card .card-img-top,*/
+/*.our-services .other-service .card .card-img-top {*/
+/*    height: 250px;*/
+/*}*/
 
-/*style for Custom Size Screen*/
-@media (max-width: 499px) {
-    .our-services .service-desc {
-        font-size: .8rem;
-    }
+/*.our-services .post .card .card-body {*/
+/*    text-align: center;*/
+/*}*/
 
-    .our-services .post h4 {
-        font-size: 1.2rem
-    }
+/*!*style for md Screen*!*/
+/*@media (min-width: 768px) and (max-width: 991px) {*/
+/*    .our-services .post .card .card-img-top,*/
+/*    .our-services .other-service .card .card-img-top {*/
+/*        height: 200px;*/
+/*    }*/
 
-    .our-services .post .card-body .card-title,
-    .our-services .other-service .card-body .card-title {
-        margin-bottom: 0;
-    }
-}
+/*    .our-services .post .card .card-title,*/
+/*    .our-services .other-service .card .card-title {*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*}*/
+
+/*!*style for sm Screen*!*/
+/*@media (min-width: 576px) and (max-width: 767px) {*/
+/*    .our-services .post .card .card-img-top,*/
+/*    .our-services .other-service .card .card-img-top {*/
+/*        height: 200px;*/
+/*    }*/
+
+/*    .our-services .post .card .card-title,*/
+/*    .our-services .other-service .card .card-title {*/
+/*        font-size: 1rem;*/
+/*    }*/
+/*}*/
+
+/*!*style for xs Screen*!*/
+/*@media (max-width: 575px) {*/
+/*    .our-services .service-desc {*/
+/*        font-size: .8rem;*/
+/*    }*/
+
+/*    .our-services .post h4 {*/
+/*        font-size: 1.2rem*/
+/*    }*/
+
+/*    .our-services .post .card-body .card-title,*/
+/*    .our-services .other-service .card-body .card-title {*/
+/*        margin-bottom: 0;*/
+/*    }*/
+/*}*/
+
+/*!*style for Custom Size Screen*!*/
+/*@media (max-width: 499px) {*/
+/*    .our-services .service-desc {*/
+/*        font-size: .8rem;*/
+/*    }*/
+
+/*    .our-services .post h4 {*/
+/*        font-size: 1.2rem*/
+/*    }*/
+
+/*    .our-services .post .card-body .card-title,*/
+/*    .our-services .other-service .card-body .card-title {*/
+/*        margin-bottom: 0;*/
+/*    }*/
+/*}*/
 /* ---- End Our Services Page ---- */
 
 /* ---- Start Hire Services Page ---- */
@@ -1679,10 +1725,11 @@ nav ul li a {
 .e-commerce-service {
     background: url("../img/service-background.png") no-repeat;
     background-size: cover;
+    padding-top: 15vh;
 }
 
 .e-commerce-service h1 {
-    color: #fff;
+    /*color: #fff;*/
 }
 
 .e-commerce-service .post {
@@ -1691,15 +1738,24 @@ nav ul li a {
 }
 
 .e-commerce-service hr {
-    width: 5%;
-    margin-left: 0;
+    width: 10%;
     background: var(--orange);
+    height: 2.5px;
 }
 
 .e-commerce-service .general-desc {
     font-size: 1.2rem
 }
 
+.e-commerce-service table td {
+    text-align: center;
+}
+
+.e-commerce-service table td span {
+    color: var(--blue);
+    font-weight: 700;
+}
+/*Start Old service detail style*/
 .e-commerce-service .project-list {
     margin-left: -5px;
     margin-right: -5px;
@@ -1756,6 +1812,7 @@ nav ul li a {
     color: var(--white);
     background-color: var(--blue);
 }
+/*End Old service detail style*/
 
 @media (min-width: 768px) and (max-width: 991px) {
     .e-commerce-service h1 {
@@ -1974,31 +2031,20 @@ nav ul li a {
     }
 
     .our-posts .post .post-title {
-
         color: #45a9b7;
-
         letter-spacing: 1px;
-
         padding: 10px;
-
         overflow: hidden;
-
     }
 
     .our-posts .post a.post-image {
-
         width: 100%;
-
         height: 25%;
-
         display: block
-
     }
 
     .our-posts .post a.post-image:hover {
-
         text-decoration: none;
-
     }
 
     .our-posts .post a.post-image:hover h3 {
@@ -2961,7 +3007,7 @@ nav ul li a {
 
     /* ---- End Comments List ---- */
 
-    /* ---- Start Service ---- */
+    /* ---- Start Service ---- */  /*======Using In front-page-alternative======*/
 
     .service-bg {
 
@@ -2983,9 +3029,7 @@ nav ul li a {
     }
 
     .service-video {
-
         position: absolute;
-
         top: 0;
         bottom: 0;
         left: 0;
@@ -2995,30 +3039,20 @@ nav ul li a {
         min-height: 100%;
         z-index: -105;
         background-color: aqua;
-
     }
 
     .service {
-
         /* background-color: var(--dark); */
-
         /* padding: 3rem 0; */
-
         /* background-image: linear-gradient(-45deg, rgba(33,35,34,0.7) 0%, rgba(57,66,64,0.8) 35%), url(../img/Laptop%20Video.mp4); */
-
         position: relative;
-
         overflow: hidden;
-
         background: rgba(0,0,0,0.45);
-
     }
 
 
     .service-cards {
-
         padding: 3rem 0;
-
     }
 
     .service .title {
@@ -3073,7 +3107,7 @@ nav ul li a {
     }
 
 
-    /* -- New Edits -- */
+    /* -- New Edits -- */  /*======Using In front-page-alternative======*/
 
     .service .sub-service {
         background: #2b2f2e;
@@ -3217,7 +3251,7 @@ nav ul li a {
     }
     /* ---- End Service ---- */
 
-    /* ---- Start Our Teammate ---- */
+    /* ---- Start Our Teammate ---- */    /*======Using In front-page-alternative======*/
 
     .our-teammate {
 

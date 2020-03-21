@@ -134,8 +134,111 @@ function pagination_number()
 }
 
 
+/*
+ * Function To Add Knowledge Graph To Our Website
+ * Add By @Talal
+ */
+function yes_soft_add_knowledge_graph()
+{
+    echo "\n<!-- KNOWLEDGE GRAPH -->";
+    if (is_front_page( )) {
+        echo '
+        <script type="application/ld+json">
+        {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "name": "' . get_bloginfo('name') . '",
+        "url": "' . get_site_url() . '",
+        "logo": "' . get_template_directory_uri() . '/img/logo.svg",
+        "description": "Yes-Soft is a software company that makes Commercial and Open-Source Software. We endeavor on highly proficient, timely delivered and cost effective software, web and mobile development services",
+        "employees": [
+            {
+                "@type": "Person",
+                "name": "Talal Danoun"
+            },
+            {
+                "@type": "Person",
+                "name": "Hammam Zarefa"
+            },
+            {
+                "@type": "Person",
+                "name": "Kenan Hussein"
+            },
+            {
+                "@type": "Person",
+                "name": "Qusai Ali"
+            },
+            {
+                "@type": "Person",
+                "name": "Osama Alhamoud"
+            },
+            {
+                "@type": "Person",
+                "name": "Mohammad Al Kalaleeb"
+            },
+            {
+                "@type": "Person",
+                "name": "Mahmoud Aldiek"
+            },
+            {
+                "@type": "Person",
+                "name": "Mujeeba Haj Najeeb"
+            },
+            {
+                "@type": "Person",
+                "name": "Hanan Al-Jarmakani"
+            },
+            {
+                "@type": "Person",
+                "name": "Nisreen Abu Zidan"
+            },
+            {
+                "@type": "Person",
+                "name": "Ahmad Mustafa"
+            }
+        ], 
+        "sameAs" : [
+            "https://www.facebook.com/Yes-soft-328738448051690",
+            "https://www.linkedin.com/company/yes-soft",
+            "https://www.twitter.com/yessoft0",
+            "https://github.com/yes-soft-de/"
+        ]}
+        </script>';
+    }
+    echo "\n\n";	
+}
+add_action('wp_head', 'yes_soft_add_knowledge_graph');
 
 
+/**
+ ** Function To Register New Sidebar
+ ** Add By @Talal
+ */
+function yes_soft_side_bar() {
+    register_sidebar(array(
+        'name'          => 'Main Sidebar',      // Your Optional Name Sidebar
+        'id'            => 'main-sidebar',      // ID should be LOWERCASE  ! ! !
+        'description'   => 'Main Sidebar Appear Every Where', // any description from your mine
+        'class'         => 'main-sidebar',
+        'before_widget' => '<div class="widget-content">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>'
+    ));
+}
+// Add Our Action
+add_action('widgets_init', 'yes_soft_side_bar');
+
+
+/**
+ ** Function To Remove Tag p from the_content function
+ ** Add By @Talal
+ */
+//function yes_soft_remove_paragraph( $content ) {
+//    remove_filter('the_content', 'wpautop'); // remove the filter wpautop
+//    return $content;
+//}
+//add_filter('the_content', 'yes_soft_remove_paragraph', 0);
 
 
 
