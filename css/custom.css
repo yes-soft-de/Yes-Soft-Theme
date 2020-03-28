@@ -250,7 +250,7 @@ nav ul li a {
 
 @media (max-width: 550px) {
     .move-up {
-        right: 19px;
+        right: 30px;
         bottom: 90px;
     }
 }

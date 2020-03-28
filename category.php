@@ -235,9 +235,9 @@
 
 			echo '<div class="col-sm-12">';
 
-				echo '<div class="pagination_number text-center mt-5">';
+				echo '<div class="pagination_number text-center my-5">';
 
-					echo pagination_number();
+					echo yes_soft_pagination_number();
 
 				echo '</div>';
 

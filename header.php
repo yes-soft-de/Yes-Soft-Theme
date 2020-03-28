@@ -61,7 +61,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                <?php position_custom_nav(); ?>
+                <?php yes_soft_position_custom_nav(); ?>
 
             </div>
         </div>
