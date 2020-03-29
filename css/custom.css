@@ -115,8 +115,8 @@ a:hover {
 }
 
 nav ul li.menu-item {
-    padding-left: 20px;
-    margin-left: 15px;
+    padding-left: 10px;
+    margin-left: 10px;
 }
 
 nav ul li a {
@@ -134,8 +134,12 @@ nav ul li a {
 /*style for md Screen*/
 @media (min-width: 768px) and (max-width: 991px) {
     nav ul li.menu-item {
-        padding-left: 10px;
+        padding-left: 0;
         margin-left: 0;
+        font-size: 88%;
+    }
+    nav ul li a.nav-link {
+        padding-right: .35rem;
     }
 }
 

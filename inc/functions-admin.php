@@ -62,7 +62,7 @@ function yes_soft_custom_taxonomies() {
 		'name' => 'Media Category',
 		'singular_name' => 'Media Category',
 		'search_items' => 'Search Media Categories',
-		'all_items' => 'All Media Categories',
+		'all_items' => 'Media Categories',
 		'parent_item' => 'Parent Media Category',
 		'parent_item_colon' => 'Parent Media Category:',
 		'edit_item' => 'Edit Media Category',

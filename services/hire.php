@@ -11,7 +11,7 @@
                     <h4 class="text-center mb-1">We are Hiring</h4>
                     <p class="lead text-center">
                         Be one of our team
-                        Programmars front end / back
+                        Programmers front end / back
                         end
                         <span>Required</span>
                     </p>

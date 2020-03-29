@@ -6,9 +6,10 @@
 
 <?php
 // Set Arguments TO Fetch All Posts For This Custom Post Type (media_post)
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 $args = array(
   'post_type' => 'media_post',
-  'posts_per_page' => -1
+  'paged' => $paged
 );
 $query = new WP_Query( $args );
 

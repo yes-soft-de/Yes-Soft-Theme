@@ -96,17 +96,11 @@ add_theme_support( 'post-thumbnails' );
 	function yes_soft_media_post_pagination_number()
 	{
 		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-	  $args = array(
-			'post_type'=>'media_post',
-			'posts_per_page' => -1
-		);
+	  $args = array( 'post_type'=>'media_post' );
 		$wp_query = new WP_Query( $args );
-		$published_posts = wp_count_posts()->publish;
-		$posts_per_page = get_option('posts_per_page');
-		$page_number_max = ceil($published_posts / $posts_per_page);
 		$all_page_number = $wp_query->max_num_pages; // Get All Posts
 		$current_page_number = max(1, get_query_var('paged')); // Get Current Page
-//		var_dump($published_posts, $posts_per_page, $page_number_max);
+
 		// Check If There Is One Page Or More
 		if ( $all_page_number > 1 ) {
 			return paginate_links( array(
