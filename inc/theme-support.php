@@ -95,7 +95,6 @@ add_theme_support( 'post-thumbnails' );
 */
 	function yes_soft_media_post_pagination_number()
 	{
-		$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 	  $args = array( 'post_type'=>'media_post' );
 		$wp_query = new WP_Query( $args );
 		$all_page_number = $wp_query->max_num_pages; // Get All Posts
@@ -112,6 +111,7 @@ add_theme_support( 'post-thumbnails' );
 				'next_text'          => __('Next »')
 			) );
 		}
+		wp_reset_postdata();
 	}
 
 
