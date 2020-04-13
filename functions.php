@@ -10,3 +10,5 @@ require get_template_directory() . '/inc/custom-user-fields.php';
 require get_template_directory() . '/inc/enqueue.php';
 // Theme Support Functions
 require get_template_directory() . '/inc/theme-support.php';
+// PolyLang Translation File
+require get_template_directory() . '/inc/polyLang-string-register.php';
