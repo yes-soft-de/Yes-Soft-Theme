@@ -361,6 +361,9 @@ nav ul li a {
 /*End home slider section*/
 
 /*Start Our Projects Section*/
+.project {
+    outline: none;
+}
 .our-projects .project-list .project-item {
     height: 130px;
     cursor: pointer;
@@ -2945,9 +2948,7 @@ nav ul li a {
 
     .comment-respond p {
 
-        margin: 0; /*reset*/
-
-        margin-bottom: 5px;
+        margin: 0 0 5px;
 
         color: #666;
 
@@ -3293,11 +3294,8 @@ nav ul li a {
 
     .our-teammate .container > hr {
 
-        margin: 1rem auto 3rem;
-
         border: 1px solid var(--orange);
-
-        margin-bottom: 50px;
+        margin: 1rem auto 50px;
 
     }
 

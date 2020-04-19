@@ -99,44 +99,44 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">
-                    <div class="project-big-style">
-                        <div id="project-2" class="project-list list">
-                            <div class="row">
-                                <div data-t="elect-store" class="col-4 selected project-item">
-                                    <img src="<?php echo get_template_directory_uri() . '/img/our-projects/project-agora-01.png'?>" class="responsive-element" alt="Project Image">
-                                    <div class="project-hovering"><?php pl_e( 'Elect store' ); ?></div>
-                                    <p><?php pl_e( 'Store' ); ?></p>
-                                </div>
-                                <div data-t="Shopping" class="col-4 project-item px-0">
-                                    <img src="<?php echo get_template_directory_uri() . '/img/our-projects/project-agora-02.png'?>" class="responsive-element" alt="Project Image">
-                                    <div class="project-hovering w-100"><?php pl_e( 'Online Shopping' ); ?></div>
-                                    <p><?php pl_e( 'Shop' ); ?></p>
-                                </div>
-                                <div data-t="multi-rate" class="col-4 project-item">
-                                    <img src="<?php echo get_template_directory_uri() . '/img/our-projects/project-agora-03.png'?>" class="responsive-element" alt="Project Image">
-                                    <div class="project-hovering"><?php pl_e( 'Multi Rate' ); ?></div>
-                                    <p><?php pl_e( 'Rate' ); ?></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="info">
-                            <div class="elect-store">
-                                <h3><?php pl_e( 'Brazilian electronics store' ); ?> </h3>
-                                <p><?php pl_e( 'Electronics store is located in Brazil' ); ?>.</p>
-                            </div>
-                            <div class="Shopping">
-                                <h3><?php pl_e( 'Easy online shopping' ); ?></h3>
-                                <p><?php pl_e( 'Easy online shopping to sell computers, laptops and related gadgets' ); ?>.</p>
-                            </div>
-                            <div class="multi-rate">
-                                <h3><?php pl_e( 'Multiple ratings and great item control capabilities' ); ?></h3>
-                                <p><?php pl_e( 'It also provides great item control capabilities services (Software & Hardware) to any of the computers and laptops it sells' ); ?>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!--                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">-->
+<!--                    <div class="project-big-style">-->
+<!--                        <div id="project-2" class="project-list list">-->
+<!--                            <div class="row">-->
+<!--                                <div data-t="elect-store" class="col-4 selected project-item">-->
+<!--                                    <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/project-agora-01.png'?><!--" class="responsive-element" alt="Project Image">-->
+<!--                                    <div class="project-hovering">--><?php //pl_e( 'Elect store' ); ?><!--</div>-->
+<!--                                    <p>--><?php //pl_e( 'Store' ); ?><!--</p>-->
+<!--                                </div>-->
+<!--                                <div data-t="Shopping" class="col-4 project-item px-0">-->
+<!--                                    <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/project-agora-02.png'?><!--" class="responsive-element" alt="Project Image">-->
+<!--                                    <div class="project-hovering w-100">--><?php //pl_e( 'Online Shopping' ); ?><!--</div>-->
+<!--                                    <p>--><?php //pl_e( 'Shop' ); ?><!--</p>-->
+<!--                                </div>-->
+<!--                                <div data-t="multi-rate" class="col-4 project-item">-->
+<!--                                    <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/project-agora-03.png'?><!--" class="responsive-element" alt="Project Image">-->
+<!--                                    <div class="project-hovering">--><?php //pl_e( 'Multi Rate' ); ?><!--</div>-->
+<!--                                    <p>--><?php //pl_e( 'Rate' ); ?><!--</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div class="info">-->
+<!--                            <div class="elect-store">-->
+<!--                                <h3>--><?php //pl_e( 'Brazilian electronics store' ); ?><!-- </h3>-->
+<!--                                <p>--><?php //pl_e( 'Electronics store is located in Brazil' ); ?><!--.</p>-->
+<!--                            </div>-->
+<!--                            <div class="Shopping">-->
+<!--                                <h3>--><?php //pl_e( 'Easy online shopping' ); ?><!--</h3>-->
+<!--                                <p>--><?php //pl_e( 'Easy online shopping to sell computers, laptops and related gadgets' ); ?><!--.</p>-->
+<!--                            </div>-->
+<!--                            <div class="multi-rate">-->
+<!--                                <h3>--><?php //pl_e( 'Multiple ratings and great item control capabilities' ); ?><!--</h3>-->
+<!--                                <p>--><?php //pl_e( 'It also provides great item control capabilities services (Software & Hardware) to any of the computers and laptops it sells' ); ?>
+<!--                                </p>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">
                     <div class="project-big-style">
                         <div id="project-3" class="project-list list">
@@ -182,17 +182,17 @@
                     <div id="project-4" class="project-list list">
                       <div class="row">
                         <div data-t="agora" class="col-4 selected project-item">
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/project-2.png'?>" class="responsive-element" alt="Project Image">
+                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/agora.jpg'?>" class="responsive-element" alt="Project Image">
                           <div class="project-hovering"><?php pl_e( 'Agora' ); ?></div>
                           <p><?php pl_e( 'Agora' ); ?></p>
                         </div>
                         <div data-t="features" class="col-4 project-item px-0">
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/features-1.png'?>" class="responsive-element" alt="Project Image">
+                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/feature-2.jpg'?>" class="responsive-element" alt="Project Image">
                           <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
                           <p><?php pl_e( 'Features' ); ?></p>
                         </div>
                         <div data-t="agora-maintenance" class="col-4 project-item">
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/project-1.jpg'?>" class="responsive-element" alt="Project Image">
+                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/maintain.jpg'?>" class="responsive-element" alt="Project Image">
                           <div class="project-hovering"><?php pl_e( 'Maintain' ); ?></div>
                           <p><?php pl_e( 'Maint' ); ?></p>
                         </div>
@@ -200,7 +200,7 @@
                     </div>
                     <div class="info">
                       <div class="agora">
-                        <h3><?php pl_e( 'Agora' ); ?></h3>
+                        <h3><a href="https://agorachegou.com.br"><?php pl_e( 'Agora' ); ?></a></h3>
                         <p><?php pl_e( 'Brazilian online shop for second-hand laptops' ); ?>.
                         </p>
                       </div>
@@ -225,17 +225,17 @@
                   <div id="project-5" class="project-list list">
                     <div class="row">
                       <div data-t="wow" class="col-4 selected project-item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/project-3.jpg'?>" class="responsive-element" alt="Project Image">
+                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/wow.jpg'?>" class="responsive-element" alt="Project Image">
                         <div class="project-hovering"><?php pl_e( 'Wow' ); ?></div>
                         <p><?php pl_e( 'Wow' ); ?></p>
                       </div>
                       <div data-t="wow-features" class="col-4 project-item px-0">
-                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/feature-2.jpg'?>" class="responsive-element" alt="Project Image">
+                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/feature-1.png'?>" class="responsive-element" alt="Project Image">
                         <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
                         <p><?php pl_e( 'Features' ); ?></p>
                       </div>
                       <div data-t="payment-delivery" class="col-4 project-item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/payment-1.jpg'?>" class="responsive-element" alt="Project Image">
+                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/wow-payment.jpg'?>" class="responsive-element" alt="Project Image">
                         <div class="project-hovering"><?php pl_e( 'Payment' ); ?></div>
                         <p><?php pl_e( 'Payment' ); ?></p>
                       </div>
@@ -243,7 +243,7 @@
                   </div>
                   <div class="info">
                     <div class="wow">
-                      <h3><?php pl_e( 'Wow' ); ?></h3>
+                      <h3><a href="https://wow-ae.com/index.php"><?php pl_e( 'Wow' ); ?></a></h3>
                       <p><?php pl_e( 'Emarati online shop' ); ?>.
                       </p>
                     </div>

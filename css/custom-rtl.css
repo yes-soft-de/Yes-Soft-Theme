@@ -361,6 +361,9 @@ nav ul li a {
 /*End home slider section*/
 
 /*Start Our Projects Section*/
+.project {
+    outline: none;
+}
 .our-projects .project-list .project-item {
     height: 130px;
     cursor: pointer;
