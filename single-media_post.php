@@ -23,7 +23,7 @@
                     </span>
 							<span class="post-comment">
                         <i class="fa fa-comments fa-fw"></i>
-                        <?php comments_popup_link('0 Comment', 'One Comment', '% Comments', '', 'disabled Comment'); ?>
+  	                    <?php comments_popup_link( pll_('0 Comment'), pll_('One Comment'), '% ' . pll_('Comments'), '', pll_('disabled Comment') ); ?>
                     </span>
 						</div>
 						<?php if (has_post_thumbnail()) : ?>
@@ -44,15 +44,15 @@
 									echo '<i class="fa fa-tags fa-fw"></i> Cat : ';
 									echo yes_soft_get_terms( $post->ID, 'media_category' );
 								} else {
-									echo '<i class="fa fa-tags fa-fw"></i> Cat : There\'s No Categories For This Media Post';
+									echo '<i class="fa fa-tags fa-fw"></i> ' . pll_( 'Cat : There\'s No Categories For This Media Post' );
 								}
 								echo '<br />';
 								// Check If There Is Tags Or Not
 								if ( yes_soft_get_terms( $post->ID, 'media_tag' ) ) {
-									echo '<i class="fa fa-tags fa-fw"></i>Tags: ';
+									echo '<i class="fa fa-tags fa-fw"></i>' . pll_( 'Tags' ) . ': ';
 									echo yes_soft_get_terms( $post->ID, 'media_tag' );
 								} else {
-									echo '<i class="fa fa-tags fa-fw"></i>Tags: There\'s No Tags For This Media Post';
+									echo '<i class="fa fa-tags fa-fw"></i>' . pll_( 'Tags: There\'s No Tags For This Media Post' );
 								}
 							?>
 						</p>
@@ -74,7 +74,7 @@
 			// Check If There Is A Post In Database
 			if ($rand_post_query->have_posts()) {
 				echo '<div class="random-post my-4">';
-				echo '<h4 class="post-author-title mt-2">Random Posts On This Category</h4>';
+				echo '<h4 class="post-author-title mt-2">' . pll_( 'Random Posts On This Category' ) . '</h4>';
 				while ($rand_post_query->have_posts()) {
 					$rand_post_query->the_post(); ?>
 					<h4 class="post-author-random-posts text-secondary p-2">
@@ -84,11 +84,9 @@
 				} // End While Loop
 				echo '</div>';
 			} else {
-				echo '<div class="random-post">
-            <h4 class="post-author-random-posts text-secondary my-2 p-2" style="border-color:#45a9b7">
-                There Is No Post To Display
-            </h4>
-          </div>';
+
+				echo '<div class="random-post"><h4 class="post-author-random-posts text-secondary my-2 p-2" style="border-color:#45a9b7">' . pll_( 'There Isn\'t Post To Display' ) . '</h4></div>';
+
 			} // End Check For Having Post
 			wp_reset_postdata(); // reset loop query
 			// End Random Posts Section
@@ -101,12 +99,12 @@
 			if (get_previous_post_link()) {
 				previous_post_link();
 			} else {
-				echo '<span>Prev</span>';
+				echo '<span>' . pll_( 'Prev' ) . '</span>';
 			}
 			if (get_next_post_link()) {
 				next_post_link();
 			} else {
-				echo '<span>Next</span>';
+				echo '<span>' . pll_( 'Next' ) . '</span>';
 			}
 			echo '</div>';
 			echo '</div>';

@@ -24,6 +24,14 @@ function pl_e( $string = '' ) {
     }
 }
 
+
+function pll_( $string = '' ) {
+	if ( function_exists( 'pll__' ) ) {
+		return pll__( $string );
+	}
+}
+
+
 // these function prefixes can be either you are comfortable with.
 function sunset_add_to_polylang_register() {
 	global $translationWords;

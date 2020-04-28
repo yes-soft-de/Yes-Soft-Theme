@@ -8,28 +8,28 @@
             <div class="row">
                 <div class="col-12 col-sm-4">
                     <i class="fas fa-map-marker-alt fa-2x mb-3"></i>
-                    <h6>Address</h6>
-                    <p>Deutschland - Berlin 10827</p>
+                    <h6><?php pl_e( 'Address' ); ?></h6>
+                    <p><?php pl_e( 'Deutschland - Berlin 10827' ); ?></p>
                 </div>
                 <hr class="col-6 bg-white mb-3 mt-1 d-sm-none">
                 <div class="col-12 col-sm-4 border border-top-0 border-bottom-0 border-white footer-phone">
                     <i class="fas fa-phone fa-fw fa-2x mb-3"></i>
-                    <h6>Berlin Phone</h6>
+                    <h6><?php pl_e( 'Berlin Phone' ); ?></h6>
                     <p>+491633733146</p>
                 </div>
                 <hr class="col-6 bg-white mb-3 mt-1 d-sm-none">
                 <div class="col-12 col-sm-4">
                     <i class="fas fa-envelope fa-fw fa-2x mb-3"></i>
-                    <h6>Email</h6>
+                    <h6><?php pl_e( 'Email' ); ?></h6>
                     <p>info@yes-soft.de</p>
                 </div>
                 <hr class="col-12 bg-white mt-5 mb-0">
                 <!-- Footer Menu-->
                 <div class="col-8 col-md-6 footer-menu text-center mx-auto py-2">
                     <div class="row">
-                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/privacy-policy'?>">Legal Information</a></div>
-                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/privacy-policy'?>">Privacy</a></div>
-                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/#about-us'?>">About Us</a></div>
+                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/privacy-policy'?>"><?php pl_e( 'Legal Information' ); ?></a></div>
+                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/privacy-policy'?>"><?php pl_e( 'Privacy' ); ?></a></div>
+                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/#about-us'?>"><?php pl_e( 'About Us' ); ?></a></div>
                     </div>
                 </div>
                 <hr class="col-12 bg-white mb-4 mt-0">
@@ -48,8 +48,8 @@
 		</div>
 	</div>
     <div class="bg-dark text-white text-center p-2">
-        Copyright &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - All right reserved. <br class="d-md-none">
-        Implemented By <a href="">Yes Soft Team</a>.
+	    <?php pl_e( 'Copyright' ); ?> &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - <?php pl_e( 'All right reserved' ); ?>. <br class="d-md-none">
+	    <?php pl_e( 'Implemented By' ); ?> <a href=""><?php pl_e( 'Yes Soft Team' ); ?></a>.
     </div>
 	<!--End Footer-->
 	<?php wp_footer(); ?>

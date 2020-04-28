@@ -91,7 +91,7 @@ if ( $query->have_posts() ):?>
 
 else:
 
-    echo '<div class="col-11 col-sm-10 col-md-7 alert alert-info mx-auto text-center my-5">Sorry, There Is No Media Posts To Display</div>';
+    echo '<div class="col-11 col-sm-10 col-md-7 alert alert-info mx-auto text-center my-5">' . pll_( 'Sorry, There Is No Media Posts To Display' ) . '</div>';
 
 endif;
 	wp_reset_postdata();

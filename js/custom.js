@@ -40,11 +40,11 @@ $("#project-1 .row div.project-item").click(function () {
     $("." + $(this).data("t")).fadeIn();
 });
 
-$("#project-2 .row div.project-item").click(function () {
-    $(this).addClass("selected").siblings(projectItem).removeClass("selected");
-    $(this).parents("#project-2").siblings(info).children().hide();
-    $("." + $(this).data("t")).fadeIn();
-});
+// $("#project-2 .row div.project-item").click(function () {
+//     $(this).addClass("selected").siblings(projectItem).removeClass("selected");
+//     $(this).parents("#project-2").siblings(info).children().hide();
+//     $("." + $(this).data("t")).fadeIn();
+// });
 
 $("#project-3 .row div.project-item").click(function () {
     $(this).addClass("selected").siblings(projectItem).removeClass("selected");
@@ -69,6 +69,9 @@ $("#project-6 .row div.project-item").click(function () {
     $(this).parents("#project-6").siblings(info).children().hide();
     $("." + $(this).data("t")).fadeIn();
 });
+
+// Add bootstrap Table Class To Table We Create From blog Editor
+$('.service-page-table .post').find('table').addClass('table my-4').children('thead').addClass('thead-light');
 
 
 // Scrolling Event

@@ -96,9 +96,9 @@
 
 											<i class="fa fa-comments fa-fw"></i>
 
-											<?php comments_popup_link('0 Comment', 'One Comment', '% Comments', '', 'disabled Comment'); ?>
+											<?php comments_popup_link( pll_('0 Comment'), pll_('One Comment'), '% ' . pll_('Comments'), '', pll_('disabled Comment') ); ?>
 
-										</span>							
+										</span>
 
 										<div class="post-content">
 
@@ -134,7 +134,7 @@
 
 											<i class="fa fa-comments fa-fw"></i>
 
-											<?php comments_popup_link('0 Comment', 'One Comment', '% Comments', '', 'disabled Comment'); ?>
+											<?php comments_popup_link( pll_('0 Comment'), pll_('One Comment'), '% ' . pll_('Comments'), '', pll_('disabled Comment') ); ?>
 
 										</span>							
 
@@ -172,7 +172,7 @@
 
 											} else {
 
-												echo '<i class="fa fa-tags fa-fw"></i>Tags: There\'s No Tags For This Post';
+												echo '<i class="fa fa-tags fa-fw"></i>' . pll_('Tags: There\'s No Tags For This Post');
 
 											}
 
@@ -193,7 +193,7 @@
 				} // End While Loop
 
 			} else { // End Check For Having Post
-				echo '<div class="col-md-8 alert alert-info text-center my-5 mx-auto">This Category Don\'t Have Any Posts To Dispaly Yet</div>';
+				echo '<div class="col-md-8 alert alert-info text-center my-5 mx-auto">' . pll_('This Category Don\'t Have Any Posts To Display Yet') . '</div>';
 			}
 			?>
 

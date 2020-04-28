@@ -80,8 +80,8 @@ add_theme_support( 'post-thumbnails' );
 				'format'             => '?paged=%#%',
 				'current'            => $current_page_number,
 				'total'              => $all_page_number,
-				'prev_text'          => __('« Prev'),
-				'next_text'          => __('Next »')
+				'prev_text'          => pll_('« Prev'),
+				'next_text'          => pll_('Next »')
 			) );
 		}
 	}
@@ -216,11 +216,11 @@ add_theme_support( 'post-thumbnails' );
 	 ** Function To Remove Tag p from the_content function
 	 ** Add By @Talal
 	 */
-	//function yes_soft_remove_paragraph( $content ) {
-	//    remove_filter('the_content', 'wpautop'); // remove the filter wpautop
-	//    return $content;
-	//}
-	//add_filter('the_content', 'yes_soft_remove_paragraph', 0);
+	function yes_soft_remove_paragraph( $content ) {
+	    remove_filter('the_content', 'wpautop'); // remove the filter wpautop
+	    return $content;
+	}
+	add_filter('the_content', 'yes_soft_remove_paragraph', 0);
 
 
 /*
@@ -240,3 +240,31 @@ function yes_soft_get_terms( $postID, $term ){
 	}
 	return $output;
 }
+
+
+/*
+ * Function to fetch our attachment image
+ * Add By @Talal
+ */
+function yes_soft_get_attachments( $attachmentNumber = 1 ) {
+	$output = '';
+	if ( has_post_thumbnail() && $attachmentNumber == 1 ):
+		$output = wp_get_attachment_url( get_post_thumbnail_id( get_the_ID() ) );
+	else:
+		$attachments = get_posts( array(
+			'post_type'   => 'attachment',
+			'posts_per_page' => $attachmentNumber,
+			'post_parent'   => get_the_ID()
+		) );
+		if ( $attachments && $attachmentNumber == 1 ):
+			foreach ( $attachments as $attachment):
+				$output = wp_get_attachment_url( $attachment->ID );
+			endforeach;
+		elseif ( $attachments && $attachmentNumber > 1 ):
+			$output = $attachments;
+		endif;
+		wp_reset_postdata();
+	endif;
+	return $output;
+}
+

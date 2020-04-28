@@ -1755,7 +1755,7 @@ nav ul li a {
 }
 
 .e-commerce-service table td {
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .e-commerce-service table td span {
@@ -2033,7 +2033,9 @@ nav ul li a {
 
         border: 1px solid #eee;
 
-        border-radius: 4px
+        border-radius: 4px;
+
+        line-height: 1.7;
 
     }
 
