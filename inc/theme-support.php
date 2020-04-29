@@ -80,8 +80,8 @@ add_theme_support( 'post-thumbnails' );
 				'format'             => '?paged=%#%',
 				'current'            => $current_page_number,
 				'total'              => $all_page_number,
-				'prev_text'          => pll_('« Prev'),
-				'next_text'          => pll_('Next »')
+				'prev_text'          => '« '.pll_('Prev'),
+				'next_text'          => pll_('Next').' »'
 			) );
 		}
 	}
@@ -107,8 +107,8 @@ add_theme_support( 'post-thumbnails' );
 				'format'             => '?paged=%#%',
 				'current'            => $current_page_number,
 				'total'              => $all_page_number,
-				'prev_text'          => __('« Prev'),
-				'next_text'          => __('Next »')
+				'prev_text'          => '« '.pll_('Prev'),
+				'next_text'          => pll_('Next').' »'
 			) );
 		}
 		wp_reset_postdata();

@@ -102,6 +102,10 @@ $translationWords = array(
 	'Categories', 'Random Posts On This Category', 'There Isn\'t Post To Display', 'There Is No Biography', 'User Post Count', 'User Profile Link',
 	// media-posts
 	'Cat : There\'s No Categories For This Media Post', 'Tags: There\'s No Tags For This Media Post',
-
+	// Hire
+	'We are Hiring', 'Be one of our team Programmers front end / back end', 'Required', 
+	'We are looking for the best developers and emarketers to work with us at Yes Soft.
+	We work on open source projects that contain ecommerce, emarketing, websites and apps.
+	Work is freelance, totally online and continuous practice.', 'For interested people, send your CV to',
 
 );

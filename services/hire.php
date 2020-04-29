@@ -8,12 +8,10 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="post p-3">
-                    <h4 class="text-center mb-1">We are Hiring</h4>
+                    <h4 class="text-center mb-1"><?php pl_e( 'We are Hiring' ); ?></h4>
                     <p class="lead text-center">
-                        Be one of our team
-                        Programmers front end / back
-                        end
-                        <span>Required</span>
+                        <?php pl_e( 'Be one of our team Programmers front end / back end' ); ?>
+                        <span><?php pl_e( 'Required' ); ?></span>
                     </p>
                     <div class="row">
                         <div class="col-12">
@@ -34,11 +32,11 @@
                         </div>
                         <div class="col-12">
                             <p class="hire-content mb-0 mt-5 text-center">
-                                We are looking for the best developers and emarketers to work with us at Yes Soft.
+                                <?php pl_e( 'We are looking for the best developers and emarketers to work with us at Yes Soft.
                                 We work on open source projects that contain ecommerce, emarketing, websites and apps.
-                                Work is freelance, totally online and continuous practice.
-                                For interested people, send your CV to:<br>
-                                <span class="email-to-hire">Email: Jobs@yes-soft.de</span>
+                                Work is freelance, totally online and continuous practice.' ); ?>
+                                <?php pl_e( 'For interested people, send your CV to' ); ?>:<br>
+                                <span class="email-to-hire"><?php pl_e( 'Email' ); ?>: Jobs@yes-soft.de</span>
                             </p>
                         </div>
                     </div>
