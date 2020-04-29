@@ -74,14 +74,14 @@ $translationWords = array(
 	'Next', 'Prev', 'Sorry, There Is No Posts To Display',
 	// media-posts
 	'Sorry, There Is No Media Posts To Display',
-	// pages
+	// Services
 	'Services We Provide', 'E-Commerce Service', 'E-Market Service', 'What if we tell you that we are a Professional Custom Prestashop Development Company? And what if we offer Dedicated Custom Work Services?',
 	'Magento', 'If you are looking to lift your business into a whole new level, then It is important to know that the special secret behind the success of online businesses is E-commerce.',
 	'Spryker', 'If you are thinking of developing a long-term professional e-commerce site, then It is important to know that the special secret behind the success of online businesses is e-commerce.',
 	'we are one of the first companies that provide artist e-commerce stores, and above that, we are the leading company in this field.', 'Digital Marketing', 'SEO',
 	'Everyone wants to be on the first rank of google search results, but not everyone deserves that.', 'Social Media Marketing Service', 'Remember when a TV ad about a new blender showed up that late Sunday night, and you said: “I have to buy this!”? Those days are gone. Well. Not exactly.',
 	'SEM', 'Do you want to reach your most important audience members at the perfect moment, and be on top search results when they search for you?', 'Full Package',
-	'You are in the right place, here is the best offer you can ever get in your business journey.',
+	'You are in the right place, here is the best offer you can ever get in your business journey.', 'WooCommerce', 'Do you have a wordpress website and you want to convert it to an ecommerce website?',
 	// Privacy Policy
 //	'Privacy & Legal Information', 'Last updated', 'Yes Soft operates Yes Soft website and Yes Soft app. This page informs you of our policies regarding the collection, use and disclosure of Personal Information we receive from users of the Site and App.',
 //	'We use your Personal Information only for providing and improving our services and user experience. By using our products, you agree to the collection and use of information in accordance with this policy.',
@@ -101,7 +101,7 @@ $translationWords = array(
 	// single
 	'Categories', 'Random Posts On This Category', 'There Isn\'t Post To Display', 'There Is No Biography', 'User Post Count', 'User Profile Link',
 	// media-posts
-	'Cat : There\'s No Categories For This Media Post', 'Tags: There\'s No Tags For This Media Post',
+	'Cat', 'Cat : There\'s No Categories For This Media Post', 'Tags: There\'s No Tags For This Media Post',
 	// Hire
 	'We are Hiring', 'Be one of our team Programmers front end / back end', 'Required', 
 	'We are looking for the best developers and emarketers to work with us at Yes Soft.

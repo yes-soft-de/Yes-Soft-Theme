@@ -26,11 +26,6 @@
   	                    <?php comments_popup_link( pll_('0 Comment'), pll_('One Comment'), '% ' . pll_('Comments'), '', pll_('disabled Comment') ); ?>
                     </span>
 						</div>
-						<?php if (has_post_thumbnail()) : ?>
-							<div class="single-post-img">
-								<?php the_post_thumbnail('', ['class' => 'img-fluid img-thumbnail', 'alt' => 'Post Image']); ?>
-							</div>
-						<?php endif; ?>
 						<hr>
 						<div class="post-content mt-3">
 							<div class="embed-responsive embed-responsive-16by9">
@@ -41,18 +36,18 @@
 							<?php
 								// Print The Categories
 								if ( yes_soft_get_terms( $post->ID, 'media_category' ) ) {
-									echo '<i class="fa fa-tags fa-fw"></i> Cat : ';
+									echo '<i class="fa fa-tags fa-fw"></i>' . pll_( ' Cat' ) . ' : ';
 									echo yes_soft_get_terms( $post->ID, 'media_category' );
 								} else {
-									echo '<i class="fa fa-tags fa-fw"></i> ' . pll_( 'Cat : There\'s No Categories For This Media Post' );
+									echo '<i class="fa fa-tags fa-fw"></i> ' . pll_( ' Cat : There\'s No Categories For This Media Post' );
 								}
 								echo '<br />';
 								// Check If There Is Tags Or Not
 								if ( yes_soft_get_terms( $post->ID, 'media_tag' ) ) {
-									echo '<i class="fa fa-tags fa-fw"></i>' . pll_( 'Tags' ) . ': ';
+									echo '<i class="fa fa-tags fa-fw"></i>' . pll_( ' Tags' ) . ': ';
 									echo yes_soft_get_terms( $post->ID, 'media_tag' );
 								} else {
-									echo '<i class="fa fa-tags fa-fw"></i>' . pll_( 'Tags: There\'s No Tags For This Media Post' );
+									echo '<i class="fa fa-tags fa-fw"></i>' . pll_( ' Tags: There\'s No Tags For This Media Post' );
 								}
 							?>
 						</p>

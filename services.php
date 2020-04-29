@@ -70,6 +70,17 @@
 							</div>
 						</a>
 					</div>
+          <div class="col-12 col-sm-6 col-md-4 mb-4">
+            <a href="<?php echo get_site_url() . '/woocommerce-service'?>">
+              <div class="card mb-3">
+                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/woocommerce.png'?>" alt="Card image cap">
+                <div class="card-body">
+                  <h3 class="card-title"><?php pl_e( 'WooCommerce' ); ?></h3>
+                  <p class="card-text text-justify"><?php pl_e( 'Do you have a wordpress website and you want to convert it to an ecommerce website?' ); ?></p>
+                </div>
+              </div>
+            </a>
+          </div>
 				</div>
 			</div>
 		</div>
@@ -92,7 +103,7 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/social-media-marketing-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/website-test.png'?>" alt="Card image cap">
+								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/smm.jpg'?>" alt="Card image cap">
 								<div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'Social Media Marketing Service' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'Remember when a TV ad about a new blender showed up that late Sunday night, and you said: “I have to buy this!”? Those days are gone. Well. Not exactly.' ); ?></p>
@@ -103,7 +114,7 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/sem-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/remote-maintenance.png'?>" alt="Card image cap">
+								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/sem.jpg'?>" alt="Card image cap">
 								<div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'SEM' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'Do you want to reach your most important audience members at the perfect moment, and be on top search results when they search for you?' ); ?></p>
@@ -114,7 +125,7 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/full-package-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/remote-maintenance.png'?>" alt="Card image cap">
+								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/fullpackage.jpg'?>" alt="Card image cap">
 								<div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'Full Package' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'You are in the right place, here is the best offer you can ever get in your business journey.' ); ?></p>

@@ -1,5 +1,6 @@
 <?php get_header(); ?>
 
+
 <!-- Start Up Button Section -->
 <div class="move-up">
     <button type="button" class="move-up-button">
@@ -353,7 +354,7 @@
                 <div class="col-12 col-sm-10 col-md-8 col-lg-7 about-us-content mx-auto">
                     <div class="about-us-text">
                         <p>
-                            <span class="font-weight-bold"><?php pl_e( 'Yes Soft' ); ?></span><?php pl_e( 'is an ecommerce specialized software company located in Berlin/ Germany. It adopts open-source methodology. All its projects’ codes are available on Github.
+                            <span class="font-weight-bold"><?php pl_e( 'Yes Soft' ); ?> </span><?php pl_e( 'is an ecommerce specialized software company located in Berlin/ Germany. It adopts open-source methodology. All its projects’ codes are available on Github.
                             Its team consists of developers, designers, content makers, testers and team managers. They work together remotely and results are always great.' ); ?>
                         </p>
                     </div>
