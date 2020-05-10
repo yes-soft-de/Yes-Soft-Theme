@@ -66,7 +66,6 @@
     </nav>
     <!--End NavBar-->
 
-  <?php echo the_title(); ?>
     <!--Start Whats App Button-->
     <?php
       $whatsAppNumber = get_option('WhatsAppNumber');
@@ -75,7 +74,7 @@
           <a alt="whatsapp"
              target="_blank"
              onclick="ga('send', 'event', 'WhatsApp Chat', 'WhatsApp Clicked', '<?php the_title(); ?>')"
-             href="https://api.whatsapp.com/send?phone=<?php echo $whatsAppNumber; ?>>">
+             href="https://api.whatsapp.com/send?phone=<?php echo $whatsAppNumber; ?>">
             <img class="img-fluid" title="WhatsApp us" src="<?php echo get_template_directory_uri() . '/img/whatsup.png' ?>" alt="Whats App">
           </a>
         </div>

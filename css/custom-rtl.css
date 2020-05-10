@@ -193,6 +193,19 @@ nav ul li a {
 }
 /* ---- End NavBar ---- */
 
+
+/* ---- Start Whats App Chat ---- */
+.whatsapp-chat {
+    position: fixed;
+    bottom: 20px;
+    left: 29px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    z-index: 999;
+}
+/* ---- End Whats App Chat ---- */
+
 /* ---- Start Background NavBar Logo---- */
 .bg-nav-logo {
     position: absolute;
