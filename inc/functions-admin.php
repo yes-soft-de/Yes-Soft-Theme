@@ -92,3 +92,35 @@ function yes_soft_custom_taxonomies() {
 	) );
 }
 add_action( 'init' , 'yes_soft_custom_taxonomies' );
+
+
+
+//general settings could add in function.php or your plugin file
+	add_action('admin_init', 'yes_soft_general_section');
+
+	function yes_soft_general_section() {
+		// Create Section Inside Our Settings
+		add_settings_section(
+			'yes_soft_settings_section', // Section ID
+			'<h1>Yes Soft Custom Setting</h1>', // Section Title
+			'yes_soft_section_options_callback', // Callback function
+			'general' // Show up on the General Settings Page
+		);
+
+		// Generate Custom Field, Custom Html Input and auto store inside database
+		add_settings_field( 'WhatsAppNumber', 'WhatsApp Chat Number', 'yes_soft_settings_section_callback', 'general', 'yes_soft_settings_section', array( 'WhatsAppNumber' ) );
+
+		/*** Start Theme Support Options ***/
+		register_setting('general','WhatsAppNumber' );
+	}
+
+	function yes_soft_section_options_callback() { // Section Callback
+		echo '';
+	}
+
+	// Function To Generate The Full Name Input
+	function yes_soft_settings_section_callback() {
+		// Get The Option We Want From Database And Make Escape for any thing could be inject
+		$whatsAppNumber = esc_attr( get_option( 'WhatsAppNumber' ) );
+		echo '<input type="number" name="WhatsAppNumber" id="WhatsAppNumber" value="' . $whatsAppNumber . '" placeholder="'.__('Phone Number').'"/>';
+	}
