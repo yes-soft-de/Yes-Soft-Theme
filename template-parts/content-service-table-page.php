@@ -13,7 +13,7 @@
 
 							<div class="our-posts e-commerce-service service-page-table our-services py-5">
 								<div class="container">
-									<div class="post p-3 pb-0 bg-white mb-5">
+									<div class="post py-3 px-4 pb-0 bg-white mb-5">
 
 										<?php the_title( '<h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center pt-5">', '</h1>') ?>
 

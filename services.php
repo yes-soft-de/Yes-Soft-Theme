@@ -7,22 +7,26 @@
 
 <!--Start About Us Separate Page-->
 <div class="our-services position-relative">
-	<img src="<?php echo get_template_directory_uri() . '/img/about-us-separate-background.png'; ?>" class="d-block d-sm-none d-md-block responsive-element position-absolute" >
-	<img src="<?php echo get_template_directory_uri() . '/img/mobile-about-us-separate-background.png'; ?>" class="d-none d-sm-block d-md-none responsive-element position-absolute" >
+	<?php if ( !$detect->isMobile() ): ?>
+    <img src="<?php echo get_template_directory_uri() . '/img/about-us-separate-background.png'; ?>" class="d-block d-sm-none d-md-block responsive-element position-absolute" >
+  <?php endif; ?>
+	<?php if ( $detect->isMobile() ): ?>
+    <img src="<?php echo get_template_directory_uri() . '/img/mobile-about-us-separate-background.png'; ?>" class="d-none d-sm-block d-md-none responsive-element position-absolute" >
+  <?php endif; ?>
 	<div class="position-relative">
 		<div class="services-title">
 			<div class="container">
 				<h3 class="text-center mb-5"><?php pl_e( 'Services We Provide' ); ?></h3>
 				<div class="row">
-					<div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center font-weight-bolder mb-4"><a href="#e-commerce"># <?php pl_e( 'E-Commerce Service' ); ?></a></h4></div>
-					<div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center font-weight-bolder mb-4"><a href="#e-market"># <?php pl_e( 'E-Market Service' ); ?></a></h4></div>
+					<div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center font-weight-bolder"><a href="#e-commerce"># <?php pl_e( 'E-Commerce Service' ); ?></a></h4><hr class="w-50 mx-auto mt-2 mb-4"></div>
+					<div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center font-weight-bolder"><a href="#e-market"># <?php pl_e( 'E-Market Service' ); ?></a></h4><hr class="w-50 mx-auto mt-2 mb-4"></div>
 					<!-- <div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center font-weight-bolder mb-4"><a href="#android-app"># Android App Development</a></h4></div>
 					<div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center mb-4"><a href=""># Remote Maintenance</a></h4></div> -->
 					<!--                    <div class="col-4"><a href=""></a></div>-->
 				</div>
 			</div>
 		</div>
-		<div id="e-commerce" class="ecommerce-section text-center py-5">
+		<div id="e-commerce" class="ecommerce-section text-center pb-5">
 			<div class="container">
 				<h3 class="text-left font-weight-bold my-5"><?php pl_e( 'E-Commerce' ); ?> :</h3>
 				<div class="row">

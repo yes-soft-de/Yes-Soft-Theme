@@ -29,18 +29,18 @@
                     <div class="row">
                         <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/privacy-policy'?>"><?php pl_e( 'Legal Information' ); ?></a></div>
                         <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/privacy-policy'?>"><?php pl_e( 'Privacy' ); ?></a></div>
-                        <div class="col-12 col-sm-4 align-self-center"><a href="<?php echo get_site_url() . '/#about-us'?>"><?php pl_e( 'About Us' ); ?></a></div>
+                        <div class="col-12 col-sm-4 align-self-center"><a id="about_us" href="<?php echo get_site_url() . '/#about-us'?>"><?php pl_e( 'About Us' ); ?></a></div>
                     </div>
                 </div>
                 <hr class="col-12 bg-white mb-4 mt-0">
                 <div class="col-12">
                     <div class="social-media">
                         <ul class="list-unstyled">
-                            <li><a href="https://www.facebook.com/Yes-soft-328738448051690"><i class="fab fa-facebook-f fa-fw fa-2x"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/yes-soft"><i class="fab fa-linkedin-in fa-fw fa-2x"></i></a></li>
-                            <li><a alt="whatsapp" href="https://api.whatsapp.com/send?phone=96171575052"><i class="fab fa-whatsapp fa-fw fa-2x"></i></a></li>
-                            <li><a href="https://www.twitter.com/yessoft0"><i class="fab fa-twitter fa-fw fa-2x"></i></a></li>
-                            <li><a href="https://github.com/yes-soft-de/"><i class="fab fa-github fa-fw fa-2x"></i></a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/Yes-soft-328738448051690"><i class="fab fa-facebook-f fa-fw fa-2x"></i></a></li>
+                            <li><a target="_blank" href="https://www.linkedin.com/company/yes-soft"><i class="fab fa-linkedin-in fa-fw fa-2x"></i></a></li>
+                            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=96171575052" alt="whatsapp"><i class="fab fa-whatsapp fa-fw fa-2x"></i></a></li>
+                            <li><a target="_blank" href="https://www.twitter.com/yessoft0"><i class="fab fa-twitter fa-fw fa-2x"></i></a></li>
+                            <li><a target="_blank" href="https://github.com/yes-soft-de/"><i class="fab fa-github fa-fw fa-2x"></i></a></li>
                         </ul>
                     </div>
                 </div>

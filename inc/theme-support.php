@@ -269,3 +269,10 @@ function yes_soft_get_attachments( $attachmentNumber = 1 ) {
 }
 
 
+
+// Initialize global Mobile Detect
+function mobileDetectGlobal() {
+	global $detect;
+	$detect = new Mobile_Detect;
+}
+add_action('after_setup_theme', 'mobileDetectGlobal');

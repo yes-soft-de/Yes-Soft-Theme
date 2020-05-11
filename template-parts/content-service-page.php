@@ -13,7 +13,7 @@
 
             <div class="our-posts e-commerce-service our-services py-5">
                 <div class="container">
-                    <div class="post p-3 pb-0 bg-white mb-5">
+                    <div class="post py-3 px-4 pb-0 bg-white mb-5">
                         <?php if ( yes_soft_get_attachments(2) ): ?>
                           <div class="row">
                             <?php foreach ( yes_soft_get_attachments(3) as $attachmentUrl ): ?>

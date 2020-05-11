@@ -4,8 +4,8 @@
 
 <!--Start About Us Separate Page-->
 <div class="about-us-separate-page position-relative">
-    <img src="<?php echo get_template_directory_uri() . '/img/about-us-separate-background.png'; ?>" class="d-block d-sm-none d-md-block responsive-element position-absolute" >
-    <img src="<?php echo get_template_directory_uri() . '/img/mobile-about-us-separate-background.png'; ?>" class="d-none d-sm-block d-md-none responsive-element position-absolute" >
+      <img src="<?php echo get_template_directory_uri() . '/img/about-us-separate-background.png'; ?>" class="d-block d-sm-none d-md-block responsive-element position-absolute" >
+      <img src="<?php echo get_template_directory_uri() . '/img/mobile-about-us-separate-background.png'; ?>" class="d-none d-sm-block d-md-none responsive-element position-absolute" >
     <div>
         <div class="about-us-section">
             <div class="container-fluid">

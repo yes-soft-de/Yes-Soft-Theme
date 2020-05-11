@@ -61,18 +61,24 @@
                     <div id="project-1" class="project-list list">
                         <div class="row">
                             <div data-t="ishtar" class="col-4 selected project-item">
-                                <img src="<?php echo get_template_directory_uri() . '/img/our-projects/ishtar.jpg'?>" class="responsive-element" alt="Project Image">
-                                <div class="project-hovering"><?php pl_e( 'Ishtar' ); ?></div>
+                                <?php if ( !$detect->isMobile() ): ?>
+                                  <img src="<?php echo get_template_directory_uri() . '/img/our-projects/ishtar.jpg'?>" class="responsive-element" alt="Project Image">
+                                  <div class="project-hovering"><?php pl_e( 'Ishtar' ); ?></div>
+                                <?php endif; ?>
                                 <p><?php pl_e( 'Ishtar' ); ?></p>
                             </div>
                             <div data-t="ishtar-art" class="col-4 project-item px-0">
-                                <img src="<?php echo get_template_directory_uri() . '/img/our-projects/ishtar-art.png';?>" class="responsive-element" alt="Project Image">
-                                <div class="project-hovering w-100"><?php pl_e( 'Ishtar art' ); ?></div>
+                                <?php if ( !$detect->isMobile() ): ?>
+                                  <img src="<?php echo get_template_directory_uri() . '/img/our-projects/ishtar-art.png';?>" class="responsive-element" alt="Project Image">
+                                  <div class="project-hovering w-100"><?php pl_e( 'Ishtar art' ); ?></div>
+                                <?php endif; ?>
                                 <p><?php pl_e( 'art' ); ?></p>
                             </div>
                             <div data-t="ishtar-goals" class="col-4 project-item">
-                                <img src="<?php echo get_template_directory_uri() . '/img/our-projects/ishtar-goal.png'?>" class="responsive-element" alt="Project Image">
-                                <div class="project-hovering"><?php pl_e( 'Goals' ); ?></div>
+	                              <?php if ( !$detect->isMobile() ): ?>
+                                  <img src="<?php echo get_template_directory_uri() . '/img/our-projects/ishtar-goal.png'?>" class="responsive-element" alt="Project Image">
+                                  <div class="project-hovering"><?php pl_e( 'Goals' ); ?></div>
+                                <?php endif; ?>
                                 <p><?php pl_e( 'Goals' ); ?></p>
                             </div>
                         </div>
@@ -143,19 +149,25 @@
                         <div id="project-3" class="project-list list">
                             <div class="row">
                                 <div data-t="doctor-notebook" class="col-4 selected project-item">
+	                                <?php if ( !$detect->isMobile() ): ?>
                                     <img src="<?php echo get_template_directory_uri() . '/img/our-projects/doctor-site.png'?>" class="responsive-element" alt="Project Image">
                                     <div class="project-hovering"><?php pl_e( 'Doctor' ); ?></div>
-                                    <p><?php pl_e( 'NDoctor' ); ?></p>
+                                  <?php endif; ?>
+                                  <p><?php pl_e( 'NDoctor' ); ?></p>
                                 </div>
                                 <div data-t="online-store" class="col-4 project-item px-0">
+	                                <?php if ( !$detect->isMobile() ): ?>
                                     <img src="<?php echo get_template_directory_uri() . '/img/our-projects/doctor-store.png'?>" class="responsive-element" alt="Project Image">
                                     <div class="project-hovering w-100"><?php pl_e( 'Online Store' ); ?></div>
+                                  <?php endif; ?>
                                     <p><?php pl_e( 'Store' ); ?></p>
                                 </div>
                                 <div data-t="maintenance" class="col-4 project-item">
+	                                <?php if ( !$detect->isMobile() ): ?>
                                     <img src="<?php echo get_template_directory_uri() . '/img/our-projects/doctor-maintenance.jpg'?>" class="responsive-element" alt="Project Image">
                                     <div class="project-hovering"><?php pl_e( 'Maintain' ); ?></div>
-                                    <p><?php pl_e( 'Maint' ); ?></p>
+                                  <?php endif; ?>
+                                  <p><?php pl_e( 'Maint' ); ?></p>
                                 </div>
                             </div>
                         </div>
@@ -183,18 +195,24 @@
                     <div id="project-4" class="project-list list">
                       <div class="row">
                         <div data-t="agora" class="col-4 selected project-item">
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/agora.jpg'?>" class="responsive-element" alt="Project Image">
-                          <div class="project-hovering"><?php pl_e( 'Agora' ); ?></div>
+	                        <?php if ( !$detect->isMobile() ): ?>
+                            <img src="<?php echo get_template_directory_uri() . '/img/our-projects/agora.jpg'?>" class="responsive-element" alt="Project Image">
+                            <div class="project-hovering"><?php pl_e( 'Agora' ); ?></div>
+                          <?php endif; ?>
                           <p><?php pl_e( 'Agora' ); ?></p>
                         </div>
                         <div data-t="features" class="col-4 project-item px-0">
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/feature-2.jpg'?>" class="responsive-element" alt="Project Image">
-                          <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
+	                        <?php if ( !$detect->isMobile() ): ?>
+                            <img src="<?php echo get_template_directory_uri() . '/img/our-projects/feature-2.jpg'?>" class="responsive-element" alt="Project Image">
+                            <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
+                          <?php endif; ?>
                           <p><?php pl_e( 'Features' ); ?></p>
                         </div>
                         <div data-t="agora-maintenance" class="col-4 project-item">
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/maintain.jpg'?>" class="responsive-element" alt="Project Image">
-                          <div class="project-hovering"><?php pl_e( 'Maintain' ); ?></div>
+	                        <?php if ( !$detect->isMobile() ): ?>
+                            <img src="<?php echo get_template_directory_uri() . '/img/our-projects/maintain.jpg'?>" class="responsive-element" alt="Project Image">
+                            <div class="project-hovering"><?php pl_e( 'Maintain' ); ?></div>
+                          <?php endif; ?>
                           <p><?php pl_e( 'Maint' ); ?></p>
                         </div>
                       </div>
@@ -226,18 +244,24 @@
                   <div id="project-5" class="project-list list">
                     <div class="row">
                       <div data-t="wow" class="col-4 selected project-item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/wow.jpg'?>" class="responsive-element" alt="Project Image">
-                        <div class="project-hovering"><?php pl_e( 'Wow' ); ?></div>
+	                      <?php if ( !$detect->isMobile() ): ?>
+                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/wow.jpg'?>" class="responsive-element" alt="Project Image">
+                          <div class="project-hovering"><?php pl_e( 'Wow' ); ?></div>
+                        <?php endif; ?>
                         <p><?php pl_e( 'Wow' ); ?></p>
                       </div>
                       <div data-t="wow-features" class="col-4 project-item px-0">
-                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/feature-1.png'?>" class="responsive-element" alt="Project Image">
-                        <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
+	                      <?php if ( !$detect->isMobile() ): ?>
+                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/feature-1.png'?>" class="responsive-element" alt="Project Image">
+                          <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
+                        <?php endif; ?>
                         <p><?php pl_e( 'Features' ); ?></p>
                       </div>
                       <div data-t="payment-delivery" class="col-4 project-item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/wow-payment.jpg'?>" class="responsive-element" alt="Project Image">
-                        <div class="project-hovering"><?php pl_e( 'Payment' ); ?></div>
+	                      <?php if ( !$detect->isMobile() ): ?>
+                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/wow-payment.jpg'?>" class="responsive-element" alt="Project Image">
+                          <div class="project-hovering"><?php pl_e( 'Payment' ); ?></div>
+                        <?php endif; ?>
                         <p><?php pl_e( 'Payment' ); ?></p>
                       </div>
                     </div>
@@ -268,18 +292,24 @@
                   <div id="project-6" class="project-list list">
                     <div class="row">
                       <div data-t="yes-go" class="col-4 selected project-item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/yesgo.png'?>" class="responsive-element" alt="Project Image">
-                        <div class="project-hovering"><?php pl_e( 'Yes Go' ); ?></div>
+	                      <?php if ( !$detect->isMobile() ): ?>
+                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/yesgo.png'?>" class="responsive-element" alt="Project Image">
+                          <div class="project-hovering"><?php pl_e( 'Yes Go' ); ?></div>
+                        <?php endif; ?>
                         <p><?php pl_e( 'YesGo' ); ?></p>
                       </div>
                       <div data-t="yes-go-features" class="col-4 project-item px-0">
-                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/features.png'?>" class="responsive-element" alt="Project Image">
-                        <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
+	                      <?php if ( !$detect->isMobile() ): ?>
+                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/features.png'?>" class="responsive-element" alt="Project Image">
+                          <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
+                        <?php endif; ?>
                         <p><?php pl_e( 'Features' ); ?></p>
                       </div>
                       <div data-t="quality" class="col-4 project-item">
-                        <img src="<?php echo get_template_directory_uri() . '/img/our-projects/quality.jpg'?>" class="responsive-element" alt="Project Image">
-                        <div class="project-hovering"><?php pl_e( 'Quality' ); ?></div>
+	                      <?php if ( !$detect->isMobile() ): ?>
+                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/quality.jpg'?>" class="responsive-element" alt="Project Image">
+                          <div class="project-hovering"><?php pl_e( 'Quality' ); ?></div>
+                        <?php endif; ?>
                         <p><?php pl_e( 'Quality' ); ?></p>
                       </div>
                     </div>
@@ -317,18 +347,22 @@
             <h2 class="text-center mt-5"><?php pl_e( 'We Are Specialised In' ); ?></h2>
             <div class="container-fluid specialise-slider">
                 <div class="specialise">
-                    <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xl-3 specialise-image d-none">
-                        <img src="<?php echo get_template_directory_uri() . '/img/online-shopping.png' ?>" class="img-fluid" alt="online shopping">
-                    </div>
+                    <?php if ( !$detect->isMobile() || !$detect->isTablet() ): ?>
+                      <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xl-3 specialise-image d-none">
+                          <img src="<?php echo get_template_directory_uri() . '/img/online-shopping.png' ?>" class="img-fluid" alt="online shopping">
+                      </div>
+                    <?php endif; ?>
                     <div class="col-10 col-sm-8 col-md-6 specialise-desc p-3">
                         <h3><?php pl_e( 'Working remotely' ); ?></h3>
                         <p><?php pl_e( 'Our presence around the world makes us aware of all the modern technologies that exist in the world' ); ?></p>
                     </div>
                 </div>
                 <div class="specialise">
-                    <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 specialise-image d-none">
-                        <img src="<?php echo get_template_directory_uri() . '/img/special-commerce.png' ?>" class="img-fluid" alt="special commerce">
-                    </div>
+                    <?php if ( !$detect->isMobile() || !$detect->isTablet() ): ?>
+                      <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 specialise-image d-none">
+                          <img src="<?php echo get_template_directory_uri() . '/img/special-commerce.png' ?>" class="img-fluid" alt="special commerce">
+                      </div>
+                    <?php endif; ?>
                     <div class="col-10 col-sm-8 col-md-6 specialise-desc p-3">
                         <h3><?php pl_e( 'Great experience in e-commerce' ); ?></h3>
                         <p><?php pl_e( 'The multiplicity of experiences and openness to all that is new will be the reason for achieving the best results' ); ?>

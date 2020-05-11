@@ -1,5 +1,6 @@
 <?php
 
+require_once get_template_directory() . '/inc/vendor/Mobile_Detect.php';
 // Include NavWalker Class For Bootstrap Navigation Menu
 require_once get_template_directory() . '/inc/wp-bootstrap-navwalker.php';
 // Admin Custom Function
