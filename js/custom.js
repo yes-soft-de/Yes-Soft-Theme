@@ -122,9 +122,9 @@ jQuery(document).ready( function($) {
     function navbar() {
         const nav = $('.navbar');
         if ($(window).scrollTop() >= 100) {
-            nav.addClass('border-bottom')
+            // nav.addClass('border-bottom')
         } else {
-            nav.removeClass('border-bottom')
+            // nav.removeClass('border-bottom')
         }
     }
     $(window).ready(navbar);

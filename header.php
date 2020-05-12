@@ -2,8 +2,6 @@
 
 <html <?php language_attributes(); ?>>
 
-
-
 <head>
 
     <meta charset="<?php bloginfo('charset'); ?>" />
@@ -31,7 +29,7 @@
 </head>
 
 <body>
-
+    <?php $detect = new Mobile_Detect; ?>
     <!--Start NavBar-->
     <nav class="navbar navbar-light navbar-expand-md custom-nav py-3">
         <div class="container">
@@ -40,20 +38,23 @@
                 <span class="navbar-toggler-icon"></span>
 
             </button>
-            <div class="bg-nav-logo d-none d-md-block">
-                <img src="<?php echo get_template_directory_uri() . '/img/bg-logo.png' ?>" class="responsive-element" alt="background Logo">
-                <div class="nav-logo">
-                    <a href="<?php echo get_site_url()?>">
-                        <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" class="responsive-element" alt="Logo">
-                    </a>
-                </div>
-            </div>
-            <div class="col-4 d-md-none px-0 px-sm-3">
-                <a href="<?php echo get_site_url(); ?>">
-                    <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" class="" alt="yes soft logo">
-                </a>
-            </div>
-
+  	        <?php if ( !$detect->isMobile() ): ?>
+              <div class="bg-nav-logo d-none d-md-block">
+                  <img src="<?php echo get_template_directory_uri() . '/img/bg-logo.png' ?>" class="responsive-element" alt="background Logo">
+                  <div class="nav-logo">
+                      <a href="<?php echo get_site_url()?>">
+                          <img src="<?php echo get_template_directory_uri() . '/img/logo.gif' ?>" class="responsive-element" alt="Logo">
+                      </a>
+                  </div>
+              </div>
+            <?php endif; ?>
+            <?php if ( $detect->isMobile() ): ?>
+              <div class="col-4 d-md-none px-0 px-sm-3">
+                  <a href="<?php echo get_site_url(); ?>">
+                      <img src="<?php echo get_template_directory_uri() . '/img/logo.svg' ?>" class="" alt="yes soft logo">
+                  </a>
+              </div>
+              <?php endif; ?>
 
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
