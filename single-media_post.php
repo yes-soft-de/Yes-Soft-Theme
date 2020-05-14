@@ -16,7 +16,8 @@
 						</h2>
 						<div class="single-post-detail my-2">
                     <span class="post-auther mr-3">
-                        <i class="fa fa-user fa-fw"></i><?php the_author_posts_link(); ?>
+<!--                        <i class="fa fa-user fa-fw"></i>--><?php //the_author_posts_link(); ?>
+                      <i class="fa fa-user fa-fw"></i><a href="#"><?php echo get_the_author() ?></a>
                     </span>
 							<span class="post-date mr-3">
                         <i class="fa fa-calendar fa-fw"></i> <?php the_time('F j, Y'); ?>

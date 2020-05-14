@@ -61,23 +61,35 @@
                     <div id="project-1" class="project-list list">
                         <div class="row">
                             <div data-t="ishtar" class="col-4 selected project-item">
-                                <?php if ( !$detect->isMobile() ): ?>
-                                  <img src="<?php echo get_template_directory_uri() . '/img/our-projects/ishtar.jpg'?>" class="responsive-element" alt="Project Image">
+<!--                                  <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/ishtar.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+                                <?php
+                                  if ( !$detect->isMobile() ):
+                                    $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/ishtar.jpg" class="responsive-element" alt="ishtar">';
+                                    $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                    echo $img_html; ?>
                                   <div class="project-hovering"><?php pl_e( 'Ishtar' ); ?></div>
                                 <?php endif; ?>
                                 <p><?php pl_e( 'Ishtar' ); ?></p>
                             </div>
                             <div data-t="ishtar-art" class="col-4 project-item px-0">
-                                <?php if ( !$detect->isMobile() ): ?>
-                                  <img src="<?php echo get_template_directory_uri() . '/img/our-projects/ishtar-art.png';?>" class="responsive-element" alt="Project Image">
-                                  <div class="project-hovering w-100"><?php pl_e( 'Ishtar art' ); ?></div>
+<!--                                  <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/ishtar-art.png';?><!--" class="responsive-element" alt="Project Image">-->
+                                <?php
+                                  if ( !$detect->isMobile() ):
+                                    $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/ishtar-art.png" class="responsive-element" alt="ishtar art">';
+                                    $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                    echo $img_html; ?>
+                                    <div class="project-hovering w-100"><?php pl_e( 'Ishtar art' ); ?></div>
                                 <?php endif; ?>
                                 <p><?php pl_e( 'art' ); ?></p>
                             </div>
                             <div data-t="ishtar-goals" class="col-4 project-item">
-	                              <?php if ( !$detect->isMobile() ): ?>
-                                  <img src="<?php echo get_template_directory_uri() . '/img/our-projects/ishtar-goal.png'?>" class="responsive-element" alt="Project Image">
-                                  <div class="project-hovering"><?php pl_e( 'Goals' ); ?></div>
+<!--                                  <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/ishtar-goal.png'?><!--" class="responsive-element" alt="Project Image">-->
+                                <?php
+                                  if ( !$detect->isMobile() ):
+                                    $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/ishtar-goal.png" class="responsive-element" alt="ishtar-goal">';
+                                    $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                    echo $img_html; ?>
+                                    <div class="project-hovering"><?php pl_e( 'Goals' ); ?></div>
                                 <?php endif; ?>
                                 <p><?php pl_e( 'Goals' ); ?></p>
                             </div>
@@ -149,23 +161,36 @@
                         <div id="project-3" class="project-list list">
                             <div class="row">
                                 <div data-t="doctor-notebook" class="col-4 selected project-item">
-	                                <?php if ( !$detect->isMobile() ): ?>
-                                    <img src="<?php echo get_template_directory_uri() . '/img/our-projects/doctor-site.png'?>" class="responsive-element" alt="Project Image">
+<!--                                    <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/doctor-site.png'?><!--" class="responsive-element" alt="Project Image">-->
+	                                  <?php
+	                                    if ( !$detect->isMobile() ):
+                                        $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/doctor-site.png" class="responsive-element" alt="Project Image">';
+                                        $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                        echo $img_html;
+	                                  ?>
                                     <div class="project-hovering"><?php pl_e( 'Doctor' ); ?></div>
                                   <?php endif; ?>
                                   <p><?php pl_e( 'NDoctor' ); ?></p>
                                 </div>
                                 <div data-t="online-store" class="col-4 project-item px-0">
-	                                <?php if ( !$detect->isMobile() ): ?>
-                                    <img src="<?php echo get_template_directory_uri() . '/img/our-projects/doctor-store.png'?>" class="responsive-element" alt="Project Image">
-                                    <div class="project-hovering w-100"><?php pl_e( 'Online Store' ); ?></div>
+<!--                                    <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/doctor-store.png'?><!--" class="responsive-element" alt="Project Image">-->
+                                  <?php
+                                    if ( !$detect->isMobile() ):
+                                      $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/doctor-store.png" class="responsive-element" alt="Project Image">';
+                                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                      echo $img_html; ?>
+                                      <div class="project-hovering w-100"><?php pl_e( 'Online Store' ); ?></div>
                                   <?php endif; ?>
                                     <p><?php pl_e( 'Store' ); ?></p>
                                 </div>
                                 <div data-t="maintenance" class="col-4 project-item">
-	                                <?php if ( !$detect->isMobile() ): ?>
-                                    <img src="<?php echo get_template_directory_uri() . '/img/our-projects/doctor-maintenance.jpg'?>" class="responsive-element" alt="Project Image">
-                                    <div class="project-hovering"><?php pl_e( 'Maintain' ); ?></div>
+<!--                                    <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/doctor-maintenance.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+	                                <?php
+		                                if ( !$detect->isMobile() ):
+			                                $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/doctor-maintenance.jpg" class="responsive-element" alt="Project Image">';
+			                                $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                                echo $img_html;?>
+                                      <div class="project-hovering"><?php pl_e( 'Maintain' ); ?></div>
                                   <?php endif; ?>
                                   <p><?php pl_e( 'Maint' ); ?></p>
                                 </div>
@@ -195,23 +220,37 @@
                     <div id="project-4" class="project-list list">
                       <div class="row">
                         <div data-t="agora" class="col-4 selected project-item">
-	                        <?php if ( !$detect->isMobile() ): ?>
-                            <img src="<?php echo get_template_directory_uri() . '/img/our-projects/agora.jpg'?>" class="responsive-element" alt="Project Image">
-                            <div class="project-hovering"><?php pl_e( 'Agora' ); ?></div>
+<!--                            <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/agora.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+	                        <?php
+		                        if ( !$detect->isMobile() ):
+			                        $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/agora.jpg" class="responsive-element" alt="Project Image">';
+			                        $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                        echo $img_html;
+			                        ?>
+                              <div class="project-hovering"><?php pl_e( 'Agora' ); ?></div>
                           <?php endif; ?>
                           <p><?php pl_e( 'Agora' ); ?></p>
                         </div>
                         <div data-t="features" class="col-4 project-item px-0">
-	                        <?php if ( !$detect->isMobile() ): ?>
-                            <img src="<?php echo get_template_directory_uri() . '/img/our-projects/feature-2.jpg'?>" class="responsive-element" alt="Project Image">
-                            <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
+<!--                            <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/feature-2.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+	                        <?php
+		                        if ( !$detect->isMobile() ):
+			                        $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/feature-2.jpg" class="responsive-element" alt="Project Image">';
+			                        $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                        echo $img_html;
+			                        ?>
+                              <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
                           <?php endif; ?>
                           <p><?php pl_e( 'Features' ); ?></p>
                         </div>
                         <div data-t="agora-maintenance" class="col-4 project-item">
-	                        <?php if ( !$detect->isMobile() ): ?>
-                            <img src="<?php echo get_template_directory_uri() . '/img/our-projects/maintain.jpg'?>" class="responsive-element" alt="Project Image">
-                            <div class="project-hovering"><?php pl_e( 'Maintain' ); ?></div>
+<!--                            <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/maintain.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+	                        <?php
+		                        if ( !$detect->isMobile() ):
+			                        $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/maintain.jpg" class="responsive-element" alt="Project Image">';
+			                        $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                        echo $img_html; ?>
+                              <div class="project-hovering"><?php pl_e( 'Maintain' ); ?></div>
                           <?php endif; ?>
                           <p><?php pl_e( 'Maint' ); ?></p>
                         </div>
@@ -244,23 +283,35 @@
                   <div id="project-5" class="project-list list">
                     <div class="row">
                       <div data-t="wow" class="col-4 selected project-item">
-	                      <?php if ( !$detect->isMobile() ): ?>
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/wow.jpg'?>" class="responsive-element" alt="Project Image">
-                          <div class="project-hovering"><?php pl_e( 'Wow' ); ?></div>
+<!--                          <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/wow.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+	                      <?php
+		                      if ( !$detect->isMobile() ):
+			                      $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/wow.jpg" class="responsive-element" alt="Project Image">';
+			                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                      echo $img_html; ?>
+                            <div class="project-hovering"><?php pl_e( 'Wow' ); ?></div>
                         <?php endif; ?>
                         <p><?php pl_e( 'Wow' ); ?></p>
                       </div>
                       <div data-t="wow-features" class="col-4 project-item px-0">
-	                      <?php if ( !$detect->isMobile() ): ?>
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/feature-1.png'?>" class="responsive-element" alt="Project Image">
-                          <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
+<!--                          <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/feature-1.png'?><!--" class="responsive-element" alt="Project Image">-->
+	                      <?php
+		                      if ( !$detect->isMobile() ):
+			                      $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/feature-1.png" class="responsive-element" alt="Project Image">';
+			                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                      echo $img_html; ?>
+                            <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
                         <?php endif; ?>
                         <p><?php pl_e( 'Features' ); ?></p>
                       </div>
                       <div data-t="payment-delivery" class="col-4 project-item">
-	                      <?php if ( !$detect->isMobile() ): ?>
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/wow-payment.jpg'?>" class="responsive-element" alt="Project Image">
-                          <div class="project-hovering"><?php pl_e( 'Payment' ); ?></div>
+<!--                          <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/wow-payment.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+	                      <?php
+		                      if ( !$detect->isMobile() ):
+			                      $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/wow-payment.jpg" class="responsive-element" alt="Project Image">';
+			                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                      echo $img_html; ?>
+                            <div class="project-hovering"><?php pl_e( 'Payment' ); ?></div>
                         <?php endif; ?>
                         <p><?php pl_e( 'Payment' ); ?></p>
                       </div>
@@ -292,22 +343,34 @@
                   <div id="project-6" class="project-list list">
                     <div class="row">
                       <div data-t="yes-go" class="col-4 selected project-item">
-	                      <?php if ( !$detect->isMobile() ): ?>
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/yesgo.png'?>" class="responsive-element" alt="Project Image">
-                          <div class="project-hovering"><?php pl_e( 'Yes Go' ); ?></div>
+<!--                          <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/yesgo.png'?><!--" class="responsive-element" alt="Project Image">-->
+	                      <?php
+		                      if ( !$detect->isMobile() ):
+			                      $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/yesgo.png" class="responsive-element" alt="Project Image">';
+			                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                      echo $img_html; ?>
+                            <div class="project-hovering"><?php pl_e( 'Yes Go' ); ?></div>
                         <?php endif; ?>
                         <p><?php pl_e( 'YesGo' ); ?></p>
                       </div>
                       <div data-t="yes-go-features" class="col-4 project-item px-0">
-	                      <?php if ( !$detect->isMobile() ): ?>
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/features.png'?>" class="responsive-element" alt="Project Image">
-                          <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
+<!--                          <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/features.png'?><!--" class="responsive-element" alt="Project Image">-->
+	                      <?php
+		                      if ( !$detect->isMobile() ):
+			                      $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/features.png" class="responsive-element" alt="Project Image">';
+			                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                      echo $img_html; ?>
+                            <div class="project-hovering w-100"><?php pl_e( 'Features' ); ?></div>
                         <?php endif; ?>
                         <p><?php pl_e( 'Features' ); ?></p>
                       </div>
                       <div data-t="quality" class="col-4 project-item">
-	                      <?php if ( !$detect->isMobile() ): ?>
-                          <img src="<?php echo get_template_directory_uri() . '/img/our-projects/quality.jpg'?>" class="responsive-element" alt="Project Image">
+<!--                          <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/quality.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+	                      <?php
+		                      if ( !$detect->isMobile() ):
+			                      $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/quality.jpg" class="responsive-element" alt="Project Image">';
+			                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+			                      echo $img_html; ?>
                           <div class="project-hovering"><?php pl_e( 'Quality' ); ?></div>
                         <?php endif; ?>
                         <p><?php pl_e( 'Quality' ); ?></p>
@@ -342,14 +405,24 @@
 
     <!--Start We Are Specialised Section-->
     <div class="specialise-in position-relative">
-        <img src="<?php echo get_template_directory_uri() . '/img/specialise-in1.png';?>" class="responsive-element" alt="special-image">
+<!--        <img src="--><?php //echo get_template_directory_uri() . '/img/specialise-in1.png';?><!--" class="responsive-element" alt="special-image">-->
+        <?php
+          $img_html = '<img src="'. get_template_directory_uri() . '/img/specialise-in1.png" class="responsive-element" alt="special-image">';
+          $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+          echo $img_html;
+        ?>
         <div class="specialise-content">
             <h2 class="text-center mt-5"><?php pl_e( 'We Are Specialised In' ); ?></h2>
             <div class="container-fluid specialise-slider">
                 <div class="specialise">
                     <?php if ( !$detect->isMobile() || !$detect->isTablet() ): ?>
                       <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 col-xl-3 specialise-image d-none">
-                          <img src="<?php echo get_template_directory_uri() . '/img/online-shopping.png' ?>" class="img-fluid" alt="online shopping">
+<!--                          <img src="--><?php //echo get_template_directory_uri() . '/img/online-shopping.png' ?><!--" class="img-fluid" alt="online shopping">-->
+                          <?php
+                            $img_html = '<img src="'. get_template_directory_uri() . '/img/online-shopping.png" class="img-fluid" alt="online shopping">';
+                            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                            echo $img_html;
+                          ?>
                       </div>
                     <?php endif; ?>
                     <div class="col-10 col-sm-8 col-md-6 specialise-desc p-3">
@@ -360,7 +433,12 @@
                 <div class="specialise">
                     <?php if ( !$detect->isMobile() || !$detect->isTablet() ): ?>
                       <div class="col-10 col-sm-8 col-sm-6 col-md-5 col-lg-4 col-xl-3 specialise-image d-none">
-                          <img src="<?php echo get_template_directory_uri() . '/img/special-commerce.png' ?>" class="img-fluid" alt="special commerce">
+<!--                          <img src="--><?php //echo get_template_directory_uri() . '/img/special-commerce.png' ?><!--" class="img-fluid" alt="special commerce">-->
+	                      <?php
+		                      $img_html = '<img src="'. get_template_directory_uri() . '/img/special-commerce.png" class="img-fluid" alt="special commerce">';
+		                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		                      echo $img_html;
+	                      ?>
                       </div>
                     <?php endif; ?>
                     <div class="col-10 col-sm-8 col-md-6 specialise-desc p-3">
@@ -376,11 +454,19 @@
 
     <!--Start About Us Section-->
     <div id="about-us" class="about-us position-relative text-white">
-        <?php if ( is_rtl() ): ?>
-          <img src="<?php echo get_template_directory_uri() . '/img/bg-about-us-rtl.png'?>" class="responsive-element" alt="special-image">
-        <?php else: ?>
-          <img src="<?php echo get_template_directory_uri() . '/img/bg-about-us.png'?>" class="responsive-element" alt="special-image">
-        <?php endif; ?>
+<!--          <img src="--><?php //echo get_template_directory_uri() . '/img/bg-about-us-rtl.png'?><!--" class="responsive-element" alt="special-image">-->
+	        <?php
+	          if ( is_rtl() ):
+              $img_html = '<img src="'. get_template_directory_uri() . '/img/bg-about-us-rtl.png" class="responsive-element" alt="special-image">';
+              $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+              echo $img_html;
+            else:
+	            $img_html = '<img src="'. get_template_directory_uri() . '/img/bg-about-us.png" class="responsive-element" alt="special-image">';
+	            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+	            echo $img_html;
+            endif;
+	        ?>
+<!--          <img src="--><?php //echo get_template_directory_uri() . '/img/bg-about-us.png'?><!--" class="responsive-element" alt="special-image">-->
         <div class="about-us-body">
             <h2 class="text-center mt-5"><?php pl_e( 'About Us' ); ?></h2>
             <h3 class="col-4 col-lg-3"><?php pl_e( 'Think Smart' ); ?></h3>
@@ -507,7 +593,12 @@
                     <div class="row">
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative px-3 px-lg-4 py-5">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/talal-danoun.jpg' ?>" class="rounded-circle" alt="Talal Image">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/talal-danoun.jpg' ?><!--" class="rounded-circle" alt="Talal Image">-->
+                                 <?php
+	                                 $img_html = '<img src="'. get_template_directory_uri() . '/img/team/talal-danoun.jpg" class="rounded-circle" alt="Talal Danoun">';
+	                                 $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+	                                 echo $img_html;
+                                 ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Talal Danoun' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Web Developer' ); ?></p>
@@ -530,7 +621,12 @@
                         </div>
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/hammam-zarefa.jpg' ?>" class="rounded-circle" alt="Hammam Zarefa">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/hammam-zarefa.jpg' ?><!--" class="rounded-circle" alt="Hammam Zarefa">-->
+                                <?php
+                                  $img_html = '<img src="'. get_template_directory_uri() . '/img/team/hammam-zarefa.jpg" class="rounded-circle" alt="Hammam Zarefa">';
+                                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                  echo $img_html;
+                                ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Hammam Zarefa' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Backend Developer' ); ?></p>
@@ -558,7 +654,12 @@
                     <div class="row">
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/kenan-hussein.jpg'?>" class="rounded-circle" alt="Kenan Hussein">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/kenan-hussein.jpg'?><!--" class="rounded-circle" alt="Kenan Hussein">-->
+                                <?php
+                                  $img_html = '<img src="'. get_template_directory_uri() . '/img/team/kenan-hussein.jpg" class="rounded-circle" alt="Kenan Hussein">';
+                                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                  echo $img_html;
+                                ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Kenan Hussein' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Web Developer' ) ?></p>
@@ -581,7 +682,12 @@
                         <!--Qusai Ali-->
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/qusai-ali.jpg'?>" class="rounded-circle" alt="Qusai Ali">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/qusai-ali.jpg'?><!--" class="rounded-circle" alt="Qusai Ali">-->
+                                <?php
+                                  $img_html = '<img src="'. get_template_directory_uri() . '/img/team/qusai-ali.jpg" class="rounded-circle" alt="Qusai Ali">';
+                                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                  echo $img_html;
+                                ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Qusai Ali' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Front End Developer' ) ?></p>
@@ -608,7 +714,12 @@
                         <!--Osama Alhamoud-->
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/osama-alhamoud.jpg' ?>" class="rounded-circle" alt="Osama Alhamoud">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/osama-alhamoud.jpg' ?><!--" class="rounded-circle" alt="Osama Alhamoud">-->
+                                <?php
+                                  $img_html = '<img src="'. get_template_directory_uri() . '/img/team/osama-alhamoud.jpg" class="rounded-circle" alt="Osama Alhamoud">';
+                                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                  echo $img_html;
+                                ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Osama Alhamoud' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Manager' ) ?></p>
@@ -631,7 +742,12 @@
                         <!--Mohammad Al Kalaleeb-->
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/mohammad-al-kalaleeb.jpg' ?>" class="rounded-circle" alt="Mohammad Al Kalaleeb">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/mohammad-al-kalaleeb.jpg' ?><!--" class="rounded-circle" alt="Mohammad Al Kalaleeb">-->
+                                <?php
+                                  $img_html = '<img src="'. get_template_directory_uri() . '/img/team/mohammad-al-kalaleeb.jpg" class="rounded-circle" alt="Mohammad Al Kalaleeb">';
+                                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                  echo $img_html;
+                                ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Mohammad Al Kalaleeb' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Web Developer' ) ?></p>
@@ -658,7 +774,12 @@
                         <!--Bassel Al-Salloum-->
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/basel-sallom.jpg' ?>" class="rounded-circle" alt="Bassel Al-Salloum">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/basel-sallom.jpg' ?><!--" class="rounded-circle" alt="Bassel Al-Salloum">-->
+                                <?php
+                                  $img_html = '<img src="'. get_template_directory_uri() . '/img/team/basel-sallom.jpg" class="rounded-circle" alt="Bassel Al-Salloum">';
+                                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                  echo $img_html;
+                                ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Bassel Al-Salloum' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Graphic Designer' ) ?></p>
@@ -680,7 +801,12 @@
                         <!--Mahmoud Aldiek -->
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/mahmoud.jpg' ?>" class="rounded-circle" alt="Mahmoud Aldiek">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/mahmoud.jpg' ?><!--" class="rounded-circle" alt="Mahmoud Aldiek">-->
+	                            <?php
+		                            $img_html = '<img src="'. get_template_directory_uri() . '/img/team/mahmoud.jpg" class="rounded-circle" alt="Mahmoud Aldiek">';
+		                            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		                            echo $img_html;
+	                            ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Mahmoud Aldiek' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Emarketer & Content Creator' ) ?></p>
@@ -706,7 +832,12 @@
                         <!--Mujeeba Haj Najeeb-->
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/mujeeba-haj-najeeb.jpg' ?>" class="rounded-circle" alt="Mujeeba Haj Najeeb">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/mujeeba-haj-najeeb.jpg' ?><!--" class="rounded-circle" alt="Mujeeba Haj Najeeb">-->
+	                            <?php
+		                            $img_html = '<img src="'. get_template_directory_uri() . '/img/team/mujeeba-haj-najeeb.jpg" class="rounded-circle" alt="Mujeeba Haj Najeeb">';
+		                            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		                            echo $img_html;
+	                            ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Mujeeba Haj Najeeb' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Scrum Master' ) ?></p>
@@ -729,7 +860,12 @@
                         <!--Hanan Al-Jarmakani-->
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/hanan.jpg' ?>" class="rounded-circle" alt="Hanan Aljarmakani">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/hanan.jpg' ?><!--" class="rounded-circle" alt="Hanan Aljarmakani">-->
+	                            <?php
+		                            $img_html = '<img src="'. get_template_directory_uri() . '/img/team/hanan.jpg" class="rounded-circle" alt="Hanan Aljarmakani">';
+		                            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		                            echo $img_html;
+	                            ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Hanan Al-Jarmakani' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'UX / UI Designer' ) ?></p>
@@ -755,7 +891,12 @@
                         <!--Nisreen Abu Zidan-->
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/nisreen-abu-zidan.jpg' ?>" class="rounded-circle" alt="Nisreen Abu Zidan">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/nisreen-abu-zidan.jpg' ?><!--" class="rounded-circle" alt="Nisreen Abu Zidan">-->
+	                            <?php
+		                            $img_html = '<img src="'. get_template_directory_uri() . '/img/team/nisreen-abu-zidan.jpg" class="rounded-circle" alt="Nisreen Abu Zidan">';
+		                            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		                            echo $img_html;
+	                            ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Nisreen Abu Zidan' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'Business Development Manager' ) ?></p>
@@ -777,7 +918,12 @@
                         <!--Ahmad Mustafa-->
                         <div class="col-12 col-sm-6 mb-5">
                             <div class="team-member position-relative py-5 px-3 px-lg-4 ">
-                                <img src="<?php echo get_template_directory_uri() . '/img/team/ahmad-mustafa.jpg' ?>" class="rounded-circle" alt="Ahmad Mustafa">
+<!--                                <img src="--><?php //echo get_template_directory_uri() . '/img/team/ahmad-mustafa.jpg' ?><!--" class="rounded-circle" alt="Ahmad Mustafa">-->
+                                <?php
+                                  $img_html = '<img src="'. get_template_directory_uri() . '/img/team/ahmad-mustafa.jpg" class="rounded-circle" alt="Ahmad Mustafa">';
+                                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                  echo $img_html;
+                                ?>
                                 <div class="team-member-body">
                                     <h5 class="mb-md-0 mb-lg-1"><a><?php pl_e( 'Ahmad Mustafa' ); ?></a></h5>
                                     <p class="text-secondary d-inline-block"><?php pl_e( 'E-Marketer' ) ?></p>
@@ -809,27 +955,57 @@
             <h2 class="text-center mb-5"><?php pl_e( 'Our Services' ); ?></h2>
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-4 p-0 bg-graphic-section">
-                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/graphic-design.png' ?>" alt="" />
+<!--                    <img class="custom-image-service text-left p-2" src="--><?php //echo get_template_directory_uri() . '/img/services-icons/graphic-design.png' ?><!--" alt="" />-->
+                    <?php
+                      $img_html = '<img src="'. get_template_directory_uri() . '/img/services-icons/graphic-design.png" class="custom-image-service text-left p-2" alt="graphic-design">';
+                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                      echo $img_html;
+                    ?>
                     <h4 class="font-weight-bold text-right mr-3"><?php pl_e( 'Graphic Design' ); ?></h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 border border-info">
-                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/development.png' ?>" alt="" />
+<!--                    <img class="custom-image-service text-left p-2" src="--><?php //echo get_template_directory_uri() . '/img/services-icons/development.png' ?><!--" alt="" />-->
+	                <?php
+		                $img_html = '<img src="'. get_template_directory_uri() . '/img/services-icons/development.png" class="custom-image-service text-left p-2" alt="development">';
+		                $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		                echo $img_html;
+	                ?>
                     <h4 class="font-weight-bold text-right mr-3"><?php pl_e( 'Development' ); ?></h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 bg-maintenance-section">
-                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/maintainance.png' ?>" alt="" />
+<!--                    <img class="custom-image-service text-left p-2" src="--><?php //echo get_template_directory_uri() . '/img/services-icons/maintainance.png' ?><!--" alt="" />-->
+	                <?php
+		                $img_html = '<img src="'. get_template_directory_uri() . '/img/services-icons/maintainance.png" class="custom-image-service text-left p-2" alt="maintainance">';
+		                $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		                echo $img_html;
+	                ?>
                     <h4 class="font-weight-bold text-right mr-3"><?php pl_e( 'Maintenance' ); ?></h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 border border-info">
-                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/uiux-designer.png' ?>" alt="" />
+<!--                    <img class="custom-image-service text-left p-2" src="--><?php //echo get_template_directory_uri() . '/img/services-icons/uiux-designer.png' ?><!--" alt="" />-->
+	                <?php
+		                $img_html = '<img src="'. get_template_directory_uri() . '/img/services-icons/uiux-designer.png" class="custom-image-service text-left p-2" alt="UI/UX designer">';
+		                $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		                echo $img_html;
+	                ?>
                     <h4 class="font-weight-bold text-right mr-3"><?php pl_e( 'UX / UI Designer' ); ?></h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 bg-market-section">
-                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/Digitalmarketing.png' ?>" alt="" />
+<!--                    <img class="custom-image-service text-left p-2" src="--><?php //echo get_template_directory_uri() . '/img/services-icons/Digitalmarketing.png' ?><!--" alt="" />-->
+	                <?php
+		                $img_html = '<img src="'. get_template_directory_uri() . '/img/services-icons/Digitalmarketing.png" class="custom-image-service text-left p-2" alt="Digitalmarketing">';
+		                $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		                echo $img_html;
+	                ?>
                     <h4 class="font-weight-bold text-right mr-3"><?php pl_e( 'Digital Market' ); ?></h4>
                 </div>
                 <div class="col-12 col-sm-6 col-lg-4 p-0 border border-info">
-                    <img class="custom-image-service text-left p-2" src="<?php echo get_template_directory_uri() . '/img/services-icons/project-managment.png' ?>" alt="" />
+<!--                    <img class="custom-image-service text-left p-2" src="--><?php //echo get_template_directory_uri() . '/img/services-icons/project-managment.png' ?><!--" alt="" />-->
+                    <?php
+                      $img_html = '<img src="'. get_template_directory_uri() . '/img/services-icons/project-managment.png" class="custom-image-service text-left p-2" alt="Project Managment">';
+                      $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                      echo $img_html;
+                    ?>
                     <h4 class="font-weight-bold text-right mr-3"><?php pl_e( 'Project Managment' ); ?></h4>
                 </div>
             </div>

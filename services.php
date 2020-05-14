@@ -7,12 +7,12 @@
 
 <!--Start About Us Separate Page-->
 <div class="our-services position-relative">
-	<?php if ( !$detect->isMobile() ): ?>
-    <img src="<?php echo get_template_directory_uri() . '/img/about-us-separate-background.png'; ?>" class="d-block d-sm-none d-md-block responsive-element position-absolute" >
-  <?php endif; ?>
-	<?php if ( $detect->isMobile() ): ?>
-    <img src="<?php echo get_template_directory_uri() . '/img/mobile-about-us-separate-background.png'; ?>" class="d-none d-sm-block d-md-none responsive-element position-absolute" >
-  <?php endif; ?>
+	  <?php if ( !$detect->isMobile() ): ?>
+        <img src="<?php echo get_template_directory_uri() . '/img/about-us-separate-background.png'; ?>" class="d-block d-sm-none d-md-block responsive-element position-absolute" alt="about us background">
+    <?php endif; ?>
+	  <?php if ( $detect->isMobile() ): ?>
+      <img src="<?php echo get_template_directory_uri() . '/img/mobile-about-us-separate-background.png'; ?>" class="d-none d-sm-block d-md-none responsive-element position-absolute" alt="about us background">
+    <?php endif; ?>
 	<div class="position-relative">
 		<div class="services-title">
 			<div class="container">
@@ -33,8 +33,13 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/presta-shop'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/presta-shop.jpg'?>" alt="Card image cap">
-								<div class="card-body">
+<!--								<img class="card-img-top" src="--><?php //echo get_template_directory_uri() . '/img/services/presta-shop.jpg'?><!--" alt="Card image cap">-->
+                <?php
+                  $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/presta-shop.jpg" alt="Card image cap">';
+                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                  echo $img_html;
+                ?>
+                <div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'PrestaShop' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'What if we tell you that we are a Professional Custom Prestashop Development Company? And what if we offer Dedicated Custom Work Services?' ); ?><br /></p>
 								</div>
@@ -44,8 +49,13 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/magento-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/magento.jpg'?>" alt="Card image cap">
-								<div class="card-body">
+<!--								<img class="card-img-top" src="--><?php //echo get_template_directory_uri() . '/img/services/magento.jpg'?><!--" alt="Card image cap">-->
+                <?php
+                  $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/magento.jpg" alt="Card image cap">';
+                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                  echo $img_html;
+                ?>
+                <div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'Magento' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'If you are looking to lift your business into a whole new level, then It is important to know that the special secret behind the success of online businesses is E-commerce.' ); ?></p>
 								</div>
@@ -55,8 +65,13 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/spryker-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/spryker.png'?>" alt="Card image cap">
-								<div class="card-body">
+<!--								<img class="card-img-top" src="--><?php //echo get_template_directory_uri() . '/img/services/spryker.png'?><!--" alt="Card image cap">-->
+                <?php
+                  $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/spryker.png" alt="Card image cap">';
+                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                  echo $img_html;
+                ?>
+                <div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'Spryker' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'If you are thinking of developing a long-term professional e-commerce site, then It is important to know that the special secret behind the success of online businesses is e-commerce.' ); ?></p>
 								</div>
@@ -66,8 +81,13 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/ishtar-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/ishtar.jpg'?>" alt="Card image cap">
-								<div class="card-body">
+<!--								<img class="card-img-top" src="--><?php //echo get_template_directory_uri() . '/img/services/ishtar.jpg'?><!--" alt="Card image cap">-->
+                <?php
+                  $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/ishtar.jpg" alt="Card image cap">';
+                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                  echo $img_html;
+                ?>
+                <div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'Ishtar' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'we are one of the first companies that provide artist e-commerce stores, and above that, we are the leading company in this field.' ); ?></p>
 								</div>
@@ -77,7 +97,12 @@
           <div class="col-12 col-sm-6 col-md-4 mb-4">
             <a href="<?php echo get_site_url() . '/woocommerce-service'?>">
               <div class="card mb-3">
-                <img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/woocommerce.png'?>" alt="Card image cap">
+<!--                <img class="card-img-top" src="--><?php //echo get_template_directory_uri() . '/img/services/woocommerce.png'?><!--" alt="Card image cap">-->
+	              <?php
+		              $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/woocommerce.png" alt="Card image cap">';
+		              $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+		              echo $img_html;
+	              ?>
                 <div class="card-body">
                   <h3 class="card-title"><?php pl_e( 'WooCommerce' ); ?></h3>
                   <p class="card-text text-justify"><?php pl_e( 'Do you have a wordpress website and you want to convert it to an ecommerce website?' ); ?></p>
@@ -96,8 +121,13 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/seo-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/seo.png'?>" alt="Card image cap">
-								<div class="card-body">
+<!--								<img class="card-img-top" src="--><?php //echo get_template_directory_uri() . '/img/services/seo.png'?><!--" alt="Card image cap">-->
+                <?php
+                  $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/seo.png" alt="Card image cap">';
+                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                  echo $img_html;
+                ?>
+                <div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'SEO' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'Everyone wants to be on the first rank of google search results, but not everyone deserves that.' ); ?></p>
 								</div>
@@ -107,7 +137,12 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/social-media-marketing-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/smm.jpg'?>" alt="Card image cap">
+<!--								<img class="card-img-top" src="--><?php //echo get_template_directory_uri() . '/img/services/smm.jpg'?><!--" alt="Card image cap">-->
+                <?php
+                  $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/smm.jpg" alt="Card image cap">';
+                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                  echo $img_html;
+                ?>
 								<div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'Social Media Marketing Service' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'Remember when a TV ad about a new blender showed up that late Sunday night, and you said: “I have to buy this!”? Those days are gone. Well. Not exactly.' ); ?></p>
@@ -118,7 +153,12 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/sem-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/sem.jpg'?>" alt="Card image cap">
+<!--								<img class="card-img-top" src="--><?php //echo get_template_directory_uri() . '/img/services/sem.jpg'?><!--" alt="Card image cap">-->
+                <?php
+                  $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/sem.jpg" alt="Card image cap">';
+                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                  echo $img_html;
+                ?>
 								<div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'SEM' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'Do you want to reach your most important audience members at the perfect moment, and be on top search results when they search for you?' ); ?></p>
@@ -129,7 +169,11 @@
 					<div class="col-12 col-sm-6 col-md-4 mb-4">
 						<a href="<?php echo get_site_url() . '/full-package-service'?>">
 							<div class="card mb-3">
-								<img class="card-img-top" src="<?php echo get_template_directory_uri() . '/img/services/fullpackage.jpg'?>" alt="Card image cap">
+                <?php
+                    $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/fullpackage.jpg" alt="Card image cap">';
+                    $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                    echo $img_html;
+                ?>
 								<div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'Full Package' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'You are in the right place, here is the best offer you can ever get in your business journey.' ); ?></p>

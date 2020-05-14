@@ -54,7 +54,8 @@ if ( $query->have_posts() ):?>
 
                             <?php the_time('F j, Y'); ?> <!--The Date For Creating Post-->
 
-                            <?php the_author_posts_link() ?> <!--The Author How Create Post-->
+                            <?php //the_author_posts_link() ?> <!--The Author How Create Post-->
+                          <a href="#"><?php echo get_the_author() ?></a>
 
                         </div>
 

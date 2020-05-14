@@ -49,7 +49,7 @@
 	</div>
     <div class="bg-dark text-white text-center p-2">
 	    <?php pl_e( 'Copyright' ); ?> &copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> - <?php pl_e( 'All right reserved' ); ?>. <br class="d-md-none">
-	    <?php pl_e( 'Implemented By' ); ?> <a href=""><?php pl_e( 'Yes Soft Team' ); ?></a>.
+	    <?php pl_e( 'Implemented By' ); ?> <a href="<?php echo get_site_url(); ?>"><?php pl_e( 'Yes Soft Team' ); ?></a>.
     </div>
 	<!--End Footer-->
 	<?php wp_footer(); ?>

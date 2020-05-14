@@ -9,8 +9,10 @@ jQuery(document).ready( function($) {
       upButton = $('.move-up .move-up-button'),
       rtl = false;
 
+    // if ($(window).read)
 // Padding For The Document
-    $('body').css('padding-top', customNav.innerHeight());
+//     $('body').css('padding-top', customNav.innerHeight());
+//     console.log(customNav.innerHeight());
 
 // Check For Mobile screen size
     if (window.innerWidth < '576') {
@@ -126,8 +128,12 @@ jQuery(document).ready( function($) {
         } else {
             // nav.removeClass('border-bottom')
         }
+        $('body').css('padding-top', customNav.innerHeight());
     }
+
+
     $(window).ready(navbar);
+    $(window).ready(navbar)
     $(window).scroll(navbar);
 
 

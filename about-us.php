@@ -39,7 +39,7 @@
                     </div>
                     <div class="col-12 col-sm-10 col-md-8 col-lg-7 pt-5 mx-auto mx-md-0">
                         <p class="text-justify">
-                            <strong><?php pl_e( 'E-Commerce' ); ?></strong><?php pl_e( 'means buying and selling of goods, products, or services over the internet. These services provided online over the internet network. Transaction of money, funds, and data are also considered as E-commerce.
+                            <strong><?php pl_e( 'E-Commerce' ); ?></strong><?php pl_e( ' means buying and selling of goods, products, or services over the internet. These services provided online over the internet network. Transaction of money, funds, and data are also considered as E-commerce.
                             At Yes Soft we adopted Ecommerce as a main working discipline. It’s the future as we see it. We have an online-working team. So, we concentrates on it as it has similarities with our vision. We are looking forward and working hard to be the first company that deliver this service in the whole world. We know that there are lots of companies working in this discipline out there and the competition is hot, but we know ourselves very good, too.' ); ?>
                             <br /><br/>
 	                        <?php pl_e( 'Are you excited to read more?' ); ?>
@@ -69,9 +69,9 @@
                     </div>
                     <div class="col-12 col-sm-10 col-md-7 col-xl-8 offset-sm-1 pt-5">
                         <p class="text-justify">
-                            <strong><?php pl_e( 'E-marketing' ); ?></strong><?php pl_e( 'is the process of marketing a product or service using the Internet. E-marketing not only includes marketing on the Internet, but also includes marketing done via email and wireless media. It uses a range of technologies to help connect businesses to their customers.' ); ?>
+                            <strong><?php pl_e( 'E-marketing' ); ?></strong><?php pl_e( ' is the process of marketing a product or service using the Internet. E-marketing not only includes marketing on the Internet, but also includes marketing done via email and wireless media. It uses a range of technologies to help connect businesses to their customers.' ); ?>
                             <br/><br/>
-	                        <?php pl_e( 'As' ); ?> <strong><?php pl_e( 'Yes Soft' ); ?></strong><?php pl_e( 'has an online-working team, it has many things in common with all electronic activities such as Ecommerce we talked about before.' ); ?>  <strong><?php pl_e( 'E-marketing' ); ?></strong> <?php pl_e( 'lays in the same perspective for us. It’s an active discipline in today’s world. And it completes our working strategy, marketing projects we developed.' ); ?>
+	                        <?php pl_e( 'As' ); ?> <strong><?php pl_e( 'Yes Soft' ); ?></strong><?php pl_e( ' has an online-working team, it has many things in common with all electronic activities such as Ecommerce we talked about before.' ); ?>  <strong><?php pl_e( 'E-marketing' ); ?></strong> <?php pl_e( 'lays in the same perspective for us. It’s an active discipline in today’s world. And it completes our working strategy, marketing projects we developed.' ); ?>
                             <br/>
 	                        <?php pl_e( 'To reach this point, we deploy several aspects by our high-professional team. For example, we organize social-media and email promotional campaigns as well as content marketing. We make Flyer design which is the first impression a potential client may take. We design business cards, too.
                             You may ask yourself, Does these activities have potential?
