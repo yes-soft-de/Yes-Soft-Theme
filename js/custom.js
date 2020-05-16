@@ -1,3 +1,4 @@
+$('body').css('padding-top', $('.navbar.custom-nav').innerHeight());
 jQuery(document).ready( function($) {
 
     var customNav = $('.navbar.custom-nav'),
@@ -128,13 +129,11 @@ jQuery(document).ready( function($) {
         } else {
             // nav.removeClass('border-bottom')
         }
-        $('body').css('padding-top', customNav.innerHeight());
     }
 
-
     $(window).ready(navbar);
-    $(window).ready(navbar)
     $(window).scroll(navbar);
+
 
 
 

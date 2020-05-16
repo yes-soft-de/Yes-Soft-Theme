@@ -10,9 +10,11 @@
         <div class="about-us-section">
             <div class="container-fluid">
                 <div class="row">
+	                <?php if ( $detect->isMobile() ): ?>
                     <div class="col-6 d-sm-none mx-auto pl-0">
                         <img src="<?php echo get_template_directory_uri() . '/img/laptop.png'; ?>" class="img-fluid" alt="laptop Image">
                     </div>
+                  <?php endif; ?>
                     <div class="col-12 col-sm-7 offset-md-1">
                         <hr class="mb-0 ml-2 mt-1">
                         <p class="text-justify">
@@ -22,9 +24,11 @@
                             <?php pl_e( 'Are you still hesitated about the company? Why don\'t you check out' ); ?> <a href="http://ishtar-art.de/"><?php pl_e( 'ISHTAR ART' );?></a><?php pl_e(' to evaluate everything by yourself?') ?>
                         </p>
                     </div>
+	                <?php if ( !$detect->isMobile() ): ?>
                     <div class="col-12 col-sm-5 col-md-4 col-lg-3 col-xl-2 d-none d-sm-block pl-0">
                         <img src="<?php echo get_template_directory_uri() . '/img/laptop.png'; ?>" class="img-fluid" alt="laptop Image">
                     </div>
+                  <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -63,8 +67,13 @@
                 <div class="row">
                     <div class="col-6 col-md-4 col-xl-3 mx-auto mx-md-0 d-md-none">
                         <div class="image-section mx-auto">
-                            <img src="<?php echo get_template_directory_uri() . '/img/shopping-basket.png'; ?>" class="img-fluid" alt="laptop Image">
-                            <p class="image-title-section text-center font-weight-bold"><?php pl_e( 'E-Commerce' ); ?></p>
+<!--                            <img src="--><?php //echo get_template_directory_uri() . '/img/shopping-basket.png'; ?><!--" class="img-fluid" alt="laptop Image">-->
+                            <?php
+                              $img_html = '<img src="'. get_template_directory_uri() . '/img/shopping-basket.png" class="img-fluid" alt="laptop Image">';
+                              $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                              echo $img_html;
+                            ?>
+                            <p class="image-title-section text-center font-weight-bold"><?php pl_e( 'Marketing' ); ?></p>
                         </div>
                     </div>
                     <div class="col-12 col-sm-10 col-md-7 col-xl-8 offset-sm-1 pt-5">
@@ -78,12 +87,19 @@
                             Of course they have. Do you know that E-marketing reduces marketing campaign cost as the marketing is done through the internet. And it facilitates monitoring through the web tracking capabilities. Finally, do you realize before how many hours do you spend online daily? Answer this question and you’ll get the point yourself.' ); ?>
                         </p>
                     </div>
-                    <div class="col-md-4 col-xl-3 mx-auto mx-md-0 d-none d-md-block" style="overflow: hidden;">
-                        <div class="image-section mx-auto">
-                            <img src="<?php echo get_template_directory_uri() . '/img/shopping-basket.png'; ?>" class="img-fluid" alt="laptop Image">
-                            <p class="image-title-section text-center font-weight-bold"><?php pl_e( 'Marketing' ); ?></p>
-                        </div>
-                    </div>
+                    <?php if ( !$detect->isMobile() ): ?>
+                      <div class="col-md-4 col-xl-3 mx-auto mx-md-0 d-none d-md-block" style="overflow: hidden;">
+                          <div class="image-section mx-auto">
+  <!--                            <img src="--><?php //echo get_template_directory_uri() . '/img/shopping-basket.png'; ?><!--" class="img-fluid" alt="laptop Image">-->
+                              <?php
+                                $img_html = '<img src="'. get_template_directory_uri() . '/img/shopping-basket.png" class="img-fluid" alt="laptop Image">';
+                                $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                                echo $img_html;
+                              ?>
+                              <p class="image-title-section text-center font-weight-bold"><?php pl_e( 'Marketing' ); ?></p>
+                          </div>
+                      </div>
+                    <?php endif; ?>
                 </div>
             </div>
         </div>
@@ -92,7 +108,12 @@
                 <div class="row">
                     <div class="col-6 col-md-4 col-xl-3 mx-auto mx-md-0">
                         <div class="image-section mx-auto">
-                            <img src="<?php echo get_template_directory_uri() . '/img/aboutus-remote-maintenance.png'; ?>" class="img-fluid" alt="laptop Image">
+<!--                            <img src="--><?php //echo get_template_directory_uri() . '/img/aboutus-remote-maintenance.png'; ?><!--" class="img-fluid" alt="laptop Image">-->
+                            <?php
+                              $img_html = '<img src="'. get_template_directory_uri() . '/img/aboutus-remote-maintenance.png" class="img-fluid" alt="laptop Image">';
+                              $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                              echo $img_html;
+                            ?>
                             <p class="image-title-section text-center font-weight-bold"><?php pl_e( 'Remote Maintenance' ); ?></p>
                         </div>
                     </div>

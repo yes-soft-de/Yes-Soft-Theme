@@ -7,7 +7,7 @@
 
 // Register Theme Support For A given Feature
 add_theme_support( 'post-thumbnails' );
-
+add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
 
 	/*
 	** Function To Add Custom Navigation Bar
