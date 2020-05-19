@@ -3,13 +3,13 @@
 // Theme Tranvslation Words
 $translationWords = array(
 	// front-page
-	'E-commerce services',
-	'It’s our main business field. We design and develop ecommerce websites from A to Z.
-	 Our products are highly secure, well designed and implemented, interactive and mobile-friendly.',
+	'Your best choice for e-commerce services',
+	'Your best choice for e-commerce services. Let us help you to build and improve your Site and design especially. 
+	Our team will develop your eCommerce From A to Z, with high security and great implemented, interactive, and mobile-friendly.',
 	'Android App Development',
-	'Most of the internet traffic today comes from mobile users. This means that building an app will help your business bring value to modern users. our expertise in android app development will help you succeed with your mobile strategy',
-	'Remote Maintenance',
-	'this field is also trending in today’s world. We offer e-marketing campaigns at social media platforms or email-based, graphic design, promoting videos, content marketing, and SEO',
+	'Improve your business by using mobile apps because most of the internet traffic these days comes from mobile users. We can help you with our expertise app developers to succeed with your mobile strategy.',
+	'Try the Remote Maintenance with us',
+	'We offer E-marketing campaigns at social media platforms or email-based, graphic design, promoting videos, content marketing, and best SEO services. You should try remote maintenance because this field is also trending in today’s world.',
 	'Our Projects',
 	'The final result will be a website where users can browse, interact, review and buy masterpieces or order a custom one if wanted. They also can follow artists or art schools.',
 	'Ishtar', 'Ishtar art', 'art', 'Goals',
@@ -42,25 +42,25 @@ $translationWords = array(
 	'Nisreen Abu Zidan', 'Business Development Manager', 'Nothing is true and everything is permissible', 'Ahmad Mustafa', 'E-Marketer',
 	'You never lose until you actually give up', 'Our Services', 'Graphic Design', 'Development', 'Maintenance', 'Digital Market', 'Project Managment',
 	// about-us
-	'is an ecommerce specialized software company located in Berlin/ Germany. It adopts open-source methodology. All its projects’ codes are available on',
-	'Github', 'Its team consists of developers, designers, content makers, testers and team managers. They work together remotely and results are always great.',
-	'They use up-to-date technologies to bring your imaginary requirements to reality.', 'Are you still hesitated about the company? Why don\'t you check out',
-	'to evaluate everything by yourself?', 'E-Commerce', 'means buying and selling of goods, products, or services over the internet. These services provided online over the internet network. Transaction of money, funds, and data are also considered as E-commerce.
-  At Yes Soft we adopted Ecommerce as a main working discipline. It’s the future as we see it. We have an online-working team. So, we concentrates on it as it has similarities with our vision. We are looking forward and working hard to be the first company that deliver this service in the whole world. We know that there are lots of companies working in this discipline out there and the competition is hot, but we know ourselves very good, too.',
-	'Are you excited to read more?', 'Here we go.', 'At', 'we introduce a variety of ways to build Ecommerce websites and apps. From using customizable platforms like wordpress and',
-	'Prestashop', 'to building a brand new website from zero like we did at our project', 'Is this all what we introduce?', 'No, of course. We also develop Android apps for the same target, professional Ecommerce platforms.',
-	'Do our work about Ecommerce only?', 'No, we also develop websites and apps for any work discipline. But, our expertise is Ecommerce related projects.',
-	'E-marketing', 'is the process of marketing a product or service using the Internet. E-marketing not only includes marketing on the Internet, but also includes marketing done via email and wireless media. It uses a range of technologies to help connect businesses to their customers.',
+	' is an e-commerce specialized software company located in Berlin/ Germany. It adopts an open-source methodology. All its projects\' codes are available on',
+	'Github', 'Its team consists of developers, designers, content makers, testers, and team managers. They work together remotely, and the results are always great.',
+	'They use up-to-date technologies to bring your imaginary requirements to reality.', 'Do you still hesitate about the company? Why don\'t you check out',
+	'to evaluate everything by yourself?', 'E-Commerce', 'means buying and selling of goods, products, or services over the Internet. These services provided online over the internet network. Transaction of money, funds, and data are considering as E-commerce. 
+	At Yes Soft, we adopted Ecommerce as the primary working discipline. It\'s the future as we see it. We have an online-working team. So, we concentrate on it as it has similarities with our vision. We are looking forward and working hard to be the first company to deliver this service in the world. We know that many companies are operating in this discipline out there and the competition is hot, but we know ourselves very well.',
+	'Are you excited to read more?', 'Here we go.', 'At', 'we introduce a variety of ways to build eCommerce websites and apps. From using customizable platforms like Wordpress and',
+	'Prestashop', 'to building a brand new website from zero as we did at our project', 'Is this all what we introduce?', 'No, of course. We also develop Android apps for the same target, professional Ecommerce platforms.',
+	'Does our work about Ecommerce only?', 'No, we also develop websites and apps for any work discipline. But, our expertise is Ecommerce related projects.',
+	'E-marketing', 'is the process of marketing a product or service using the Internet. E-marketing not only includes marketing on the Internet but also includes marketing done via email and wireless media. It uses a range of technologies to help connect businesses to their customers.',
 	'As', 'has an online-working team, it has many things in common with all electronic activities such as Ecommerce we talked about before.',
-	'lays in the same perspective for us. It’s an active discipline in today’s world. And it completes our working strategy, marketing projects we developed.',
-	'To reach this point, we deploy several aspects by our high-professional team. For example, we organize social-media and email promotional campaigns as well as content marketing. We make Flyer design which is the first impression a potential client may take. We design business cards, too.
-	You may ask yourself, Does these activities have potential?
-	Of course they have. Do you know that E-marketing reduces marketing campaign cost as the marketing is done through the internet. And it facilitates monitoring through the web tracking capabilities. Finally, do you realize before how many hours do you spend online daily? Answer this question and you’ll get the point yourself.',
-	'Marketing', 'The third important side to tell you about in order to complete Our base triangle is:',
-	'is a service we offer to companies and individuals in order to tell them what\'s wrong with their websites, suggest solutions and apply them if they order.',
-	'We take care of plenty of problems related to Browser compatibility problems, Responsive issues, Not working links and forms, Not removed indexing codes, Slow sites problem and more.',
+	'lays in the same perspective for us. It\'s a progressive discipline in today\'s world, And it completes our working strategy, marketing projects we developed.',
+	'To reach this point, we deploy several aspects by our high-professional team. For example, we organize social-media and email promotional campaigns as well as content marketing. We make Flyer design, which is the first impression a potential client may take. We design business cards, too. 
+	You may ask yourself, Do these activities have potential? 
+	Of course, they have. Do you know that E-marketing reduces marketing campaign costs as marketing is doing through the Internet? And it facilitates monitoring through web tracking capabilities. Finally, do you realize how many hours do you spend online daily? Answer this question, and you\'ll get the point yourself.',
+	'Marketing', 'The vital third side to tell you about to complete Our base triangle is:',
+	'is a service we offer to companies and individuals to tell them what\'s wrong with their websites, suggest solutions, and apply them if they order.',
+	'We take care of plenty of problems related to Browser compatibility problems, Responsive issues, Not working links and forms, Not removed indexing codes, Slow sites problem, and more.',
 	'Our fully-remotely working team can handle all that and more. We can hire one person or our full team capacity to help you.',
-	'After all what you read about us, are you still hesitated to try our services? We promise, you won\'t regret.',
+	'After all that you read about us, are you still hesitant to try our services? We promise you won\'t regret it.',
 	// author
 	'Page', 'User Avatar', 'First Name', 'Last Name', 'Nick Name', 'There Is No Biography', 'Posts Count', 'Comments Count', 'Total Posts View', 'Testing', 'Latest',
 	'0 Comment', 'One Comment', 'Comments', 'disabled Comment', 'This Author Does Not Have Any Comments',

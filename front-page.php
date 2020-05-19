@@ -15,9 +15,9 @@
         <div class="home-slide">
           <div class="row">
                 <div class="col-9 col-lg-6 col-xl-7 offset-sm-2 offset-xl-1 slider-content align-self-center text-center">
-                    <h1><?php pl_e( 'E-commerce services' ); ?></h1>
-                    <p><?php pl_e( 'It’s our main business field. We design and develop ecommerce websites from A to Z.
-                      Our products are highly secure, well designed and implemented, interactive and mobile-friendly.' ); ?>
+                    <h1><?php pl_e( 'Your best choice for e-commerce services' ); ?></h1>
+                    <p><?php pl_e( 'Your best choice for e-commerce services. Let us help you to build and improve your Site and design especially. 
+                    Our team will develop your eCommerce From A to Z, with high security and great implemented, interactive, and mobile-friendly.' ); ?>
                     </p>
                 </div>
                 <div class="col-7 col-md-4 slider-img align-self-center mx-auto">
@@ -29,7 +29,7 @@
             <div class="row">
                 <div class="col-9 col-lg-6 col-xl-7 offset-sm-2 offset-xl-1 slider-content align-self-center text-center">
                     <h1><?php pl_e( 'Android App Development' ); ?></h1>
-                    <p><?php pl_e( 'Most of the internet traffic today comes from mobile users. This means that building an app will help your business bring value to modern users. our expertise in android app development will help you succeed with your mobile strategy' ); ?></p>
+                    <p><?php pl_e( 'Improve your business by using mobile apps because most of the internet traffic these days comes from mobile users. We can help you with our expertise app developers to succeed with your mobile strategy.' ); ?></p>
                 </div>
                 <div class="col-7 col-md-4 slider-img align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/android_app.png'?>" class="img-fluid" alt="Slider Image">
@@ -39,8 +39,8 @@
         <div class="home-slide">
             <div class="row">
                 <div class="col-9 col-lg-6 col-xl-7 offset-sm-2 offset-xl-1 slider-content align-self-center text-center">
-                    <h1><?php pl_e( 'Remote Maintenance' ); ?></h1>
-                    <p><?php pl_e( 'this field is also trending in today’s world. We offer e-marketing campaigns at social media platforms or email-based, graphic design, promoting videos, content marketing, and SEO' ); ?></p>
+                    <h1><?php pl_e( 'Try the Remote Maintenance with us' ); ?></h1>
+                    <p><?php pl_e( 'We offer E-marketing campaigns at social media platforms or email-based, graphic design, promoting videos, content marketing, and best SEO services. You should try remote maintenance because this field is also trending in today’s world.' ); ?></p>
                 </div>
                 <div class="col-7 col-md-4 slider-img align-self-center mx-auto">
                     <img src="<?php echo get_template_directory_uri() . '/img/remote-maintenance.png'?>" class="img-fluid" alt="Slider Image">

@@ -1,4 +1,7 @@
-$('body').css('padding-top', $('.navbar.custom-nav').innerHeight());
+$(window).on('load', function() {
+    // code here
+    $('body').css('padding-top', $('.navbar.custom-nav').innerHeight());
+});
 jQuery(document).ready( function($) {
 
     var customNav = $('.navbar.custom-nav'),
