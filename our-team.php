@@ -7,10 +7,10 @@
 	<!--Start Our Team Separate Page-->
 	<div class="our-team-separate-page py-5">
 		<div class="container">
-			<h1 class="text-center">So Nice To Meet You :)</h1>
-			<h3 class="text-center">LET'S MEET OUR TEAM</h3>
+			<h1 class="text-center mb-4">So Nice To Meet You :)</h1>
+			<h3 id="lets_meet" class="lets-meet text-center mx-auto">LET'S MEET OUR TEAM</h3>
 				<div class="row management-box mb-4 mt-5">
-					<h3 class="mb-3"><i class="fa fa-calendar fa-xl fa-fw"></i> Management</h3>
+					<h3 class="management-heading mb-3"><i class="fa fa-calendar d-none fa-xl fa-fw"></i> Management</h3>
 					<div class="col-12 col-md-10 mx-auto">
 						<div class="employee-box manager-employee">
               <div class="row justify-content-center">
@@ -43,7 +43,7 @@
 					</div><!--.col-12.mx-auto-->
 				</div><!--.management-box-->
 				<div class="our-team-box">
-					<h3 class="mb-3"><i class="fa fa-box fa-fw fa-xl"></i>Our Team</h3>
+					<h3 class="our-team-heading mb-3"><i class="fa fa-box d-none fa-fw fa-xl"></i>Our Team</h3>
 					<div class="row">
 						<div class="col-12 col-sm-6 mb-5 employee-box">
 							<div class="row">
@@ -336,30 +336,142 @@
               <div class="row">
                 <div class="col-12 col-md-4 text-center">
 									<?php
-										$img_html = '<img src="'. get_template_directory_uri() . '/img/team/team-old-size/hanan.jpg" class="rounded-circle" alt="Hanan">';
+										$img_html = '<img src="'. get_template_directory_uri() . '/img/team/team-old-size/Mohammed AlTurkmani.jpg" class="rounded-circle" alt="Hanan">';
 										$img_html = apply_filters( 'bj_lazy_load_html', $img_html );
 										echo $img_html;
 									?>
                 </div>
                 <div class="col-12 col-md-8 body-box">
                   <div class="body-header mb-4">
-                    <p class="mb-0">Hanan Al-Jarmakani</p>
-                    <p class="mb-0">UX / UI Designer</p>
+                    <p class="mb-0">Mohammed AlTurkmani</p>
+                    <p class="mb-0">Project Analysis & E-Marketer</p>
                   </div>
                   <div class="body-content py-3 px-2 mb-2">
                     <i class="fas fa-quote-right fa-lg text-info"></i>
-                    We are what we believe in. I believe in unlimited ideas,  creative souls and unlimited passion I believe in unlimitedly.
+                    Excellence is the gradual result of always striving to do better.
                   </div>
                   <div class="body-footer text-center">
                     <div class="row">
-                      <div class="col"><a href="https://www.linkedin.com/in/hanan-aljarmakani-6908b294/"><i class="fab fa-linkedin fa-fw fa-lg"></i>LinkedIn</a></div>
-                      <div class="col"><a href="https://github.com/mickSawy3r"><i class="fab fa-github fa-fw fa-lg"></i>Github</a></div>
+                      <div class="col"><a href="https://www.linkedin.com/in/mohammed-alturkmani-97126719b/"><i class="fab fa-linkedin fa-fw fa-lg"></i>LinkedIn</a></div>
                       <div class="col">Yes Go</div>
                     </div>
                   </div>
                 </div>
               </div><!--.row-->
             </div><!--.col-12.col-md-6-->
+
+            <div class="col-12 col-sm-6 mb-5 employee-box mx-auto">
+              <div class="row">
+                <div class="col-12 col-md-4 text-center">
+									<?php
+										$img_html = '<img src="'. get_template_directory_uri() . '/img/team/team-old-size/Assem-al-khateeb.png" class="rounded-circle" alt="Hanan">';
+										$img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+										echo $img_html;
+									?>
+                </div>
+                <div class="col-12 col-md-8 body-box">
+                  <div class="body-header mb-4">
+                    <p class="mb-0">Assem Al Khateeb</p>
+                    <p class="mb-0">Sales & Marketing Specialist</p>
+                  </div>
+                  <div class="body-content py-3 px-2 mb-2">
+                    <i class="fas fa-quote-right fa-lg text-info"></i>
+                    It is always the simple that produces the marvelous.
+                  </div>
+                  <div class="body-footer text-center">
+                    <div class="row">
+                      <div class="col"><a href="https://www.linkedin.com/in/Assem Al Khateeb/"><i class="fab fa-linkedin fa-fw fa-lg"></i>LinkedIn</a></div>
+                      <div class="col">Yes Go</div>
+                    </div>
+                  </div>
+                </div>
+              </div><!--.row-->
+            </div><!--.col-12.col-md-6-->
+
+            <div class="col-12 col-sm-6 mb-5 employee-box mx-auto">
+              <div class="row">
+                <div class="col-12 col-md-4 text-center">
+									<?php
+										$img_html = '<img src="'. get_template_directory_uri() . '/img/team/team-old-size/Alayham Ali.jpg" class="rounded-circle" alt="Hanan">';
+										$img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+										echo $img_html;
+									?>
+                </div>
+                <div class="col-12 col-md-8 body-box">
+                  <div class="body-header mb-4">
+                    <p class="mb-0">Alayham Ali</p>
+                    <p class="mb-0">Video Editor & Motion Grapher</p>
+                  </div>
+                  <div class="body-content py-3 px-2 mb-2">
+                    <i class="fas fa-quote-right fa-lg text-info"></i>
+                    The imagination is the golden pathway to everywhere.
+                  </div>
+                  <div class="body-footer text-center">
+                    <div class="row">
+                      <div class="col"><a href="https://www.linkedin.com/in/alayham-ali-6a478013a/"><i class="fab fa-linkedin fa-fw fa-lg"></i>LinkedIn</a></div>
+                      <div class="col">Yes Go</div>
+                    </div>
+                  </div>
+                </div>
+              </div><!--.row-->
+            </div><!--.col-12.col-md-6-->
+
+            <div class="col-12 col-sm-6 mb-5 employee-box mx-auto">
+              <div class="row">
+                <div class="col-12 col-md-4 text-center">
+									<?php
+										$img_html = '<img src="'. get_template_directory_uri() . '/img/team/team-old-size/Hazem Alkhatib.png" class="rounded-circle" alt="Hanan">';
+										$img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+										echo $img_html;
+									?>
+                </div>
+                <div class="col-12 col-md-8 body-box">
+                  <div class="body-header mb-4">
+                    <p class="mb-0">Hazem Alkhatib</p>
+                    <p class="mb-0">SEO Expert & Digital Marketer</p>
+                  </div>
+                  <div class="body-content py-3 px-2 mb-2">
+                    <i class="fas fa-quote-right fa-lg text-info"></i>
+                    Young ambitious student and hard worker, my goal is to learn everything I can
+                    about science and technology.
+                  </div>
+                  <div class="body-footer text-center">
+                    <div class="row">
+                      <div class="col"><a href="https://www.linkedin.com/in/hazem-alkhatib-21824115b/"><i class="fab fa-linkedin fa-fw fa-lg"></i>LinkedIn</a></div>
+                      <div class="col">Yes Go</div>
+                    </div>
+                  </div>
+                </div>
+              </div><!--.row-->
+            </div><!--.col-12.col-md-6-->
+
+            <div class="col-12 col-sm-6 mb-5 employee-box mx-auto">
+              <div class="row">
+                <div class="col-12 col-md-4 text-center">
+									<?php
+										$img_html = '<img src="'. get_template_directory_uri() . '/img/team/team-old-size/Osama Zammam.jpg" class="rounded-circle" alt="Hanan">';
+										$img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+										echo $img_html;
+									?>
+                </div>
+                <div class="col-12 col-md-8 body-box">
+                  <div class="body-header mb-4">
+                    <p class="mb-0">Osama Zammam</p>
+                    <p class="mb-0">Marketing & Designer</p>
+                  </div>
+                  <div class="body-content py-3 px-2 mb-2">
+                    <i class="fas fa-quote-right fa-lg text-info"></i>
+                    When our daily work becomes fun, we create.
+                  </div>
+                  <div class="body-footer text-center">
+                    <div class="row">
+                      <div class="col">Yes Go</div>
+                    </div>
+                  </div>
+                </div>
+              </div><!--.row-->
+            </div><!--.col-12.col-md-6-->
+
 
 					</div><!--.row-->
 				</div><!--.our-team-box-->

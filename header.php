@@ -33,6 +33,101 @@
     </script>
     <!-- End Google Tag Manager -->
 
+    <!-- Global site tag (gtag.js) - Google Ads: 650991677 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-650991677"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-650991677');
+    </script>
+    
+    <script>
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-650991677/9dMiCIm6j9EBEL2wtbYC',
+            'value': 1.0,
+            'currency': 'EUR',
+            'event_callback': callback
+        });
+        return false;
+      }
+    </script> 
+
+    <!-- Event snippet for Linkedin social media conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-650991677/sJdlCOCRkdEBEL2wtbYC',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Event snippet for Whatsupp social media link conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-650991677/Gyl9CIv_gNEBEL2wtbYC',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Event snippet for Twitter social media link conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-650991677/8HEKCLe-gtEBEL2wtbYC',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
+    <!-- Event snippet for Git hub social media links conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-650991677/aWo-CMTIk9EBEL2wtbYC',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
     <?php wp_head(); ?>
 
 </head>

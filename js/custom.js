@@ -138,8 +138,6 @@ jQuery(document).ready( function($) {
     $(window).scroll(navbar);
 
 
-
-
 });
 
 

@@ -3120,11 +3120,118 @@ h4.comment-number {
 
 /* ---- Start Our Team Separate Page ---- */
 .our-team-separate-page {
-  a { color: $dark;
+  background: url('../img/our-team-background.jpg') center center no-repeat;
+  background-size: cover;
+  h1 {
+    @media (min-width: 576px) and (max-width: 767px) {
+      font-size: 2.2rem;
+    }
+    @media (max-width: 575px) {
+      font-size: 1.85rem
+    }
+    @media (max-width: 500px) {
+      font-size: 1.7rem
+    }
+  }
+  a { 
+    color: $dark;
     &:hover {
       color: $blue; }
     i.fa-linkedin {
       color: #0e76a8; }
+  }
+  h3.lets-meet {
+    position: relative;
+    width: fit-content;
+    &:before, &:after {
+      content: '';
+      display: inline-block;
+      position: absolute;
+      width: 125px;
+      height: 20px;
+      top: 10px;
+    }
+    &:before {
+      background: url('../img/path-before.png') center center no-repeat;
+      background-size: contain;
+      left: -145px;
+    }
+    &:after {
+      background: url('../img/path-after.png') center center no-repeat;
+      background-size: contain;
+      right: -145px;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+      font-size: 1.4rem;
+      &:before, &:after {
+        width: 100px;
+        top: 5px;
+      }
+      &:before {
+        left: -115px;
+      }
+      &:after {
+        right: -115px;
+      }
+    }
+    @media (max-width: 575px) {
+      font-size: 1.25rem;
+      &:before, &:after {
+        width: 75px;
+        top: 5px;
+      }
+      &:before {
+        left: -90px;
+      }
+      &:after {
+        right: -90px;    
+      }
+    }
+    @media (max-width: 500px) {
+      font-size: 1.1rem;
+      &:before, &:after {
+        width: 50px;
+        top: 0;
+      }
+      &:before {
+        left: -55px;
+      }
+      &:after {
+        right: -55px;
+      }
+    }
+  }
+  .management-heading, .our-team-heading {
+    &:before {
+      content: '';
+      display: inline-block;
+      margin-right: 10px;
+    }
+    @media (min-width: 576px) and (max-width: 767px) {
+      font-size: 1.4rem; 
+    }
+
+  }
+  .management-heading {
+    &:before {
+      width: 50px;
+      height: 50px;
+      background: url('../img/professions-and-jobs.png') center center no-repeat;
+      background-size: contain;
+      vertical-align: middle;
+    }
+    @media (max-width: 575px) {
+      margin-left: 10px;
+    }
+  }
+  .our-team-heading {
+    &:before {
+      width: 35px;
+      height: 35px;
+      vertical-align: bottom;
+      background: url('../img/our-team-heading-icon.png') center center no-repeat;
+      background-size: contain;
+    }
   }
   .employee-box {
     &.manager-employee {
@@ -3134,19 +3241,44 @@ h4.comment-number {
           left: -4px;
           top: -14px;
           padding: 10px 18px 7px 18px;
+          background: #fff5f3;        
+        }
+      }
+      @media (max-width: 575px) {
+        .col-sm-3 {
+          text-align: center;
+          margin-bottom: 10px;
         }
       }
     }
     img {
-      width: 120px; height: 120px; @include animate(all, .5s);
+      width: 120px; height: 120px; @include animate(all, .5s);    
       &:hover {
         border-radius: 0 !important;
       }
     }
     .body-box {
-
       position: relative;
       left: -4%; /*Edit In Ltr*/
+      @media (min-width: 768px) and (max-width: 991px) {
+        left: 4%;
+      }
+      @media (min-width: 576px) and (max-width: 767px) {
+        left: 4%;
+        .body-header{
+          margin-top: 10px;
+          margin-bottom: 10px !important;
+          text-align: center;   
+        }
+      }
+      @media (max-width: 575px) {
+        left: 0;
+        .body-header{
+          margin-top: 10px;
+          margin-bottom: 10px !important;
+          text-align: center;   
+        }
+      }
     }
     .body-content {
       position: relative;
@@ -3158,12 +3290,77 @@ h4.comment-number {
         text-align: center;
         top: -14px;
         padding: 10px 0 7px 18px;
-        background: #fff;
+        background: #fff;      
+      }
+    }
+    @media (min-width: 1200px) and (max-width: 1400px) {
+      &:nth-of-type(1) {
+        &.manager-employee {
+          .body-content {
+            i {
+              background: #fff6f1;
+            }
+          }
+        }
+      }
+      &:nth-of-type(2) {
+        .body-content {
+          i {
+            background: #fffaf7;
+          }
+        }
+      }
+    }
+    @media (min-width: 576px) and (max-width: 1199px) {
+      &:nth-of-type(1), &:nth-of-type(2) {
+        &.manager-employee {
+          .body-content {
+            i {
+              background: #fff1eb;
+            }
+          }
+        }
+        .body-content {        
+          i {
+            background: #fff6f1;
+          }  
+        }
+      }
+    }
+    @media (max-width: 575px) {
+      &:nth-of-type(1) {
+        &.manager-employee {
+          .body-content {          
+            i {
+              background: #ffeee6;            
+            }
+          }
+        }
+        .body-content {        
+          i {
+            background: #fff0e9;
+          }  
+        }
+      }
+      &:nth-of-type(2) {      
+        .body-content {        
+          i {
+            background: #fff4f0;
+          }  
+        }
+      }
+      &:nth-of-type(3) {
+        .body-content {
+          i {
+            background: #fff;
+          }
+        }
       }
     }
   }
 
 }
+
 /* ---- End Our Team Separate Page ---- */
 
 

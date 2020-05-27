@@ -3108,7 +3108,25 @@ h4.comment-number {
 
 
 /* ---- Start Our Team Separate Page ---- */
-/* ---- Start Our Team Separate Page ---- */
+.our-team-separate-page {
+  background: url("../img/our-team-background.jpg") center center no-repeat;
+  background-size: cover;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .our-team-separate-page h1 {
+    font-size: 2.2rem;
+  }
+}
+@media (max-width: 575px) {
+  .our-team-separate-page h1 {
+    font-size: 1.85rem;
+  }
+}
+@media (max-width: 500px) {
+  .our-team-separate-page h1 {
+    font-size: 1.7rem;
+  }
+}
 .our-team-separate-page a {
   color: #394240;
 }
@@ -3118,6 +3136,102 @@ h4.comment-number {
 .our-team-separate-page a i.fa-linkedin {
   color: #0e76a8;
 }
+.our-team-separate-page h3.lets-meet {
+  position: relative;
+  width: fit-content;
+}
+.our-team-separate-page h3.lets-meet:before, .our-team-separate-page h3.lets-meet:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  width: 125px;
+  height: 20px;
+  top: 10px;
+}
+.our-team-separate-page h3.lets-meet:before {
+  background: url("../img/path-before.png") center center no-repeat;
+  background-size: contain;
+  right: -145px;
+}
+.our-team-separate-page h3.lets-meet:after {
+  background: url("../img/path-after.png") center center no-repeat;
+  background-size: contain;
+  left: -145px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .our-team-separate-page h3.lets-meet {
+    font-size: 1.4rem;
+  }
+  .our-team-separate-page h3.lets-meet:before, .our-team-separate-page h3.lets-meet:after {
+    width: 100px;
+    top: 5px;
+  }
+  .our-team-separate-page h3.lets-meet:before {
+    right: -115px;
+  }
+  .our-team-separate-page h3.lets-meet:after {
+    left: -115px;
+  }
+}
+@media (max-width: 575px) {
+  .our-team-separate-page h3.lets-meet {
+    font-size: 1.25rem;
+  }
+  .our-team-separate-page h3.lets-meet:before, .our-team-separate-page h3.lets-meet:after {
+    width: 75px;
+    top: 5px;
+  }
+  .our-team-separate-page h3.lets-meet:before {
+    right: -90px;
+  }
+  .our-team-separate-page h3.lets-meet:after {
+    left: -90px;
+  }
+}
+@media (max-width: 500px) {
+  .our-team-separate-page h3.lets-meet {
+    font-size: 1.1rem;
+  }
+  .our-team-separate-page h3.lets-meet:before, .our-team-separate-page h3.lets-meet:after {
+    width: 50px;
+    top: 0;
+  }
+  .our-team-separate-page h3.lets-meet:before {
+    right: -55px;
+  }
+  .our-team-separate-page h3.lets-meet:after {
+    left: -55px;
+  }
+}
+.our-team-separate-page .management-heading:before, .our-team-separate-page .our-team-heading:before {
+  content: "";
+  display: inline-block;
+  margin-left: 10px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .our-team-separate-page .management-heading, .our-team-separate-page .our-team-heading {
+    font-size: 1.4rem;
+  }
+}
+.our-team-separate-page .management-heading:before {
+  width: 50px;
+  height: 50px;
+  background: url("../img/professions-and-jobs.png") center center no-repeat;
+  background-size: contain;
+  vertical-align: middle;
+}
+@media (max-width: 575px) {
+  .our-team-separate-page .management-heading {
+    margin-right: 10px;
+  }
+}
+.our-team-separate-page .our-team-heading:before {
+  width: 35px;
+  height: 35px;
+  vertical-align: bottom;
+  background: url("../img/our-team-heading-icon.png") center center no-repeat;
+  background-size: contain;
+}
 .our-team-separate-page .employee-box.manager-employee img {
   width: 150px;
   height: 150px;
@@ -3126,6 +3240,13 @@ h4.comment-number {
   right: -4px;
   top: -14px;
   padding: 10px 18px 7px 18px;
+  background: #fff5f3;
+}
+@media (max-width: 575px) {
+  .our-team-separate-page .employee-box.manager-employee .col-sm-3 {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 .our-team-separate-page .employee-box img {
   width: 120px;
@@ -3141,6 +3262,32 @@ h4.comment-number {
 .our-team-separate-page .employee-box .body-box {
   position: relative;
   right: -4%;
+  /*Edit In Ltr*/
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .our-team-separate-page .employee-box .body-box {
+    right: 4%;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .our-team-separate-page .employee-box .body-box {
+    right: 4%;
+  }
+  .our-team-separate-page .employee-box .body-box .body-header {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+    text-align: center;
+  }
+}
+@media (max-width: 575px) {
+  .our-team-separate-page .employee-box .body-box {
+    right: 0;
+  }
+  .our-team-separate-page .employee-box .body-box .body-header {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+    text-align: center;
+  }
 }
 .our-team-separate-page .employee-box .body-content {
   position: relative;
@@ -3155,8 +3302,36 @@ h4.comment-number {
   padding: 10px 18px 7px 0;
   background: #fff;
 }
-
-/* ---- End Our Team Separate Page ---- */
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .our-team-separate-page .employee-box:nth-of-type(1).manager-employee .body-content i {
+    background: #fff6f1;
+  }
+  .our-team-separate-page .employee-box:nth-of-type(2) .body-content i {
+    background: #fffaf7;
+  }
+}
+@media (min-width: 576px) and (max-width: 1199px) {
+  .our-team-separate-page .employee-box:nth-of-type(1).manager-employee .body-content i, .our-team-separate-page .employee-box:nth-of-type(2).manager-employee .body-content i {
+    background: #fff1eb;
+  }
+  .our-team-separate-page .employee-box:nth-of-type(1) .body-content i, .our-team-separate-page .employee-box:nth-of-type(2) .body-content i {
+    background: #fff6f1;
+  }
+}
+@media (max-width: 575px) {
+  .our-team-separate-page .employee-box:nth-of-type(1).manager-employee .body-content i {
+    background: #ffeee6;
+  }
+  .our-team-separate-page .employee-box:nth-of-type(1) .body-content i {
+    background: #fff0e9;
+  }
+  .our-team-separate-page .employee-box:nth-of-type(2) .body-content i {
+    background: #fff4f0;
+  }
+  .our-team-separate-page .employee-box:nth-of-type(3) .body-content i {
+    background: #fff;
+  }
+}
 
 
 

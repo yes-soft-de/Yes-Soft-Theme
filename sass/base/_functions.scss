@@ -1,0 +1,11 @@
+/*
+  ===================================
+    FUNCTIONS FOR SCSS FILE
+  ===================================
+*/
+
+@function ElementBefore($elementWidth) {
+    $result: 0;
+    $result: -($elementWidth + 20px); 
+    @return $result;
+}
