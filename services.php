@@ -20,6 +20,8 @@
 				<div class="row">
 					<div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center font-weight-bolder"><a href="#e-commerce"># <?php pl_e( 'E-Commerce Service' ); ?></a></h4><hr class="w-50 mx-auto mt-2 mb-4"></div>
 					<div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center font-weight-bolder"><a href="#e-market"># <?php pl_e( 'E-Market Service' ); ?></a></h4><hr class="w-50 mx-auto mt-2 mb-4"></div>
+					<div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center font-weight-bolder"><a href="#cloud-service"># <?php pl_e( 'Cloud Service' ); ?></a></h4><hr class="w-50 mx-auto mt-2 mb-4"></div>
+					
 					<!-- <div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center font-weight-bolder mb-4"><a href="#android-app"># Android App Development</a></h4></div>
 					<div class="col-12 col-sm-6 col-lg-4"><h4 class="text-center mb-4"><a href=""># Remote Maintenance</a></h4></div> -->
 					<!--                    <div class="col-4"><a href=""></a></div>-->
@@ -177,6 +179,30 @@
 								<div class="card-body">
 									<h3 class="card-title"><?php pl_e( 'Full Package' ); ?></h3>
 									<p class="card-text text-justify"><?php pl_e( 'You are in the right place, here is the best offer you can ever get in your business journey.' ); ?></p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+				<div id="cloud-service" class="cloud-service-section text-center py-5">
+			<div class="container">
+				<h3 class="text-left font-weight-bold my-5"><?php pl_e( 'Cloud Service' ); ?> :</h3>
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-4 mb-4">
+						<a href="<?php echo get_site_url() . '/cloud-service'?>">
+							<div class="card mb-3">
+<!--								<img class="card-img-top" src="--><?php //echo get_template_directory_uri() . '/img/services/seo.png'?><!--" alt="Card image cap">-->
+                <?php
+                  $img_html = '<img class="card-img-top" src="'. get_template_directory_uri() . '/img/services/cloud-services.jpg" alt="Card image cap">';
+                  $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+                  echo $img_html;
+                ?>
+                <div class="card-body">
+									<h3 class="card-title"><?php pl_e( 'Cloud Service' ); ?></h3>
+									<p class="card-text text-justify"><?php pl_e( 'Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.' ); ?></p>
 								</div>
 							</div>
 						</a>

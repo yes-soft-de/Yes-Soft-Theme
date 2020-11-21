@@ -25,6 +25,12 @@ function pl_e( $string = '' ) {
 }
 
 
+//function pll_e( $string = '' ) {
+//	if ( function_exists( 'pll_e' ) ) {
+//		pll_e( $string );
+//	}
+//}
+
 function pll_( $string = '' ) {
 	if ( function_exists( 'pll__' ) ) {
 		return pll__( $string );

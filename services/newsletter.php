@@ -1,7 +1,7 @@
 <?php /* Template Name: newsletter */ ?>
 <?php get_header() ?>
 
-<div class="our-posts e-commerce-service our-services py-5">
+<div class="our-posts e-commerce-service our-services py-5" xmlns="http://www.w3.org/1999/html">
     <div class="container">
         <div class="post p-3 pb-0 bg-white mb-5">
             <h1 class="col-12 col-sm-9 col-lg-7 col-xl-6 mx-auto text-center pt-5"><?php the_title(); ?></h1>

@@ -276,3 +276,5 @@ function mobileDetectGlobal() {
 	$detect = new Mobile_Detect;
 }
 add_action('after_setup_theme', 'mobileDetectGlobal');
+
+

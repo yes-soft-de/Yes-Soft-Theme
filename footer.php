@@ -1,3 +1,17 @@
+	<!--Start of Tawk.to Script-->
+<!--     <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/5edd06c39e5f694422901187/default';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+    </script> -->
+    <!--End of Tawk.to Script-->
+	
 	<!--Start Footer-->
 	<div class="footer text-center text-white pt-4" id="footer">
 		<div class="container">
@@ -12,10 +26,10 @@
                     <p><?php pl_e( 'Deutschland - Berlin 10827' ); ?></p>
                 </div>
                 <hr class="col-6 bg-white mb-3 mt-1 d-sm-none">
-                <div class="col-12 col-sm-4 border border-top-0 border-bottom-0 border-white footer-phone">
+                <div class="col-12 col-sm-4 border border-top-0 border-bottom-0 border-white footer-phone align-self-center">
                     <i class="fas fa-phone fa-fw fa-2x mb-3"></i>
-                    <h6><?php pl_e( 'Berlin Phone' ); ?></h6>
-                    <p>+491633733146</p>
+                    <h6 class="d-none"><?php pl_e( '' ); ?></h6>
+                    <p></p>
                 </div>
                 <hr class="col-6 bg-white mb-3 mt-1 d-sm-none">
                 <div class="col-12 col-sm-4">
@@ -36,25 +50,26 @@
                 <div class="col-12">
                     <div class="social-media">
                         <ul class="list-unstyled">
-                            <li>
-                                <a target="_blank" onclick="return gtag_report_conversion('https://www.facebook.com/Yes-soft-328738448051690');" href="https://www.facebook.com/Yes-soft-328738448051690"><i class="fab fa-facebook-f fa-fw fa-2x"></i></a>
-                            </li>
-                            <li>
-                                <a target="_blank" onclick="return gtag_report_conversion('https://www.linkedin.com/company/yes-soft');" href="https://www.linkedin.com/company/yes-soft"><i class="fab fa-linkedin-in fa-fw fa-2x"></i></a>
-                            </li>
-                            <li>
-                                <a target="_blank" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=96171575052');" href="https://api.whatsapp.com/send?phone=96171575052"><i class="fab fa-whatsapp fa-fw fa-2x"></i></a>
-                            </li>
-                            <li>
-                                <a target="_blank" onclick="return gtag_report_conversion('https://www.twitter.com/yessoft0');" href="https://www.twitter.com/yessoft0"><i class="fab fa-twitter fa-fw fa-2x"></i></a>
-                            </li>
-                            <li>
-                                <a target="_blank" onclick="return gtag_report_conversion('https://github.com/yes-soft-de/');" href="https://github.com/yes-soft-de/"><i class="fab fa-github fa-fw fa-2x"></i></a>
-                            </li>
-                            <!-- <li><a target="_blank" href="https://www.linkedin.com/company/yes-soft"><i class="fab fa-linkedin-in fa-fw fa-2x"></i></a></li> -->
-                            <!-- <li><a target="_blank" href="https://api.whatsapp.com/send?phone=96171575052"><i class="fab fa-whatsapp fa-fw fa-2x"></i></a></li> -->
-                            <!-- <li><a target="_blank" href="https://www.twitter.com/yessoft0"><i class="fab fa-twitter fa-fw fa-2x"></i></a></li> -->
-                            <!-- <li><a target="_blank" href="https://github.com/yes-soft-de/"><i class="fab fa-github fa-fw fa-2x"></i></a></li> -->
+                            <!--<li>-->
+                            <!--    <a target="_blank" onclick="return gtag_report_conversion('https://www.facebook.com/Yes-soft-328738448051690');" href="https://www.facebook.com/Yes-soft-328738448051690"><i class="fab fa-facebook-f fa-fw fa-2x"></i></a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                            <!--    <a target="_blank" onclick="return gtag_report_conversion('https://www.linkedin.com/company/yes-soft');" href="https://www.linkedin.com/company/yes-soft"><i class="fab fa-linkedin-in fa-fw fa-2x"></i></a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                            <!--    <a target="_blank" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=96171575052');" href="https://api.whatsapp.com/send?phone=96171575052"><i class="fab fa-whatsapp fa-fw fa-2x"></i></a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                            <!--    <a target="_blank" onclick="return gtag_report_conversion('https://www.twitter.com/yessoft0');" href="https://www.twitter.com/yessoft0"><i class="fab fa-twitter fa-fw fa-2x"></i></a>-->
+                            <!--</li>-->
+                            <!--<li>-->
+                            <!--    <a target="_blank" onclick="return gtag_report_conversion('https://github.com/yes-soft-de/');" href="https://github.com/yes-soft-de/"><i class="fab fa-github fa-fw fa-2x"></i></a>-->
+                            <!--</li>-->
+                             <li><a target="_blank" id="facebook_link" href="https://www.facebook.com/Yes-soft-328738448051690"><i class="fab fa-facebook-f fa-fw fa-2x"></i></a></li>
+                             <li><a target="_blank" id="linkedin_link" href="https://www.linkedin.com/company/yes-soft"><i class="fab fa-linkedin-in fa-fw fa-2x"></i></a></li> 
+                             <li><a target="_blank" id="whatsapp_link" href="https://api.whatsapp.com/send?phone=96171575052"><i class="fab fa-whatsapp fa-fw fa-2x"></i></a></li> 
+                             <li><a target="_blank" id="twitter_link" href="https://www.twitter.com/yessoft0"><i class="fab fa-twitter fa-fw fa-2x"></i></a></li> 
+                             <li><a target="_blank" id="github_link" href="https://github.com/yes-soft-de/"><i class="fab fa-github fa-fw fa-2x"></i></a></li> 
                         </ul>
                     </div>
                 </div>
@@ -66,6 +81,7 @@
 	    <?php pl_e( 'Implemented By' ); ?> <a href="<?php echo get_site_url(); ?>"><?php pl_e( 'Yes Soft Team' ); ?></a>.
     </div>
 	<!--End Footer-->
+
 	<?php wp_footer(); ?>
 </body>
 </html>

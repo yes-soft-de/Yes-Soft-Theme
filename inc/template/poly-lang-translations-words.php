@@ -3,7 +3,7 @@
 // Theme Tranvslation Words
 $translationWords = array(
 	// front-page
-	'Your best choice for e-commerce services',
+	'Start Design Your Online Store', 'Book Appointment', 'Your best choice for e-commerce services',
 	'Your best choice for e-commerce services. Let us help you to build and improve your Site and design especially. 
 	Our team will develop your eCommerce From A to Z, with high security and great implemented, interactive, and mobile-friendly.',
 	'Android App Development',
@@ -28,6 +28,7 @@ $translationWords = array(
 	'Quality & Delivery of Products', 'Guaranteed by Yes Soft company', 'We Are Specialised In', 'Working remotely',
 	'Our presence around the world makes us aware of all the modern technologies that exist in the world', 'Great experience in e-commerce',
 	'The multiplicity of experiences and openness to all that is new will be the reason for achieving the best results',
+	'P3ly', 'P3ly ', 'is Shop powered by PrestaShop.', 'Al-Muwajeh', 'Al-Muwajeh ', 'Nomads', 'Nomads The app brings together all the needs of digital nomads, an arena for competition between service providers and a place to announce the latest offers and services',
 	'About Us', 'Think Smart',
 	'is an ecommerce specialized software company located in Berlin/ Germany. It adopts open-source methodology. All its projects’ codes are available on Github.
    Its team consists of developers, designers, content makers, testers and team managers. They work together remotely and results are always great.',

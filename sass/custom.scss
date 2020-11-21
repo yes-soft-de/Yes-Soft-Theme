@@ -331,6 +331,69 @@ nav ul li a {
 /*End Move Up Button Section*/
 
 /*start home slider section*/
+.booking {
+  position: fixed;
+  top: 14%;
+  bottom: 0;
+  width: 70vw;
+  left: calc((100vw - 70vw) / 2);
+  z-index: 99;
+  @media (max-width: 635px) {
+    text-align: center;
+  }
+  &.booking-overlay:before {
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgb(0 0 0 / 49%);
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+  }
+  .booking-section,
+  button {
+    color: #fff;
+    background: #45a9b7;
+    border-radius: 3px;
+    padding: .2rem 1rem;
+    @media (max-width: 575px) {
+      margin-bottom: 3px;
+    }
+  }
+  button {
+    border-color: #fff;
+    cursor: pointer;
+    &:hover { color: $orange; @include animate( all, .5s ); }
+  }
+  .booking-popup {
+    //width: 70vw;
+    height: 70vh;
+    padding: 2rem;
+    background: #fff;
+    position: relative;
+    border-radius: 5px;
+    top: 2vh;
+    left: 0;
+    display: none;
+    overflow-y: scroll;
+    i.booking_close {
+      position: absolute;
+      top: 13px;
+      right: 15px;
+      cursor: pointer;
+      &:hover { color: #999; @include animate( all, .5s ); }
+    }
+  }
+  @media (max-width: 575px) {
+    top: 15%;
+    font-size: 3vw;
+  }
+}
+
 .home-slider {
   background-image: url("../img/slider-image.png");
   -webkit-background-size: cover;

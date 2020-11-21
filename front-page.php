@@ -118,44 +118,67 @@
                         </div>
                     </div>
                 </div>
-<!--                <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">-->
-<!--                    <div class="project-big-style">-->
-<!--                        <div id="project-2" class="project-list list">-->
-<!--                            <div class="row">-->
-<!--                                <div data-t="elect-store" class="col-4 selected project-item">-->
-<!--                                    <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/project-agora-01.png'?><!--" class="responsive-element" alt="Project Image">-->
-<!--                                    <div class="project-hovering">--><?php //pl_e( 'Elect store' ); ?><!--</div>-->
-<!--                                    <p>--><?php //pl_e( 'Store' ); ?><!--</p>-->
-<!--                                </div>-->
-<!--                                <div data-t="Shopping" class="col-4 project-item px-0">-->
-<!--                                    <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/project-agora-02.png'?><!--" class="responsive-element" alt="Project Image">-->
-<!--                                    <div class="project-hovering w-100">--><?php //pl_e( 'Online Shopping' ); ?><!--</div>-->
-<!--                                    <p>--><?php //pl_e( 'Shop' ); ?><!--</p>-->
-<!--                                </div>-->
-<!--                                <div data-t="multi-rate" class="col-4 project-item">-->
-<!--                                    <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/project-agora-03.png'?><!--" class="responsive-element" alt="Project Image">-->
-<!--                                    <div class="project-hovering">--><?php //pl_e( 'Multi Rate' ); ?><!--</div>-->
-<!--                                    <p>--><?php //pl_e( 'Rate' ); ?><!--</p>-->
-<!--                                </div>-->
-<!--                            </div>-->
-<!--                        </div>-->
-<!--                        <div class="info">-->
-<!--                            <div class="elect-store">-->
-<!--                                <h3>--><?php //pl_e( 'Brazilian electronics store' ); ?><!-- </h3>-->
-<!--                                <p>--><?php //pl_e( 'Electronics store is located in Brazil' ); ?><!--.</p>-->
-<!--                            </div>-->
-<!--                            <div class="Shopping">-->
-<!--                                <h3>--><?php //pl_e( 'Easy online shopping' ); ?><!--</h3>-->
-<!--                                <p>--><?php //pl_e( 'Easy online shopping to sell computers, laptops and related gadgets' ); ?><!--.</p>-->
-<!--                            </div>-->
-<!--                            <div class="multi-rate">-->
-<!--                                <h3>--><?php //pl_e( 'Multiple ratings and great item control capabilities' ); ?><!--</h3>-->
-<!--                                <p>--><?php //pl_e( 'It also provides great item control capabilities services (Software & Hardware) to any of the computers and laptops it sells' ); ?>
-<!--                                </p>-->
-<!--                            </div>-->
-<!--                        </div>-->
+<!--              <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">-->
+<!--                <div id="project-2" class="project-list list">-->
+<!--                  <div class="row">-->
+<!--                    <div data-t="ishtar" class="col-4 selected project-item">-->
+<!--                      <!--                                  <img src="-->--><?php ////echo get_template_directory_uri() . '/img/our-projects/ishtar.jpg'?><!--<!--" class="responsive-element" alt="Project Image">-->-->
+<!--					            --><?php
+//						            if ( !$detect->isMobile() ):
+//							            $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/ishtar.jpg" class="responsive-element" alt="ishtar">';
+//							            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+//							            echo $img_html; ?>
+<!--                          <div class="project-hovering">--><?php //pl_e( 'Ishtar' ); ?><!--</div>-->
+<!--						            --><?php //endif; ?>
+<!--                      <p>--><?php //pl_e( 'Ishtar' ); ?><!--</p>-->
 <!--                    </div>-->
+<!--                    <div data-t="ishtar-art" class="col-4 project-item px-0">-->
+<!--                      <!--                                  <img src="-->--><?php ////echo get_template_directory_uri() . '/img/our-projects/ishtar-art.png';?><!--<!--" class="responsive-element" alt="Project Image">-->-->
+<!--					            --><?php
+//						            if ( !$detect->isMobile() ):
+//							            $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/ishtar-art.png" class="responsive-element" alt="ishtar art">';
+//							            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+//							            echo $img_html; ?>
+<!--                          <div class="project-hovering w-100">--><?php //pl_e( 'Ishtar art' ); ?><!--</div>-->
+<!--						            --><?php //endif; ?>
+<!--                      <p>--><?php //pl_e( 'art' ); ?><!--</p>-->
+<!--                    </div>-->
+<!--                    <div data-t="ishtar-goals" class="col-4 project-item">-->
+<!--                      <!--                                  <img src="-->--><?php ////echo get_template_directory_uri() . '/img/our-projects/ishtar-goal.png'?><!--<!--" class="responsive-element" alt="Project Image">-->-->
+<!--					            --><?php
+//						            if ( !$detect->isMobile() ):
+//							            $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/ishtar-goal.png" class="responsive-element" alt="ishtar-goal">';
+//							            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+//							            echo $img_html; ?>
+<!--                          <div class="project-hovering">--><?php //pl_e( 'Goals' ); ?><!--</div>-->
+<!--						            --><?php //endif; ?>
+<!--                      <p>--><?php //pl_e( 'Goals' ); ?><!--</p>-->
+<!--                    </div>-->
+<!--                  </div>-->
 <!--                </div>-->
+<!--                <div class="info">-->
+<!--                  <div class="ishtar">-->
+<!--                    <h3><a href="http://ishtar-art.de/">--><?php //pl_e( 'Ishtar' ); ?><!--</a></h3>-->
+<!--                    <p>--><?php //pl_e( 'Ishtar is the East Semitic Akkadian, Assyrian and Babylonian goddess of fertility, love, war, and sex. She is the counterpart to the Sumerian Inanna, and is the cognate for the Northwest Semitic Aramean goddess Astarte.' ); ?>
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                  <div class="ishtar-art">-->
+<!--                    <h3>--><?php //pl_e( 'Ishtar art' ); ?><!--</h3>-->
+<!--                    <p>--><?php //pl_e( 'Ishtar is a website to introduce you with modern syrian painting art and artists. Our mission is showing the best of emerging syrian artists in the art market today' ); ?>
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                  <div class="ishtar-goals">-->
+<!--                    <h3>--><?php //pl_e( 'Ishtar\'s goals' ); ?><!--</h3>-->
+<!--                    <p>-->
+<!--					            --><?php //pl_e( 'ISHTAR is a website for art & artists that aims to' ); ?><!--:<br>-->
+<!--                      ● --><?php //pl_e( 'Display paintings' ); ?><!--<br>-->
+<!--                      ● --><?php //pl_e( 'Introduce Artists' ); ?><!--<br>-->
+<!--                      ● --><?php //pl_e( 'Make interactions with content possible through the platform' ); ?><!--<br>-->
+<!--                      ● --><?php //pl_e( 'Facilitate buying process' ); ?>
+<!--                    </p>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
                 <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">
                     <div class="project-big-style">
                         <div id="project-3" class="project-list list">
@@ -398,6 +421,83 @@
                   </div>
                 </div>
               </div> <!--End Project-->
+              <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">
+                <div id="project-7" class="project-list list">
+                  <div class="row">
+                    <div data-t="p3ly" class="col-4 selected project-item">
+                      <!--                                  <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/ishtar.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+					            <?php
+						            if ( !$detect->isMobile() ):
+							            $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/p3ly.jpg" class="responsive-element" alt="p3ly">';
+							            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+							            echo $img_html; ?>
+                          <div class="project-hovering"><?php pl_e( 'P3ly' ); ?></div>
+						            <?php endif; ?>
+                      <p><?php pl_e( 'P3ly' ); ?></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="info">
+                  <div class="p3ly">
+                    <h3><a href="http://p3ly.com/"><?php pl_e( 'P3ly' ); ?></a></h3>
+                    <p>
+                      <?php pl_e( 'P3ly ' ); ?>
+                      <?php pl_e( 'is Shop powered by PrestaShop.' ); ?>
+                    </p>
+                  </div>
+                </div>
+              </div><!--End Project-->
+              <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">
+                <div id="project-8" class="project-list list">
+                  <div class="row">
+                    <div data-t="almuwajeh" class="col-4 selected project-item">
+                      <!--                                  <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/ishtar.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+					            <?php
+						            if ( !$detect->isMobile() ):
+							            $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/almuwajeh.jpg" class="responsive-element" alt="p3ly">';
+							            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+							            echo $img_html; ?>
+                          <div class="project-hovering"><?php pl_e( 'Al-Muwajeh' ); ?></div>
+						            <?php endif; ?>
+                      <p><?php pl_e( 'Al-Muwajeh' ); ?></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="info">
+                  <div class="almuwajeh">
+                    <h3><a href="https://almuwajeh.com/"><?php pl_e( 'Al-Muwajeh' ); ?></a></h3>
+                    <p>
+                      <?php pl_e( 'Al-Muwajeh ' ); ?>
+	                    <?php pl_e( 'is Shop powered by PrestaShop.' ); ?>
+                    </p>
+                  </div>
+                </div>
+              </div><!--End Project-->
+              <div class="col-11 col-md-10 col-lg-9 col-xl-8 offset-sm-1 offset-md-2 project">
+                <div id="project-9" class="project-list list">
+                  <div class="row">
+                    <div data-t="nomads" class="col-4 selected project-item">
+                      <!--                                  <img src="--><?php //echo get_template_directory_uri() . '/img/our-projects/ishtar.jpg'?><!--" class="responsive-element" alt="Project Image">-->
+					            <?php
+						            if ( !$detect->isMobile() ):
+							            $img_html = '<img src="'. get_template_directory_uri() . '/img/our-projects/nomads.jpg" class="responsive-element" alt="p3ly">';
+							            $img_html = apply_filters( 'bj_lazy_load_html', $img_html );
+							            echo $img_html; ?>
+                          <div class="project-hovering"><?php pl_e( 'Nomads' ); ?></div>
+						            <?php endif; ?>
+                      <p><?php pl_e( 'Nomads' ); ?></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="info">
+                  <div class="nomads">
+                    <h3><a href="https://nomads.ae.org/"><?php pl_e( 'Nomads' ); ?></a></h3>
+                    <p><?php pl_e( 'Nomads The app brings together all the needs of digital nomads, an arena for competition between service providers and a place to announce the latest offers and services
+.' ); ?>
+                    </p>
+                  </div>
+                </div>
+              </div><!--End Project-->
             </div><!--End Our Project Silder-->
         </div><!--End Container fluid-->
     </div>

@@ -11,7 +11,23 @@ jQuery(document).ready( function($) {
       verticalSlick = true,
       dotsSlick = true,
       upButton = $('.move-up .move-up-button'),
-      rtl = false;
+      rtl = false,
+      projectsArray = ['project-1', 'project-3', 'project-4', 'project-5', 'project-6', 'project-7', 'project-8', 'project-9'];
+
+
+
+    $('.booking button.booking-button').click(function () {
+        $('.booking').addClass('booking-overlay');
+        $('.booking-popup').fadeIn(1000);
+    });
+
+    $('.booking_close').click(function () {
+        $('.booking').removeClass('booking-overlay');
+        $('.booking-popup').fadeOut(1000);
+    });
+
+
+
 
     // if ($(window).read)
 // Padding For The Document
@@ -41,42 +57,16 @@ jQuery(document).ready( function($) {
         arrows: false,
         autoplaySpeed: 4000,
     });
-
-    $("#project-1 .row div.project-item").click(function () {
-        $(this).addClass("selected").siblings(projectItem).removeClass("selected");
-        $(this).parents("#project-1").siblings(info).children().hide();
-        $("." + $(this).data("t")).fadeIn();
-    });
-
-// $("#project-2 .row div.project-item").click(function () {
-//     $(this).addClass("selected").siblings(projectItem).removeClass("selected");
-//     $(this).parents("#project-2").siblings(info).children().hide();
-//     $("." + $(this).data("t")).fadeIn();
-// });
-
-    $("#project-3 .row div.project-item").click(function () {
-        $(this).addClass("selected").siblings(projectItem).removeClass("selected");
-        $(this).parents("#project-3").siblings(info).children().hide();
-        $("." + $(this).data("t")).fadeIn();
-    });
-
-    $("#project-4 .row div.project-item").click(function () {
-        $(this).addClass("selected").siblings(projectItem).removeClass("selected");
-        $(this).parents("#project-4").siblings(info).children().hide();
-        $("." + $(this).data("t")).fadeIn();
-    });
-
-    $("#project-5 .row div.project-item").click(function () {
-        $(this).addClass("selected").siblings(projectItem).removeClass("selected");
-        $(this).parents("#project-5").siblings(info).children().hide();
-        $("." + $(this).data("t")).fadeIn();
-    });
-
-    $("#project-6 .row div.project-item").click(function () {
-        $(this).addClass("selected").siblings(projectItem).removeClass("selected");
-        $(this).parents("#project-6").siblings(info).children().hide();
-        $("." + $(this).data("t")).fadeIn();
-    });
+	
+	
+	projectsArray.map(function (e, b, x) {
+		var projectId ='#' + e;
+		$(projectId + " .row div.project-item").click(function () {
+			$(this).addClass("selected").siblings(projectItem).removeClass("selected");
+			$(this).parents(projectId).siblings(info).children().hide();
+			$("." + $(this).data("t")).fadeIn();
+		});
+	});
 
 // Add bootstrap Table Class To Table We Create From blog Editor
     $('.service-page-table .post').find('table').addClass('table my-4').children('thead').addClass('thead-light');
